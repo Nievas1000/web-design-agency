@@ -55,7 +55,7 @@ export const Approach = () => {
 
           <div className='col mb-4 approach flex-grow-1'>
             <img src={image3} alt='image1' className='img-fluid' />
-            <div className='overlay-aprop'>
+            <div className='overlay-apro'>
               <h1>Web development</h1>
               <div className='position-absolute bottom-0'>
                 <p>
