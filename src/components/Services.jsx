@@ -6,13 +6,13 @@ export const Services = () => {
 
   return (
     <div id='services'>
+      <div className='position-absolute er'>
+        <Spline scene='https://prod.spline.design/NESURyfSGpm-aX7P/scene.splinecode' />
+      </div>
       <div className='container position-relative pt-5 pb-5'>
-        <div className='position-absolute end-0 er'>
-          <Spline scene='https://prod.spline.design/NESURyfSGpm-aX7P/scene.splinecode' />
-        </div>
         <div>
           <h4>03 — Our services</h4>
-          <p className='approach-description w-75'>Embark on a journey to explore the transformative potential of our comprehensive services, captivating web design, and impactful digital marketing solutions</p>
+          <p className='approach-description'>Embark on a journey to explore the transformative potential of our comprehensive services, captivating web design, and impactful digital marketing solutions</p>
         </div>
         <div className='row pt-3'>
           <div className='col-12 col-lg-4 p-5'>
