@@ -24,13 +24,13 @@ export const Navbar = () => {
       <div className={`collapse navbar-collapse justify-content-end pt-3 items-nav me-5 order-lg-2 ${show && 'show p-3'}`} id='navbarNav'>
         <ul className='navbar-nav ml-auto'>
           <li className='nav-item'>
-            <a className='nav-link page-scroll' onClick={() => scrollToSection('approach')}>Approach</a>
+            <a className='nav-link page-scroll' onClick={() => scrollToSection('services')}>Services</a>
           </li>
           <li className='nav-item'>
             <a className='nav-link page-scroll' onClick={() => scrollToSection('about')}>About</a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link page-scroll' onClick={() => scrollToSection('services')}>Services</a>
+            <a className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>Templates</a>
           </li>
           <li className='nav-item'>
             <a className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>Contact</a>

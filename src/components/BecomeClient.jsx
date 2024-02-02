@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { IoClose } from 'react-icons/io5'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
-const services = ['Website Development', 'Landingpage', 'Branding & Design', 'Website Help', 'Website Maintenance']
+const services = ['Custom Web Design', 'Template Web Design', 'Website Help', 'Website Maintenance']
 
 export const BecomeClient = ({ setShow }) => {
   const [selectedOptions, setSelectedOptions] = useState([])

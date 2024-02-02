@@ -608,3 +608,70 @@ body{
     overflow: scroll;
   }
 }
+
+/* REASONS */
+
+.reason-list ul{
+  padding-left: 0px !important;
+}
+
+.reason-list ul li{
+  padding-top: 5%;
+}
+
+.reason-item-icon{
+  animation: avia_appear 1s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  opacity: 1;
+  transform: scale(1);
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 64px;
+  width: 64px;
+  line-height: 64px;
+  font-size: 30px;
+  border-radius: 100%;
+  margin-right: 30px;
+  z-index: 5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reason-item-description{
+  overflow: hidden;
+  min-height: 1.5em;
+  padding-bottom: 4px;
+}
+
+.reason-item-description p{
+  width: 90%;
+}
+
+/* STEPS */
+
+.step-item {
+  padding: 20px;
+}
+
+.step-item h3 {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step-item ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.step-item li {
+  margin-bottom: 5px;
+}
+
+.step-item a, span {
+  color: #007bff; 
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
