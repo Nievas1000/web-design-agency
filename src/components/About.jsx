@@ -2,11 +2,15 @@ import { useState } from 'react'
 import clock from '../assets/clock.gif'
 import web from '../assets/web-about.gif'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
+import Spline from '@splinetool/react-spline'
 
 export const About = () => {
   const [section, setSection] = useState('')
   return (
-    <div id='about' className='d-flex pb-5'>
+    <div id='about' className='d-flex pb-5 position-relative'>
+      <div className='position-absolute er'>
+        <Spline scene='https://prod.spline.design/azpqkgYmEcAWPtey/scene.splinecode' />
+      </div>
       <div className='container d-block d-lg-flex'>
         <div className='col-12 col-lg-6'>
           <div className='pt-5'>

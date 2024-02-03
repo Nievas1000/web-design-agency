@@ -7,6 +7,10 @@ body{
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 
 .navbar{
   background-color: transparent !important;
@@ -669,7 +673,7 @@ body{
   margin-bottom: 5px;
 }
 
-.step-item a, span {
+.step-item a, .step-item span {
   color: #007bff; 
   font-weight: bold;
   cursor: pointer;
