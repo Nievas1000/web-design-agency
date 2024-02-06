@@ -5,7 +5,7 @@ import img4 from '../../assets/project-6.png'
 import { Image } from './Image'
 import { useHeader } from '../../hooks/useHeader'
 
-export const Header = (props) => {
+export const Header = ({ openBecomeClient }) => {
   const { wordIndex, words } = useHeader()
 
   return (
@@ -33,9 +33,12 @@ export const Header = (props) => {
               <h1 className='header-title text-center'>
                 {words[wordIndex]}
               </h1>
+              <div className='d-flex justify-content-center pt-3 subtitle-header'>
+                <h4 className='text-center'>Transform your offer and create a website that attracts more customers, filling your agenda. Discover how Nevve can boost your online presence and get your business off the ground.</h4>
+              </div>
               <div className='d-flex justify-content-center pt-3'>
-                <span href='#features' className='button-more'>
-                  Learn More
+                <span href='#features' className='button-more' onClick={openBecomeClient}>
+                  Get in touch
                 </span>
               </div>
             </div>

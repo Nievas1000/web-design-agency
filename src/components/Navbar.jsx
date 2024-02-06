@@ -35,6 +35,13 @@ export const Navbar = () => {
           <li className='nav-item'>
             <a className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>Contact</a>
           </li>
+          <li className='nav-item'>
+            <a className='nav-link page-scroll' onClick={() => scrollToSection('calendar')}>
+              <span href='#features' className='button-more d-inline'>
+                Schedule a call
+              </span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

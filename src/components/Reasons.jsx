@@ -9,7 +9,7 @@ import Spline from '@splinetool/react-spline'
 export const Reasons = ({ openBecomeClient }) => {
   return (
     <div>
-      <div className='container'>
+      <div className='container pt-5'>
         <h1 className='d-flex justify-content-center'>Reasons Your Brand Needs a Website</h1>
         <div className='d-block d-md-flex pt-5 pb-5'>
           <div className='reason-list'>
@@ -88,47 +88,49 @@ export const Reasons = ({ openBecomeClient }) => {
           </div>
         </div>
       </div>
-      <div className='position-relative'>
-        <div className='position-absolute er'>
-          <Spline scene='https://prod.spline.design/HLRXR6e-J-lyAojT/scene.splinecode' />
-        </div>
-        <div className='container pt-5 pb-5'>
-          <h1 className='d-flex justify-content-center'>Website Design Process</h1>
-          <div className='d-block d-md-flex pt-5'>
-            <div className='steps-list'>
-              <div className='step-item'>
-                <h3>1. Choose Website Design Service</h3>
-                <p>We invite you to explore our range of web design services to find the perfect solution to fit your digital needs.</p>
-                <ul>
-                  <li>Custom Web Design</li>
-                  <li>Template Web Design</li>
-                  <li>Website Help</li>
-                  <li>Website Maintenance</li>
-                </ul>
-                <p>Go to <a href='#services'>Service section</a> for more details</p>
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <div className='position-relative'>
+          <div className='position-absolute er'>
+            <Spline scene='https://prod.spline.design/HLRXR6e-J-lyAojT/scene.splinecode' />
+          </div>
+          <div className='container pt-5 pb-5'>
+            <h1 className='d-flex justify-content-center'>Website Design Process</h1>
+            <div className='d-block d-md-flex pt-5'>
+              <div className='steps-list'>
+                <div className='step-item'>
+                  <h3>1. Choose Website Design Service</h3>
+                  <p>We invite you to explore our range of web design services to find the perfect solution to fit your digital needs.</p>
+                  <ul>
+                    <li>Custom Web Design</li>
+                    <li>Template Web Design</li>
+                    <li>Website Help</li>
+                    <li>Website Maintenance</li>
+                  </ul>
+                  <p>Go to <a href='#services'>Service section</a> for more details</p>
+                </div>
+                <div className='step-item'>
+                  <h3>2. Let Us Know Your Idea</h3>
+                  <p>Before we begin the website design process, we would be excited to delve deeper and get to know you better so we can offer you a personalized web design experience. We want to ensure that every detail is uniquely attended to and that your vision comes to life online. <a href='#calendar'>Schedule a call</a> or <span onClick={openBecomeClient}>complete the questionnaire</span> to start.</p>
+                </div>
               </div>
-              <div className='step-item'>
-                <h3>2. Let Us Know Your Idea</h3>
-                <p>Before we begin the website design process, we would be excited to delve deeper and get to know you better so we can offer you a personalized web design experience. We want to ensure that every detail is uniquely attended to and that your vision comes to life online. <span>Schedule a call</span> or <span onClick={openBecomeClient}>complete the questionnaire</span> to start.</p>
-              </div>
-            </div>
-            <div>
-              <div className='step-item'>
-                <h3>3. Sign The Service Agreement</h3>
-                <p>The Service Agreement details all aspects of the web design process. Once you've signed, we'll be ready to move forward with creating your website. This document provides the solid foundation to ensure a clear understanding of the services, prices and specific details we have discussed.</p>
-              </div>
-              <div className='step-item'>
-                <h3>4. Web Design and Web Development Begins</h3>
-                <p>This is the stage where you can relax and entrust us with the heavy lifting. Your only task is to provide us with your logo, pertinent information, and any images you'd like to feature on your website. From there, we take care of the entire process, ensuring a seamless and hassle-free experience for you.</p>
-              </div>
-              <div className='step-item'>
-                <h3>5. Website maintenance</h3>
-                <p>In our last step, we offer an additional option for those who want constant maintenance of their website. This service ensures that your site remains up to date, secure and optimized at all times. We take care of technical updates, performance monitoring and any necessary adjustments to keep your digital presence in its best shape.</p>
+              <div>
+                <div className='step-item'>
+                  <h3>3. Sign The Service Agreement</h3>
+                  <p>The Service Agreement details all aspects of the web design process. Once you've signed, we'll be ready to move forward with creating your website. This document provides the solid foundation to ensure a clear understanding of the services, prices and specific details we have discussed.</p>
+                </div>
+                <div className='step-item'>
+                  <h3>4. Web Design and Web Development Begins</h3>
+                  <p>This is the stage where you can relax and entrust us with the heavy lifting. Your only task is to provide us with your logo, pertinent information, and any images you'd like to feature on your website. From there, we take care of the entire process, ensuring a seamless and hassle-free experience for you.</p>
+                </div>
+                <div className='step-item'>
+                  <h3>5. Website maintenance</h3>
+                  <p>In our last step, we offer an additional option for those who want constant maintenance of their website. This service ensures that your site remains up to date, secure and optimized at all times. We take care of technical updates, performance monitoring and any necessary adjustments to keep your digital presence in its best shape.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </ScrollAnimationContainer>
     </div>
   )
 }

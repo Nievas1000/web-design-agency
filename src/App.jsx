@@ -5,8 +5,10 @@ import { ParallaxImage } from './components/ParallaxImage'
 import { About } from './components/About'
 import { Services } from './components/Services'
 import { useState } from 'react'
-import { BecomeClient } from './components/BecomeClient'
 import { Reasons } from './components/Reasons'
+import { Calendar } from './components/Calendar'
+import { ScrollAnimationContainer } from './components/ScrollContainer'
+import { BecomeClient } from './components/BecomeClient/BecomeClient'
 
 function App () {
   const [show, setShow] = useState(false)
@@ -18,14 +20,21 @@ function App () {
   return (
     <div>
       <button id='floating-button' onClick={openBecomeClient}>+ Become a Client</button>
-      {show && <BecomeClient setShow={setShow} />}
+      {show && <BecomeClient setShow={setShow} show={show} />}
       <Navbar />
-      <Header />
-      <Services />
+      <Header openBecomeClient={openBecomeClient} />
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <Services openBecomeClient={openBecomeClient} />
+      </ScrollAnimationContainer>
       <ParallaxImage />
-      <About />
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <About />
+      </ScrollAnimationContainer>
       <Reasons openBecomeClient={openBecomeClient} />
-      <Contact />
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <Calendar />
+      </ScrollAnimationContainer>
+      <Contact openBecomeClient={openBecomeClient} />
     </div>
   )
 }
