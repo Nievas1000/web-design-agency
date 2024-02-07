@@ -1,0 +1,227 @@
+{
+    "NAVBAR":{
+        "item1": "Servicios",
+        "item2": "Sobre nosotros",
+        "item3": "Plantillas",
+        "item4": "Contacto",
+        "item5": "Agenda una llamada",
+        "item6": "ES"
+    },
+    "HEADER":{
+        "item1": "Diseño web para",
+        "item2": "Transforma tu oferta y crea un sitio web que atraiga más clientes, llenando tu agenda. Descubra cómo Nevve puede impulsar su presencia en línea y hacer despegar su negocio.",
+        "item3": "Ponte en contacto"
+    },
+    "SERVICES":{
+        "title": "Nuestros servicios",
+        "description":"Descubra soluciones web personalizadas y de última generación. Desde sitios personalizados hasta mantenimiento experto, transformamos su visión en realidad digital.",
+        "servicesList":{
+            "item1":"Diseño web personalizado",
+            "subtitle1":"Eleve su presencia con un diseño web personalizado único",
+            "description1":"Descubra el poder de una identidad online personalizada con nuestro servicio de Diseño Web Personalizado. No solo creamos sitios web; Co-creamos experiencias digitales que resuenan con su marca. Colaborando estrechamente con usted, profundizamos en sus objetivos y aspiraciones, asegurando que cada elemento refleje su identidad. Desde diseños distintivos hasta la integración de funcionalidades personalizadas, nuestro compromiso es ofrecer un sitio web visualmente impresionante y funcionalmente superior. Nuestro proceso iterativo con revisiones activas y estricto cumplimiento de los plazos garantiza que su visión digital no solo cobre vida sino que se destaque de manera efectiva en todos los dispositivos.",
+            "item2":"Plantillas de diseño web",
+            "subtitle2":"Elegancia sin esfuerzo: transfórmese con plantillas de diseño web",
+            "description2":"Libere el potencial de soluciones web rápidas pero elegantes con nuestro servicio de diseño web de plantillas. Elija entre una amplia gama de plantillas de diseño, cada una de las cuales constituye la base de su visión digital. Nuestro proceso eficiente le permite seleccionar rápidamente la plantilla que se adapta a sus objetivos. A partir de ahí, personalizamos meticulosamente cada detalle para alinearlo perfectamente con su marca y sus requisitos. Este enfoque optimizado garantiza la entrega de un sitio web atractivo y funcional, elevando su presencia digital de manera única y efectiva.",
+            "item3":"Ayuda de sitio web",
+            "subtitle3":"Orientación de expertos para un gran sitio web",
+            "description3":"Navegue por el panorama digital con confianza utilizando nuestro servicio de ayuda del sitio web. Ya sea que esté lidiando con desafíos técnicos, buscando actualizaciones o buscando mejoras de rendimiento, nuestro equipo de expertos está a su servicio. Simplificamos el proceso, permitiéndole concentrarse en su negocio mientras abordamos las complejidades técnicas. Nuestro objetivo es optimizar su sitio web, asegurándonos de que no solo cumpla sino que supere sus expectativas. Con nosotros, puede concentrarse en sus actividades principales mientras mejoramos su presencia digital sin problemas.",
+            "item4":"Mantenimiento de sitio web",
+            "subtitle4":"Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
+            "description4":"Eleve su longevidad digital con nuestro servicio de mantenimiento de sitios web. Su viaje en línea no concluye con el lanzamiento de su sitio web. Nuestro equipo está dedicado a la colaboración continua, garantizando que su plataforma funcione sin problemas y de forma segura. Desde actualizaciones técnicas hasta monitoreo atento, asumimos la responsabilidad de mantener la salud óptima de su sitio. Esta opción brinda tranquilidad, permitiendo que su presencia digital evolucione de manera eficiente y consistente."
+        },
+        "servicesCards":{
+            "title1": "Adaptación móvil",
+            "description1": "Optimizamos tu sitio web para dispositivos móviles, asegurando una experiencia impecable en pantallas pequeñas. Desde el diseño hasta la funcionalidad, su sitio se destaca en cualquier dispositivo.",
+            "title2": "Solución de diseño sólido",
+            "description2": "Ofrecemos soluciones de diseño sólidas y efectivas que impulsan la presencia digital de su negocio. Desde diseño personalizado hasta soporte técnico, brindamos servicios integrales para llevar su visión a nuevos niveles de excelencia en línea.",
+            "title3": "Desarrollo web",
+            "description3": "Nuestros componentes de diseño adaptativo se crean utilizando código perfectamente estructurado y legible. Nos aseguramos de que las soluciones de desarrollo estén bien optimizadas y funcionen perfectamente en todos los dispositivos y navegadores."
+        },
+        "parallax1": "Hacer que su negocio destaque es una ciencia.",
+        "parallax2": "Nos lo tomamos (a) en serio y (b) de forma creativa."
+    },
+    "WHYUS":{
+        "title": "Por que elegirnos a nosotros?",
+        "description1":"Destaca en línea con un sitio web personalizado creado desde cero.",
+        "description2": "En Nevve creamos experiencias digitales únicas y poderosas a través del desarrollo personalizado con código. Desde una personalización completa hasta un rendimiento óptimo, le ofrecemos soluciones que se destacan. Descubra cómo podemos convertir su visión en una realidad digital que se destaque entre la multitud.",
+        "description3":"Tu presencia en línea merece algo único, ¡y estamos aquí para hacerlo realidad!",
+        "items":[
+            {
+                "title": "Diseño personalizado a tu medida",
+                "description": "Nuestro enfoque de desarrollo desde cero nos permite crear sitios web totalmente personalizados que reflejen la identidad y los objetivos únicos de su marca. Olvídese de las plantillas prediseñadas: cada sitio es una obra maestra diseñada solo para usted."
+            },
+            {
+                "title": "Flexibilidad Sin Límites",
+                "description": "With development from the ground up, there are no limits to what we can achieve. We implement any feature or functionality you need, giving you a truly personalized and adaptable web solution."
+            },
+            {
+                "title": "Rendimiento Optimizado en Cada Línea de Código",
+                "description": "Cada línea de código es una inversión en la velocidad, el rendimiento y la optimización de tu sitio web. Nos comprometemos a ofrecer una experiencia de usuario excepcional, con tiempos de carga rápidos, un SEO sólido y una funcionalidad impecable en todos los dispositivos."
+            },
+            {
+                "title": "Construido para el Futuro",
+                "description": "Nuestros sitios web están diseñados para crecer contigo. Son altamente escalables y pueden adaptarse fácilmente a medida que tu negocio evoluciona. Invierte en un sitio web que te acompañará a lo largo de tu viaje empresarial."
+            }
+        ]
+    },
+    "ABOUT":{
+        "title": "Sobre Nosotros",
+        "description":"Una estrategia sólida alineada con las necesidades del negocio y un análisis de datos sólido son ingredientes fundamentales para extraer información útil.",
+        "card1": "Años de experiencia",
+        "card2": "Tecnologias web",
+        "listAbout":[
+            {
+                "title": "Diseño web personalizado",
+                "section": "custom",
+                "items":[
+                    "Experiencias digitales a medida",
+                    "Excelencia funcional",
+                    "Dominio del diseño responsivo",
+                    "Colaboración iterativa"
+                ]
+            },
+            {
+                "title": "Plantillas de diseño web",
+                "section": "template",
+                "items":[
+                    "Elegancia sin esfuerzo",
+                    "Experiencia en personalización",
+                    "Selección diversa de plantillas"
+                ]
+            },
+            {
+                "title": "Ayuda y mantenimiento del sitio web",
+                "section": "help",
+                "items":[
+                    "Asistencia Técnica Experta",
+                    "Optimización del rendimiento",
+                    "Colaboración continua"
+                ]
+            }
+        ],
+        "aboutVision":{
+            "title": "Excelencia en codificación: creación de sitios web más allá de los límites",
+            "description1": "Si eres como nosotros, entonces tu empresa tiene grandes planes.",
+            "description2": "Está presentando ofertas contra organizaciones más grandes y profesionales, pero le preocupa perder acuerdos cuando visitan su sitio web y no creen que sea lo suficientemente creíble o exitoso.",
+            "description3": "Merece recibir más correos electrónicos de consultas de ventas en su bandeja de entrada cada semana desde sus formularios.",
+            "imageZone":{
+                "title": "Llámanos tu socio web.",
+                "list":[
+                    "Personalización ilimitada",
+                    "Optimización del rendimiento",
+                    "Seguridad reforzada",
+                    "Adaptabilidad continua"
+                ],
+                "footer": "¿Estas listo?"
+            }
+        }
+    },
+    "REASONS":{
+        "title": "Razones por las que su marca necesita un sitio web",
+        "list1":[
+            {
+                "icon": "fa-solid fa-globe",
+                "title": "Alcance global",
+                "description":"Tener un sitio web le permite a su pequeña empresa llegar a una audiencia global. A diferencia de una tienda física, cualquier persona con conexión a Internet puede acceder a su sitio web, lo que amplía su base de clientes potenciales más allá de los límites locales."
+            },
+            {
+                "icon": "fa-regular fa-clock",
+                "title": "Disponibilidad 24/7",
+                "description":"Un sitio web proporciona a su empresa una tienda virtual abierta las 24 horas, los 7 días de la semana. Esto significa que los clientes pueden acceder a información sobre sus productos o servicios en cualquier momento, lo que aumenta la probabilidad de conversiones incluso cuando su ubicación física esté cerrada."
+            },
+            {
+                "icon": "fa-regular fa-thumbs-up",
+                "title": "Credibilidad y profesionalismo",
+                "description":"Un sitio web bien diseñado añade un nivel de profesionalismo y credibilidad a su pequeña empresa. Los consumidores suelen buscar información en línea antes de tomar una decisión de compra, y un sitio web pulido puede infundir confianza en los clientes potenciales."
+            }
+        ],
+        "list2":[
+            {
+                "icon": "fa-solid fa-chart-line",
+                "title": "Adaptabilidad y crecimiento",
+                "description":"A medida que su pequeña empresa evoluciona, su sitio web puede evolucionar con ella. Ya sea que desee presentar nuevos productos, actualizar información o ampliar su presencia en línea, tener un sitio web brinda la flexibilidad para adaptarse a las necesidades cambiantes del negocio e impulsar el crecimiento."
+            },
+            {
+                "icon": "fa-solid fa-users",
+                "title": "Comodidad para el cliente",
+                "description":"Un sitio web hace que sea conveniente para los clientes conocer su negocio, explorar sus ofertas y realizar compras sin salir de casa. Esta conveniencia puede conducir a una mayor satisfacción y lealtad del cliente."
+            },
+            {
+                "icon": "fa-solid fa-microphone-lines",
+                "title": "Promoción rentable",
+                "description":"En comparación con las formas tradicionales de publicidad, como los medios impresos o los comerciales de televisión, mantener un sitio web es una forma rentable de promocionar su pequeña empresa. Las herramientas de marketing online, como las redes sociales y la optimización de motores de búsqueda (SEO), se pueden utilizar a un coste menor."
+            }
+        ]
+    },
+    "STEPS":{
+        "title": "Proceso de diseño de sitios web",
+        "item1":{
+            "title":"Elija el servicio de diseño de sitios web",
+            "description": "Lo invitamos a explorar nuestra gama de servicios de diseño web para encontrar la solución perfecta que se adapte a sus necesidades digitales.",
+            "list":[
+                "Diseño web personalizado",
+                "Plantillas de diseño web",
+                "Ayuda del sitio web",
+                "Mantenimiento del sitio web"
+            ],
+            "footer1": "Vaya a la",
+            "footer2": "sección de Servicios",
+            "footer3": "para más detalles."
+        },
+        "item2":{
+            "title": "Háganos saber su idea",
+            "description1": "Antes de comenzar el proceso de diseño del sitio web, nos encantaría profundizar más y conocerlo mejor para poder ofrecerle una experiencia de diseño web personalizada. Queremos asegurarnos de que cada detalle sea atendido de manera única y que su visión cobre vida en línea.",
+            "description2": "Agende una llamada",
+            "description3": "o",
+            "description4": "complete el questionario",
+            "description5": "para empezar."
+        },
+        "list":[
+            {
+                "title": "3. Firme el acuerdo de servicio",
+                "description": "El Acuerdo de Servicio detalla todos los aspectos del proceso de diseño web. Una vez que haya firmado, estaremos listos para seguir adelante con la creación de su sitio web. Este documento proporciona una base sólida para garantizar una comprensión clara de los servicios, precios y detalles específicos que hemos discutido."
+            },
+            {
+                "title": "4. Comienza el diseño web y el desarrollo web",
+                "description": "Esta es la etapa en la que usted puede relajarse y confiarnos el trabajo pesado. Su única tarea es proporcionarnos su logotipo, información pertinente y cualquier imagen que desee incluir en su sitio web. A partir de ahí, nos encargamos de todo el proceso, garantizándole una experiencia perfecta y sin complicaciones."
+            },
+            {
+                "title": "5. Mantenimiento del sitio web",
+                "description": "En nuestro último paso, ofrecemos una opción adicional para aquellos que desean un mantenimiento constante de su sitio web. Este servicio garantiza que su sitio permanezca actualizado, seguro y optimizado en todo momento. Nos encargamos de las actualizaciones técnicas, el seguimiento del rendimiento y cualquier ajuste necesario para mantener su presencia digital en la mejor forma."
+            }
+        ]
+    },
+    "scheduleCall": "Agendemos una llamada!",
+    "CONTACT":{
+        "title": "Nos encantaría saber de usted.",
+        "description1": "No dudes en comunicarte con nosotros si quieres colaborar con nosotros o simplemente charlar.",
+        "description2": "¿No te gustan las formularios? Escríbanos por correo electrónico.",
+        "contactInfo": {
+            "title": "Datos de contacto",
+            "address": "Direccion",
+            "phone": "Telefono"
+        }
+    },
+    "BECOMECLIENT":{
+        "becomeButton": "Conviértete en cliente",
+        "title": "¡Ey! Díganos lo que necesita.",
+        "inputName": "Nombre",
+        "inputEmail": "Email",
+        "inputMessage": "¡Cuentenos mas sobre su proyecto!",
+        "messagePleaceholder": "Algo genial sobre tu increíble idea.",
+        "servicesLabel":"Estoy interesado en...",
+        "services":[
+            "Diseño web personalizado",
+            "Plantillas de diseño web",
+            "Ayuda de sitio web",
+            "Mantenimiento de sitio web"
+        ],
+        "requiredTextInput": "Campo requerido",
+        "requiredTextServices": "Selecciona al menos uno",
+        "submitButton":"Enviar solicitud",
+        "footer1": "O si prefieres puedes",
+        "footer2": "agendar una llamada",
+        "footer3": "directamente.",
+        "thanksText": "¡Gracias por tu interes en nuestros servicios! Su solicitud de cotización ha sido recibida exitosamente. Nuestro equipo revisará la información proporcionada y se comunicará con usted pronto para discutir más detalles y brindarle una cotización personalizada. Mientras tanto, si tiene alguna pregunta adicional, no dude en contactarnos. ¡Esperamos trabajar con usted para hacer realidad su visión en línea!"
+    }
+}

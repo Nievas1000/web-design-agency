@@ -4,9 +4,11 @@ import img3 from '../../assets/project-5.png'
 import img4 from '../../assets/project-6.png'
 import { Image } from './Image'
 import { useHeader } from '../../hooks/useHeader'
+import { useTranslation } from 'react-i18next'
 
 export const Header = ({ openBecomeClient }) => {
   const { wordIndex, words } = useHeader()
+  const { t } = useTranslation()
 
   return (
     <header id='header'>
@@ -28,17 +30,17 @@ export const Header = ({ openBecomeClient }) => {
             </div>
             <div className='d-block'>
               <h1 className='header-title text-center'>
-                Website Design for
+                {t('HEADER.item1')}
               </h1>
               <h1 className='header-title text-center'>
                 {words[wordIndex]}
               </h1>
               <div className='d-flex justify-content-center pt-3 subtitle-header'>
-                <h4 className='text-center'>Transform your offer and create a website that attracts more customers, filling your agenda. Discover how Nevve can boost your online presence and get your business off the ground.</h4>
+                <h4 className='text-center'>{t('HEADER.item2')}</h4>
               </div>
               <div className='d-flex justify-content-center pt-3'>
                 <span href='#features' className='button-more' onClick={openBecomeClient}>
-                  Get in touch
+                  {t('HEADER.item3')}
                 </span>
               </div>
             </div>

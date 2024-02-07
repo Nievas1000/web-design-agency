@@ -1,0 +1,227 @@
+{
+    "NAVBAR": {
+        "item1": "Services",
+        "item2": "About",
+        "item3": "Templates",
+        "item4": "Contact",
+        "item5": "Schedule a call",
+        "item6": "EN"
+    },
+    "HEADER":{
+        "item1": "Website Design for",
+        "item2": "Transform your offer and create a website that attracts more customers, filling your agenda. Discover how Nevve can boost your online presence and get your business off the ground.",
+        "item3": "Get in touch"
+    },
+    "SERVICES":{
+        "title": "Our Services",
+        "description":"Discover personalized and cutting-edge web solutions. From custom sites to expert maintenance, we transform your vision into digital reality.",
+        "servicesList":{
+            "item1":"Custom Web Design",
+            "subtitle1":"Elevate Your Presence with Unique Custom Web Design",
+            "description1":"Discover the power of a tailored online identity with our Custom Web Design service. We don't just build websites; we co-create digital experiences that resonate with your brand. Collaborating closely with you, we delve into your goals and aspirations, ensuring every element reflects your identity. From distinctive designs to the integration of personalized functionalities, our commitment is to deliver a visually stunning and functionally superior website. Our iterative process with active reviews and strict adherence to deadlines ensures that your digital vision not only comes to life but stands out effectively across all devices.",
+            "item2":"Template Web Design",
+            "subtitle2":"Effortless Elegance: Transform with Template Web Design",
+            "description2":"Unleash the potential of swift yet stylish web solutions with our Template Web Design service. Choose from a diverse range of design templates, each a foundation for your digital vision. Our efficient process allows you to quickly select the template that resonates with your goals. From there, we meticulously customize every detail to align perfectly with your brand and requirements. This streamlined approach ensures the delivery of an attractive and functional website, elevating your digital presence uniquely and effectively.",
+            "item3":"Website help",
+            "subtitle3":"Expert Guidance for a Laser-Focused Website",
+            "description3":"Navigate the digital landscape with confidence using our Website Help service. Whether you're grappling with technical challenges, seeking upgrades, or pursuing performance improvements, our expert team is at your service. We simplify the process, allowing you to concentrate on your business while we tackle the technical intricacies. Our goal is to optimize your website, ensuring it not only meets but exceeds your expectations. With us, you can stay focused on your core activities while we enhance your digital presence seamlessly.",
+            "item4":"Website maintenance",
+            "subtitle4":"Uninterrupted Excellence: Website Maintenance for Seamless Operation",
+            "description4":"Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
+        },
+        "servicesCards":{
+            "title1": "Mobile adaptation",
+            "description1": "We optimize your website for mobile devices, ensuring an impeccable experience on small screens. From design to functionality, your site stands out on any device.",
+            "title2": "Solid design solution",
+            "description2": "We offer solid and effective design solutions that boost your business's digital presence. From custom design to technical support, we provide comprehensive services to take your vision to new levels of online excellence.",
+            "title3": "Web development",
+            "description3": "Our adaptive design components are built using perfectly structured and readable code. We make sure that the development solutions are well-optimized and work flawlessly across devices and browsers."
+        },
+        "parallax1": "Making your business outstanding is a science.",
+        "parallax2": "Making your business outstanding is a science."
+    },
+    "WHYUS":{
+        "title": "Why choose us?",
+        "description1":"Stand out online with a custom website built from scratch.",
+        "description2": "At Nevve, we create unique and powerful digital experiences through custom development with code. From complete customization to optimal performance, we offer you solutions that stand out. Discover how we can turn your vision into a digital reality that stands out from the crowd.",
+        "description3":"Your online presence deserves something unique, and we're here to make it happen!",
+        "items":[
+            {
+                "title": "Personalized Design to Your Measurement",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            },
+            {
+                "title": "Unlimited Flexibility",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            },
+            {
+                "title": "Personalized Design to Your Measurement",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            },
+            {
+                "title": "Personalized Design to Your Measurement",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            }
+        ]
+    },
+    "ABOUT":{
+        "title": "About us",
+        "description":"Solid Strategy aligned with business needs and robust data analysis are fundamental ingredients to extract actionable insights.",
+        "card1": "Years of experience",
+        "card2": "Web technologies",
+        "listAbout":[
+            {
+                "title": "Custom Web Design",
+                "section": "custom",
+                "items":[
+                    "Tailored Digital Experiences",
+                    "Functional Excellence",
+                    "Responsive Design Mastery",
+                    "Iterative Collaboration"
+                ]
+            },
+            {
+                "title": "Template Web Design",
+                "section": "template",
+                "items":[
+                    "Effortless Elegance",
+                    "Personalization Expertise",
+                    "Diverse Template Selection"
+                ]
+            },
+            {
+                "title": "Website Help & Maintenance",
+                "section": "help",
+                "items":[
+                    "Expert Technical Assistance",
+                    "Performance Optimization",
+                    "Continuous Collaboration"
+                ]
+            }
+        ],
+        "aboutVision":{
+            "title": "Coding Excellence: Crafting Websites Beyond Boundaries",
+            "description1": "If you’re like us, then your business has big plans.",
+            "description2": "You’re pitching to larger and professional organizations, but you’re worried you’ll lose the deals when they visit your lackluster website and don’t think you’re credible or successful enough.",
+            "description3": "You deserve to get more sales inquiry emails in your inbox each week from your web forms.",
+            "imageZone":{
+                "title": "Call us your website partner.",
+                "list":[
+                    "Unlimited Customization",
+                    "Performance Optimization",
+                    "Reinforced Security",
+                    "Continuous Adaptability"
+                ],
+                "footer": "Are you ready?"
+            }
+        }
+    },
+    "REASONS":{
+        "title": "Reasons Your Brand Needs a Website",
+        "list1":[
+            {
+                "icon": "fa-solid fa-globe",
+                "title": "Global Reach",
+                "description":"Having a website allows your small business to reach a global audience. Unlike a physical store, your website is accessible to anyone with an internet connection, expanding your potential customer base beyond local boundaries."
+            },
+            {
+                "icon": "fa-regular fa-clock",
+                "title": "24/7 Availability",
+                "description":"A website provides your business with a virtual storefront that is open 24/7. This means customers can access information about your products or services at any time, increasing the likelihood of conversions even when your physical location is closed."
+            },
+            {
+                "icon": "fa-regular fa-thumbs-up",
+                "title": "Credibility and Professionalism",
+                "description":"A well-designed website adds a level of professionalism and credibility to your small business. Consumers often search online for information before making a purchase decision, and a polished website can instill trust in potential customers."
+            }
+        ],
+        "list2":[
+            {
+                "icon": "fa-solid fa-chart-line",
+                "title": "Adaptability and Growth",
+                "description":"As your small business evolves, your website can evolve with it. Whether you want to introduce new products, update information, or expand your online presence, having a website provides the flexibility to adapt to changing business needs and fuel growth."
+            },
+            {
+                "icon": "fa-solid fa-users",
+                "title": "Customer Convenience",
+                "description":"A website makes it convenient for customers to learn about your business, browse your offerings, and make purchases without leaving their homes. This convenience can lead to increased customer satisfaction and loyalty."
+            },
+            {
+                "icon": "fa-solid fa-microphone-lines",
+                "title": "Cost-Effective Promotion",
+                "description":"Compared to traditional forms of advertising, such as print media or TV commercials, maintaining a website is a cost-effective way to market your small business. Online marketing tools like social media and search engine optimization (SEO) can be utilized at a lower cost."
+            }
+        ]
+    },
+    "STEPS":{
+        "title": "Website Design Process",
+        "item1":{
+            "title":"Choose Website Design Service",
+            "description": "We invite you to explore our range of web design services to find the perfect solution to fit your digital needs.",
+            "list":[
+                "Custom Web Design",
+                "Template Web Design",
+                "Website Help",
+                "Website Maintenance"
+            ],
+            "footer1": "Go to",
+            "footer2": "Service section",
+            "footer3": "for more details"
+        },
+        "item2":{
+            "title": "Let Us Know Your Idea",
+            "description1": "Before we begin the website design process, we would be excited to delve deeper and get to know you better so we can offer you a personalized web design experience. We want to ensure that every detail is uniquely attended to and that your vision comes to life online.",
+            "description2": " Schedule a call",
+            "description3": "or",
+            "description4": "complete the questionnaire",
+            "description5": "to start."
+        },
+        "list":[
+            {
+                "title": "3. Sign The Service Agreement",
+                "description": "The Service Agreement details all aspects of the web design process. Once you've signed, we'll be ready to move forward with creating your website. This document provides the solid foundation to ensure a clear understanding of the services, prices and specific details we have discussed."
+            },
+            {
+                "title": "4. Web Design and Web Development Begins",
+                "description": "This is the stage where you can relax and entrust us with the heavy lifting. Your only task is to provide us with your logo, pertinent information, and any images you'd like to feature on your website. From there, we take care of the entire process, ensuring a seamless and hassle-free experience for you."
+            },
+            {
+                "title": "5. Website maintenance",
+                "description": "In our last step, we offer an additional option for those who want constant maintenance of their website. This service ensures that your site remains up to date, secure and optimized at all times. We take care of technical updates, performance monitoring and any necessary adjustments to keep your digital presence in its best shape."
+            }
+        ]
+    },
+    "scheduleCall": "Let's schedule a call!",
+    "CONTACT":{
+        "title": "We would love to hear from you.",
+        "description1": "Feel free to reach our if you want to collaborate with us, or simply have a chat",
+        "description2": "Don’t like the forms? Drop us a line via email.",
+        "contactInfo": {
+            "title": "Contact Info",
+            "address": "Address",
+            "phone": "Phone"
+        }
+    },
+    "BECOMECLIENT":{
+        "becomeButton": "Become a client",
+        "title": "Hey! Tell us what you need!",
+        "inputName": "Name",
+        "inputEmail": "Your email",
+        "inputMessage": "Tell us more about your project!",
+        "messagePleaceholder": "Something great about your amazing idea",
+        "servicesLabel":"I'm interested in...",
+        "services":[
+            "Custom Web Design",
+            "Template Web Design",
+            "Website Help",
+            "Website Maintenance"
+        ],
+        "requiredTextInput": "Required fiel",
+        "requiredTextServices": "Select at least one",
+        "submitButton":"Sumbit the request",
+        "footer1": "Or if you prefer you can",
+        "footer2": "book a call",
+        "footer3": "directly.",
+        "thanksText": "Thank you for your interest in our services! Your quote request has been successfully received. Our team will review the information provided and contact you soon to discuss further details and provide you with a personalized quote. In the meantime, if you have any additional questions, please feel free to contact us. We look forward to working with you to make your vision online a reality!"
+    }
+}

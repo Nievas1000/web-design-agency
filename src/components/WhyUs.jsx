@@ -1,0 +1,30 @@
+import { useTranslation } from 'react-i18next'
+
+export const WhyUs = () => {
+  const { t } = useTranslation()
+  const whyData = t('WHYUS', { returnObjects: true })
+  return (
+    <div className='container d-flex justify-content-center pb-5'>
+      <div>
+        <div className='text-center'>
+          <h2>{whyData.title}</h2>
+          <p className='fw-bold pt-2'>{whyData.description1}</p>
+          <p>{whyData.description2}</p>
+          <p className='fw-bold'>{whyData.description3}</p>
+        </div>
+        <div className='row pt-4 pb-2 why-container'>
+          {whyData.items.map((item, index) => {
+            return (
+              <div key={index} className='col-md-6'>
+                <div>
+                  <h5 className='fw-bold'><i className='fa-solid fa-arrow-right' /> {item.title}</h5>
+                  <p>{item.description}</p>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    </div>
+  )
+}

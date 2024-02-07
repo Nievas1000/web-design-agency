@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-
-const services = ['Custom Web Design', 'Template Web Design', 'Website Help', 'Website Maintenance']
+import { useTranslation } from 'react-i18next'
 
 const initialState = {
   name: '',
@@ -16,6 +15,8 @@ export const useBecomeClient = (setShow, show) => {
   const [serviceError, setServiceError] = useState(false)
   const [sent, setSent] = useState(false)
   const becomeContainerRef = useRef()
+  const { t } = useTranslation()
+  const services = t('BECOMECLIENT.services', { returnObjects: true })
 
   const handleChange = (e) => {
     const { name, value } = e.target

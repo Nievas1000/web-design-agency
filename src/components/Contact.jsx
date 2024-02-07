@@ -1,32 +1,38 @@
+import { useTranslation } from 'react-i18next'
 import { FaPhoneAlt, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdOutlineEmail } from 'react-icons/md'
+import logo from '../assets/logo.png'
 
 export const Contact = ({ openBecomeClient }) => {
+  const { t } = useTranslation()
   return (
     <div id='contact'>
       <div className='container pt-5 pb-5'>
         <div className='row'>
           <div className='col-md-8'>
             <div className='section-title'>
-              <h1 className='pt-3'>We would love to hear from you.</h1>
+              <a className='logo-contact pb-4' href='#'>
+                <img src={logo} title='Nevve' />
+              </a>
+              <h1 className='pt-3'>{t('CONTACT.title')}</h1>
               <p className='pt-4'>
-                Feel free to reach our if you want to collaborate with us, or simply have a chat
+                {t('CONTACT.description1')}
               </p>
               <div className='pt-3'>
                 <span href='#features' onClick={openBecomeClient} className='d-inline become-contact'>
                   Become a client
                 </span>
               </div>
-              <p className='pt-4'>Don’t like the forms? Drop us a line via email.</p>
+              <p className='pt-4'>{t('CONTACT.description2')}.</p>
               <a className='contact-email' href='mailto:lautynievas09@gmail.com'>lautynievas09@gmail.com</a>
             </div>
           </div>
           <div className='container col-md-3 col-md-offset-1 contact-info pt-4'>
-            <h3>Contact Info</h3>
+            <h3>{t('CONTACT.contactInfo.title')}</h3>
             <div className='contact-item pt-3'>
               <span>
-                <IoLocationSharp /> Address
+                <IoLocationSharp /> {t('CONTACT.contactInfo.address')}
               </span>
               <p>
                 Buenos Aires, Argentina
@@ -34,7 +40,7 @@ export const Contact = ({ openBecomeClient }) => {
             </div>
             <div className='contact-item pt-3'>
               <span>
-                <FaPhoneAlt /> Phone
+                <FaPhoneAlt /> {t('CONTACT.contactInfo.phone')}
               </span>
               <p>
                 +542314517600
