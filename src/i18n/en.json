@@ -191,6 +191,9 @@
             }
         ]
     },
+    "TEMPLATE":{
+        "title": "Templates"
+    },
     "scheduleCall": "Let's schedule a call!",
     "CONTACT":{
         "title": "We would love to hear from you.",
