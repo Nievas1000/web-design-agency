@@ -7,7 +7,7 @@ export const Reasons = ({ openBecomeClient }) => {
   return (
     <div>
       <div className='container pt-5'>
-        <h1 className='d-flex justify-content-center'>{reasonsData.title}</h1>
+        <h1 className='d-flex justify-content-center text-center'>{reasonsData.title}</h1>
         <div className='d-block d-md-flex pt-5 pb-5'>
           <div className='reason-list'>
             <ul>

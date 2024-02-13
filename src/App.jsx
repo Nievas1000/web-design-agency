@@ -11,6 +11,7 @@ import { ScrollAnimationContainer } from './components/ScrollContainer'
 import { BecomeClient } from './components/BecomeClient/BecomeClient'
 import { Steps } from './components/Steps'
 import { WhyUs } from './components/WhyUs'
+import { Templates } from './components/Templates'
 
 function App () {
   const [show, setShow] = useState(false)
@@ -38,6 +39,9 @@ function App () {
       <Reasons openBecomeClient={openBecomeClient} />
       <ScrollAnimationContainer direction='y' initial={300}>
         <Steps openBecomeClient={openBecomeClient} />
+      </ScrollAnimationContainer>
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <Templates />
       </ScrollAnimationContainer>
       <ScrollAnimationContainer direction='y' initial={300}>
         <Calendar />

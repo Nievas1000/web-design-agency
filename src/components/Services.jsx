@@ -43,7 +43,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'custom' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h1>{t('SERVICES.servicesList.subtitle1')}</h1>
+                  <h2>{t('SERVICES.servicesList.subtitle1')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description1')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={openBecomeClient}>Get a quote</button>
@@ -53,7 +53,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'template' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h1>{t('SERVICES.servicesList.subtitle2')}</h1>
+                  <h2>{t('SERVICES.servicesList.subtitle2')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description2')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={openBecomeClient}>Get a quote</button>
@@ -63,7 +63,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'help' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h1>{t('SERVICES.servicesList.subtitle3')}</h1>
+                  <h2>{t('SERVICES.servicesList.subtitle3')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description3')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={openBecomeClient}>Get a quote</button>
@@ -73,7 +73,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'maintenance' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h1>{t('SERVICES.servicesList.subtitle4')}</h1>
+                  <h2>{t('SERVICES.servicesList.subtitle4')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description4')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={openBecomeClient}>Get a quote</button>

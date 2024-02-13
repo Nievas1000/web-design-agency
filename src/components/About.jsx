@@ -62,7 +62,7 @@ export const About = () => {
         </div>
       </div>
       <div className='container pt-5'>
-        <h3 className='d-flex justify-content-center'>{aboutData.aboutVision.title}</h3>
+        <h3 className='d-flex justify-content-center text-center'>{aboutData.aboutVision.title}</h3>
         <div className='p-5'>
           <p className='d-flex justify-content-center align-items-center text-center about-coding-text'>{aboutData.aboutVision.description1}</p>
           <p className='d-flex justify-content-center align-items-center text-center about-coding-text'>{aboutData.aboutVision.description2}</p>
