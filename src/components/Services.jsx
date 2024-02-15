@@ -88,7 +88,7 @@ export const Services = ({ openBecomeClient }) => {
             <div className='col mb-4 approach flex-grow-1'>
               <img src={image1} alt='image1' className='img-fluid' />
               <div className='overlay-apro pt-5'>
-                <h1>{t('SERVICES.servicesCards.title1')}</h1>
+                <h2>{t('SERVICES.servicesCards.title1')}</h2>
                 <div className='position-absolute bottom-0'>
                   <p>
                     {t('SERVICES.servicesCards.description1')}
@@ -105,7 +105,7 @@ export const Services = ({ openBecomeClient }) => {
             <div className='col mb-4 approach flex-grow-1'>
               <img src={image2} alt='image1' className='img-fluid' />
               <div className='overlay-apro'>
-                <h1>{t('SERVICES.servicesCards.title2')}</h1>
+                <h2>{t('SERVICES.servicesCards.title2')}</h2>
                 <div className='position-absolute bottom-0'>
                   <p>
                     {t('SERVICES.servicesCards.description2')}
@@ -122,7 +122,7 @@ export const Services = ({ openBecomeClient }) => {
             <div className='col mb-4 approach flex-grow-1'>
               <img src={image3} alt='image1' className='img-fluid' />
               <div className='overlay-apro'>
-                <h1>{t('SERVICES.servicesCards.title3')}</h1>
+                <h2>{t('SERVICES.servicesCards.title3')}</h2>
                 <div className='position-absolute bottom-0'>
                   <p>
                     {t('SERVICES.servicesCards.description3')}

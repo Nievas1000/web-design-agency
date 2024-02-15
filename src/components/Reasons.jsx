@@ -1,4 +1,3 @@
-import { ScrollAnimationContainer } from './ScrollContainer'
 import { useTranslation } from 'react-i18next'
 
 export const Reasons = ({ openBecomeClient }) => {
@@ -7,23 +6,21 @@ export const Reasons = ({ openBecomeClient }) => {
   return (
     <div>
       <div className='container pt-5'>
-        <h1 className='d-flex justify-content-center text-center'>{reasonsData.title}</h1>
+        <h2 className='d-flex justify-content-center text-center'>{reasonsData.title}</h2>
         <div className='d-block d-md-flex pt-5 pb-5'>
           <div className='reason-list'>
             <ul>
               {reasonsData.list1.map((item, index) => {
                 return (
-                  <ScrollAnimationContainer key={index} direction='x' initial={-300}>
-                    <li className='d-flex list-none'>
-                      <div>
-                        <div className='reason-item-icon'><i className={item.icon} /></div>
-                      </div>
-                      <div className='reason-item-description'>
-                        <h4>{item.title}</h4>
-                        <p>{item.description}</p>
-                      </div>
-                    </li>
-                  </ScrollAnimationContainer>
+                  <li key={index} className='d-flex list-none'>
+                    <div>
+                      <div className='reason-item-icon'><i className={item.icon} /></div>
+                    </div>
+                    <div className='reason-item-description'>
+                      <h4>{item.title}</h4>
+                      <p>{item.description}</p>
+                    </div>
+                  </li>
                 )
               })}
             </ul>
@@ -32,17 +29,15 @@ export const Reasons = ({ openBecomeClient }) => {
             <ul>
               {reasonsData.list2.map((item, index) => {
                 return (
-                  <ScrollAnimationContainer key={index} direction='x' initial={300}>
-                    <li className='d-flex list-none'>
-                      <div>
-                        <div className='reason-item-icon'><i className={item.icon} /></div>
-                      </div>
-                      <div className='reason-item-description'>
-                        <h4>{item.title}</h4>
-                        <p>{item.description}</p>
-                      </div>
-                    </li>
-                  </ScrollAnimationContainer>
+                  <li key={index} className='d-flex list-none'>
+                    <div>
+                      <div className='reason-item-icon'><i className={item.icon} /></div>
+                    </div>
+                    <div className='reason-item-description'>
+                      <h4>{item.title}</h4>
+                      <p>{item.description}</p>
+                    </div>
+                  </li>
                 )
               })}
             </ul>

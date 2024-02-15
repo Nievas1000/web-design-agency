@@ -36,7 +36,9 @@ function App () {
       <ScrollAnimationContainer direction='y' initial={300}>
         <About />
       </ScrollAnimationContainer>
-      <Reasons openBecomeClient={openBecomeClient} />
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <Reasons openBecomeClient={openBecomeClient} />
+      </ScrollAnimationContainer>
       <ScrollAnimationContainer direction='y' initial={300}>
         <Steps openBecomeClient={openBecomeClient} />
       </ScrollAnimationContainer>

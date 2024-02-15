@@ -15,7 +15,7 @@ export const Contact = ({ openBecomeClient }) => {
               <a className='logo-contact pb-4' href='#'>
                 <img src={logo} title='Nevve' />
               </a>
-              <h1 className='pt-3'>{t('CONTACT.title')}</h1>
+              <h2 className='pt-3'>{t('CONTACT.title')}</h2>
               <p className='pt-4'>
                 {t('CONTACT.description1')}
               </p>
@@ -25,7 +25,7 @@ export const Contact = ({ openBecomeClient }) => {
                 </span>
               </div>
               <p className='pt-4'>{t('CONTACT.description2')}.</p>
-              <a className='contact-email' href='mailto:lautynievas09@gmail.com'>lautynievas09@gmail.com</a>
+              <a className='contact-email' href='mailto:lautaro.nievas@nevvedesign.com'>lautaro.nievas@nevvedesign.com</a>
             </div>
           </div>
           <div className='container col-md-3 col-md-offset-1 contact-info pt-4'>
@@ -51,8 +51,8 @@ export const Contact = ({ openBecomeClient }) => {
                 <MdOutlineEmail /> Email
               </span>
               <p>
-                <a href='mailto:lautynievas09@gmail.com'>
-                  lautynievas09@gmail.com
+                <a href='mailto:lautaro.nievas@nevvedesign.com'>
+                  lautaro.nievas@nevvedesign.com
                 </a>
               </p>
             </div>

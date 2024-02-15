@@ -9,7 +9,6 @@ export const useTemplate = () => {
   const openGallery = (index) => {
     setSelectedImageIndex(index)
     setCurrentImages(images[index].imagesData)
-    console.log(currentImages)
     setShowCarousel(true)
     document.body.classList.add('body-no-scroll')
   }

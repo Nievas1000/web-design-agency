@@ -1,11 +1,11 @@
 import { IoClose } from 'react-icons/io5'
 import { useBecomeClient } from '../../hooks/useBecomeClient'
-import { FaLongArrowAltRight } from 'react-icons/fa'
+import { FaLongArrowAltRight, FaSpinner } from 'react-icons/fa'
 import { ThanksText } from './ThanksText'
 import { useTranslation } from 'react-i18next'
 
 export const BecomeClient = ({ setShow, show }) => {
-  const { handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError, sent } = useBecomeClient(setShow, show)
+  const { handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError, sent, isSending } = useBecomeClient(setShow, show)
   const { t } = useTranslation()
   const becomeData = t('BECOMECLIENT', { returnObjects: true })
   return (
@@ -15,7 +15,7 @@ export const BecomeClient = ({ setShow, show }) => {
           ? <div>
             <span className='position-absolute pointer end-0 pe-3 pt-3' onClick={closeBecomeClient}><IoClose size={30} /></span>
             <div className='container p-5'>
-              <h1>{becomeData.title}</h1>
+              <h2>{becomeData.title}</h2>
               <div className='pt-4 d-block d-md-flex gap-5'>
                 <div>
                   <h5>{becomeData.inputName}</h5>
@@ -50,7 +50,7 @@ export const BecomeClient = ({ setShow, show }) => {
                 <textarea name='message' value={formData.message} onChange={handleChange} placeholder={becomeData.messagePleaceholder} />
               </div>
               <div className='d-flex justify-content-end pt-5'>
-                <span className='send-request-become' onClick={handleSubmit}>{becomeData.submitButton} <FaLongArrowAltRight className='ms-3' /></span>
+                <span className='send-request-become' onClick={handleSubmit}>{becomeData.submitButton} {isSending ? <FaSpinner className='ms-3 spinner-become' /> : <FaLongArrowAltRight className='ms-3' />}</span>
               </div>
               <div>
                 <h5 className='pt-2'>{becomeData.footer1}  <a className='become-call-book' href='#calendar' onClick={closeBecomeClient}>{becomeData.footer2} </a> {becomeData.footer3} .</h5>

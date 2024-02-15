@@ -16,7 +16,6 @@ export const ParallaxImage = ({ openBecomeClient }) => {
           <div className='parallax-container'>
             <div className='position-absolute text-container'>
               <p>{t('SERVICES.parallax1')}</p>
-              <p>{t('SERVICES.parallax1')}</p>
               <div className='d-md-flex justify-content-center gap-2'>
                 <button className='button-parallax get-contact mt-1' onClick={openBecomeClient}>{t('HEADER.item3')}</button>
               </div>

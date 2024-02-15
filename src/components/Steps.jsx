@@ -10,7 +10,7 @@ export const Steps = ({ openBecomeClient }) => {
         <Spline scene='https://prod.spline.design/HLRXR6e-J-lyAojT/scene.splinecode' />
       </div>
       <div className='container pt-5 pb-5'>
-        <h1 className='d-flex justify-content-center'>{stepsData.title}</h1>
+        <h2 className='d-flex justify-content-center'>{stepsData.title}</h2>
         <div className='d-block d-md-flex pt-5'>
           <div className='steps-list'>
             <div className='step-item'>

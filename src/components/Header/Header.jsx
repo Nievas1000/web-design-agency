@@ -29,12 +29,12 @@ export const Header = ({ openBecomeClient }) => {
               </div>
             </div>
             <div className='d-block'>
-              <h1 className='header-title text-center'>
+              <h2 className='header-title text-center'>
                 {t('HEADER.item1')}
-              </h1>
-              <h1 className='header-title text-center'>
+              </h2>
+              <h2 className='header-title text-center'>
                 {words[wordIndex]}
-              </h1>
+              </h2>
               <div className='d-flex justify-content-center pt-3 subtitle-header'>
                 <h4 className='text-center'>{t('HEADER.item2')}</h4>
               </div>

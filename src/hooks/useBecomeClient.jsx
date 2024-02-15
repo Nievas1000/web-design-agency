@@ -14,6 +14,7 @@ export const useBecomeClient = (setShow, show) => {
   const [emailError, setEmailError] = useState(false)
   const [serviceError, setServiceError] = useState(false)
   const [sent, setSent] = useState(false)
+  const [isSending, setIsSending] = useState(false)
   const becomeContainerRef = useRef()
   const { t } = useTranslation()
   const services = t('BECOMECLIENT.services', { returnObjects: true })
@@ -25,13 +26,12 @@ export const useBecomeClient = (setShow, show) => {
     } else if (name === 'email') {
       setEmailError(false)
     }
-    console.log(name)
     setFormData((prevState) => ({ ...prevState, [name]: value }))
   }
 
   const handleSubmit = async (e) => {
-    console.log(selectedOptions.length)
     e.preventDefault()
+    setIsSending(true)
     if (
       formData.email !== '' && formData.name !== '' && selectedOptions.length > 0) {
       const response = await fetch(
@@ -44,13 +44,13 @@ export const useBecomeClient = (setShow, show) => {
           body: JSON.stringify({ name: formData.name, email: formData.email, message: formData.message, services: selectedOptions })
         }
       )
-      console.log(response)
       if (response.status === 200) {
         setNameError(false)
         setEmailError(false)
         setServiceError(false)
         setFormData({ ...initialState })
         setSelectedOptions([])
+        setIsSending(false)
         setSent(true)
       }
     } else {
@@ -108,5 +108,5 @@ export const useBecomeClient = (setShow, show) => {
     document.body.classList.remove('body-no-scroll')
   }
 
-  return { sent, handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError }
+  return { sent, handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError, isSending }
 }

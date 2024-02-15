@@ -10,8 +10,8 @@ export const Templates = () => {
   const { t } = useTranslation()
 
   return (
-    <div id='templates' className='container pb-5'>
-      <h1 className='text-center mt-4 mb-5'>{t('TEMPLATE.title')}</h1>
+    <div id='templates' className='d-none d-md-block container pb-5'>
+      <h2 className='text-center mt-4 mb-5'>{t('TEMPLATE.title')}</h2>
       <div className='row justify-content-center'>
         {images.map((image, index) => (
           <div key={index} className='col-12 col-sm-6 col-md-4 mb-4'>
@@ -32,8 +32,8 @@ export const Templates = () => {
             <Slider {...settings} initialSlide={selectedImageIndex}>
               {currentImages.map((image, index) => (
                 <div key={index}>
-                  <p className='d-flex justify-content-center title-carousel'>{index + 1}</p>
-                  <img src={image} alt={`Template ${selectedImageIndex + 1}`} />
+                  <h5 className='d-flex justify-content-center text-white'>{image.title}</h5>
+                  <img src={image.src} alt={`Template ${selectedImageIndex + 1}`} />
                 </div>
               ))}
             </Slider>

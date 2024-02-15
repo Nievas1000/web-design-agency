@@ -36,9 +36,6 @@ import template4Image6 from '../assets/templates/template4/image6.png'
 import template5Home from '../assets/templates/template5/home.png'
 import template5Image1 from '../assets/templates/template5/image1.png'
 import template5Image2 from '../assets/templates/template5/image2.png'
-import template5Image3 from '../assets/templates/template5/image3.png'
-import template5Image4 from '../assets/templates/template5/image4.png'
-import template5Image5 from '../assets/templates/template5/image5.png'
 
 import template6Home from '../assets/templates/template6/home.png'
 import template6Image1 from '../assets/templates/template6/image1.png'
@@ -53,26 +50,72 @@ export const images = [
     title: 'Mentor - Personal Development Coach',
     main: template1Home,
     imagesData: [
-      template1Image1,
-      template1Image2,
-      template1Image3,
-      template1Image4,
-      template1Image5,
-      template1Image6
+      {
+        src: template1Image1,
+        title: 'Home'
+      },
+      {
+        src: template1Image2,
+        title: 'About'
+      },
+      {
+        src: template1Image3,
+        title: 'Testimonials'
+      },
+      {
+        src: template1Image4,
+        title: 'Workshops'
+      },
+      {
+        src: template1Image5,
+        title: 'Blog'
+      },
+      {
+        src: template1Image6,
+        title: 'Contact'
+      }
     ]
   },
   {
     title: 'Brussals - Personal Development Coach',
     main: template2Home,
     imagesData: [
-      template2Image1,
-      template2Image2,
-      template2Image3,
-      template2Image4,
-      template2Image5,
-      template2Image6,
-      template2Image7,
-      template2Image8
+      {
+        src: template2Image1,
+        title: 'Home'
+      },
+      {
+        src: template2Image2,
+        title: 'About'
+      },
+      {
+        src: template2Image3,
+        title: 'Services'
+      },
+      {
+        src: template2Image4,
+        title: 'Testimonials'
+      },
+      {
+        src: template2Image5,
+        title: 'Events'
+      },
+      {
+        src: template2Image6,
+        title: 'Portfolio'
+      },
+      {
+        src: template2Image7,
+        title: 'Blog'
+      },
+      {
+        src: template2Image8,
+        title: 'Contact'
+      },
+      {
+        src: template2Image2,
+        title: 'Home'
+      }
 
     ]
   },
@@ -80,13 +123,34 @@ export const images = [
     title: 'Trainer - Trainer, Mentor and Coach',
     main: template3Home,
     imagesData: [
-      template3Image1,
-      template3Image2,
-      template3Image3,
-      template3Image4,
-      template3Image5,
-      template3Image6,
-      template3Image7
+      {
+        src: template3Image1,
+        title: 'Home'
+      },
+      {
+        src: template3Image2,
+        title: 'About'
+      },
+      {
+        src: template3Image3,
+        title: 'Services'
+      },
+      {
+        src: template3Image4,
+        title: 'Events'
+      },
+      {
+        src: template3Image5,
+        title: 'Testimonials'
+      },
+      {
+        src: template3Image6,
+        title: 'Blog'
+      },
+      {
+        src: template3Image7,
+        title: 'Contact'
+      }
 
     ]
   },
@@ -94,35 +158,74 @@ export const images = [
     title: 'Bonsi - Business Consulting and Professional Services',
     main: template4Home,
     imagesData: [
-      template4Image1,
-      template4Image2,
-      template4Image3,
-      template4Image4,
-      template4Image5,
-      template4Image6
+      {
+        src: template4Image1,
+        title: 'Home'
+      },
+      {
+        src: template4Image2,
+        title: 'About'
+      },
+      {
+        src: template4Image3,
+        title: 'Services'
+      },
+      {
+        src: template4Image4,
+        title: 'Projects'
+      },
+      {
+        src: template4Image5,
+        title: 'Blog'
+      },
+      {
+        src: template4Image6,
+        title: 'Contact'
+      }
     ]
   },
   {
     title: 'LifeCoach - Coach, Speaker & Mentor',
     main: template5Home,
     imagesData: [
-      template5Image1,
-      template5Image2,
-      template5Image3,
-      template5Image4,
-      template5Image5
+      {
+        src: template5Image1,
+        title: 'Landingpage'
+      },
+      {
+        src: template5Image2,
+        title: 'Landingpage'
+      }
     ]
   },
   {
     title: 'Xcoach - Life And Business Coach',
     main: template6Home,
     imagesData: [
-      template6Image1,
-      template6Image2,
-      template6Image3,
-      template6Image4,
-      template6Image5,
-      template6Image6
+      {
+        src: template6Image1,
+        title: 'Home'
+      },
+      {
+        src: template6Image2,
+        title: 'About'
+      },
+      {
+        src: template6Image3,
+        title: 'Services'
+      },
+      {
+        src: template6Image4,
+        title: 'Events'
+      },
+      {
+        src: template6Image5,
+        title: 'Blog'
+      },
+      {
+        src: template6Image6,
+        title: 'Contact'
+      }
     ]
   }
 ]

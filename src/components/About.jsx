@@ -80,7 +80,7 @@ export const About = () => {
                     )
                   })}
                 </ul>
-                <h1 className='pt-5'>{aboutData.aboutVision.imageZone.footer}</h1>
+                <h2 className='pt-5'>{aboutData.aboutVision.imageZone.footer}</h2>
               </div>
             </div>
             <div className='img-about'>
