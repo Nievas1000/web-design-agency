@@ -5,14 +5,16 @@ import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 import Spline from '@splinetool/react-spline'
 import dev from '../assets/about-dev.jpg'
 import { useTranslation } from 'react-i18next'
+import { useScrollEffect } from '../hooks/useScrollEfect'
 
 export const About = () => {
   const [section, setSection] = useState('')
+  const [visible] = useScrollEffect('scrollEffectAbout')
   const { t } = useTranslation()
   const aboutData = t('ABOUT', { returnObjects: true })
 
   return (
-    <div id='about' className='pb-5'>
+    <div id='about' className={`pb-5 scrollEffectAbout ${visible && 'visible'}`}>
       <div className='container position-relative d-block d-lg-flex'>
         <div className='position-absolute er'>
           <Spline scene='https://prod.spline.design/azpqkgYmEcAWPtey/scene.splinecode' />
@@ -63,10 +65,10 @@ export const About = () => {
       </div>
       <div className='container pt-5'>
         <h3 className='d-flex justify-content-center text-center'>{aboutData.aboutVision.title}</h3>
-        <div className='p-5'>
-          <p className='d-flex justify-content-center align-items-center text-center about-coding-text'>{aboutData.aboutVision.description1}</p>
-          <p className='d-flex justify-content-center align-items-center text-center about-coding-text'>{aboutData.aboutVision.description2}</p>
-          <p className='d-flex justify-content-center align-items-center text-center about-coding-text fw-bold'>{aboutData.aboutVision.description3}</p>
+        <div className='p-2'>
+          <p className='d-flex pt-4 justify-content-center align-items-center text-center about-coding-text'>{aboutData.aboutVision.description1}</p>
+          <p className='d-flex pt-2 justify-content-center align-items-center text-center about-coding-text'>{aboutData.aboutVision.description2}</p>
+          <p className='d-flex pt-2 justify-content-center align-items-center text-center about-coding-text fw-bold'>{aboutData.aboutVision.description3}</p>
         </div>
         <div className='d-flex justify-content-center'>
           <div className='d-block d-md-flex container-coding-list'>

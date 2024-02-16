@@ -7,14 +7,15 @@ import { Services } from './components/Services'
 import { useState } from 'react'
 import { Reasons } from './components/Reasons'
 import { Calendar } from './components/Calendar'
-import { ScrollAnimationContainer } from './components/ScrollContainer'
 import { BecomeClient } from './components/BecomeClient/BecomeClient'
 import { Steps } from './components/Steps'
 import { WhyUs } from './components/WhyUs'
 import { Templates } from './components/Templates'
+import { useTranslation } from 'react-i18next'
 
 function App () {
   const [show, setShow] = useState(false)
+  const { t } = useTranslation()
 
   const openBecomeClient = () => {
     setShow(true)
@@ -22,32 +23,18 @@ function App () {
   }
   return (
     <div>
-      <button id='floating-button' onClick={openBecomeClient}>+ Become a Client</button>
+      <button id='floating-button' onClick={openBecomeClient}>+ {t('BECOMECLIENT.becomeButton')}</button>
       {show && <BecomeClient setShow={setShow} show={show} />}
       <Navbar />
       <Header openBecomeClient={openBecomeClient} />
-      <ScrollAnimationContainer direction='y' initial={300}>
-        <Services openBecomeClient={openBecomeClient} />
-      </ScrollAnimationContainer>
-      <ScrollAnimationContainer direction='y' initial={300}>
-        <WhyUs />
-      </ScrollAnimationContainer>
+      <Services openBecomeClient={openBecomeClient} />
+      <WhyUs />
       <ParallaxImage openBecomeClient={openBecomeClient} />
-      <ScrollAnimationContainer direction='y' initial={300}>
-        <About />
-      </ScrollAnimationContainer>
-      <ScrollAnimationContainer direction='y' initial={300}>
-        <Reasons openBecomeClient={openBecomeClient} />
-      </ScrollAnimationContainer>
-      <ScrollAnimationContainer direction='y' initial={300}>
-        <Steps openBecomeClient={openBecomeClient} />
-      </ScrollAnimationContainer>
-      <ScrollAnimationContainer direction='y' initial={300}>
-        <Templates />
-      </ScrollAnimationContainer>
-      <ScrollAnimationContainer direction='y' initial={300}>
-        <Calendar />
-      </ScrollAnimationContainer>
+      <About />
+      <Reasons openBecomeClient={openBecomeClient} />
+      <Steps openBecomeClient={openBecomeClient} />
+      <Templates />
+      <Calendar />
       <Contact openBecomeClient={openBecomeClient} />
     </div>
   )

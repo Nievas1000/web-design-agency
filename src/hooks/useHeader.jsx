@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export const useHeader = () => {
   const [wordIndex, setWordIndex] = useState(0)
-  const words = ['coaches', 'mentors', 'entrepreneurs', 'influencers']
+  const { i18n } = useTranslation()
+  const words = i18n.language === 'en' ? ['Coaching', 'Mentor', 'Entrepreneur', 'Influencer'] : ['Coaching', 'Mentor', 'Emprendedor', 'Influencer']
 
   useEffect(() => {
     const interval = setInterval(() => {

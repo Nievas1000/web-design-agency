@@ -42,7 +42,7 @@ export const Navbar = () => {
             <a className='nav-link page-scroll' onClick={() => scrollToSection('about')}>{t('NAVBAR.item2')}</a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link page-scroll d-none d-md-block' onClick={() => scrollToSection('templates')}>{t('NAVBAR.item3')}</a>
+            <a className='nav-link page-scroll' onClick={() => scrollToSection('templates')}>{t('NAVBAR.item3')}</a>
           </li>
           <li className='nav-item'>
             <a className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>{t('NAVBAR.item4')}</a>

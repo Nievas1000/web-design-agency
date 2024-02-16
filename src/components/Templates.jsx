@@ -6,15 +6,17 @@ import { useTemplate } from '../hooks/useTemplate'
 import { useTranslation } from 'react-i18next'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
+import { useScrollEffect } from '../hooks/useScrollEfect'
 
 export const Templates = () => {
   const { selectedImageIndex, openGallery, images, closeGallery, showCarousel, settings, currentImages } = useTemplate()
+  const [visible] = useScrollEffect('scrollEffectTemplates')
   const { t } = useTranslation()
 
   return (
     <div id='templates' className='container pb-5'>
       <h2 className='text-center mt-4 mb-5'>{t('TEMPLATE.title')}</h2>
-      <div className='row justify-content-center'>
+      <div className={`row justify-content-center scrollEffectTemplates ${visible && 'visible'}`}>
         {images.map((image, index) => (
           <div key={index} className='col-12 col-sm-6 col-md-4 mb-4'>
             <h5 className='d-flex justify-content-center text-center pb-2'>{image.title}</h5>

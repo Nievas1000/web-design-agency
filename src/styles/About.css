@@ -2,6 +2,12 @@
   width: 94%;
 }
 
+.scrollEffectAbout {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
 .card-about{
     padding: 12px 20px;
     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
@@ -68,7 +74,7 @@
   }
   
   .about-coding-text{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
@@ -131,7 +137,7 @@
   
     .img-about{
       width: 100%;
-      top: 65%;
+      top: 70%;
       right: -10%;
     }
   

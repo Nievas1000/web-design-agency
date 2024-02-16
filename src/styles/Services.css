@@ -1,3 +1,9 @@
+.scrollEffectServices {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
 .services-table ul{
     list-style: none;
     padding-left: 0px !important;
@@ -137,16 +143,24 @@
 
   
   
-    @media only screen and (max-width: 992px) {
-        .become-content{
-            width: 100%;
-            overflow: scroll;
-        }
-        .approach-container {
-            display: block !important;
-          }
-          .approach-description{
-            font-size: 30px;
-            width: 100%;
-          }
-    }
+  @media only screen and (max-width: 992px) {
+      .become-content{
+          width: 100%;
+          overflow: scroll;
+      }
+    .approach-container {
+        display: block !important;
+      }
+      .approach-description{
+        font-size: 25px;
+        width: 100%;
+      }
+  }
+
+  /* WHY US */
+
+  .scrollEffectWhy {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }

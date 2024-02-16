@@ -4,14 +4,16 @@ import image1 from '../assets/service1.png'
 import image2 from '../assets/service2.png'
 import image3 from '../assets/service3.png'
 import { useTranslation } from 'react-i18next'
+import { useScrollEffect } from '../hooks/useScrollEfect'
 
 export const Services = ({ openBecomeClient }) => {
   const [serviceSelected, setServiceSelected] = useState('custom')
+  const [visible] = useScrollEffect('scrollEffectServices')
   const { t } = useTranslation()
 
   return (
-    <div id='services' className='pb-5'>
-      <div className='h-100'>
+    <div id='services' className={`scrollEffectServices ${visible && 'visible'}`}>
+      <>
         <div className='container pt-5'>
           <h4>01 — {t('SERVICES.title')}</h4>
           <p className='approach-description'>{t('SERVICES.description')}</p>
@@ -20,8 +22,8 @@ export const Services = ({ openBecomeClient }) => {
         <div className='position-absolute er'>
           <Spline scene='https://prod.spline.design/NESURyfSGpm-aX7P/scene.splinecode' />
         </div>
-        <div className='container position-relative pt-5 pb-5'>
-          <div className='row pt-3'>
+        <div className='container position-relative pt-2 pb-5'>
+          <div className='row'>
             <div className='col-12 col-lg-4 p-5'>
               <div className='services-table'>
                 <ul>
@@ -46,7 +48,7 @@ export const Services = ({ openBecomeClient }) => {
                   <h2>{t('SERVICES.servicesList.subtitle1')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description1')}</p>
                   <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>Get a quote</button>
+                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}
@@ -56,7 +58,7 @@ export const Services = ({ openBecomeClient }) => {
                   <h2>{t('SERVICES.servicesList.subtitle2')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description2')}</p>
                   <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>Get a quote</button>
+                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}
@@ -66,7 +68,7 @@ export const Services = ({ openBecomeClient }) => {
                   <h2>{t('SERVICES.servicesList.subtitle3')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description3')}</p>
                   <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>Get a quote</button>
+                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}
@@ -76,7 +78,7 @@ export const Services = ({ openBecomeClient }) => {
                   <h2>{t('SERVICES.servicesList.subtitle4')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description4')}</p>
                   <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>Get a quote</button>
+                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}
@@ -137,7 +139,7 @@ export const Services = ({ openBecomeClient }) => {
             </div>
           </div>
         </div>
-      </div>
+      </>
     </div>
   )
 }

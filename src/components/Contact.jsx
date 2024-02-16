@@ -21,10 +21,10 @@ export const Contact = ({ openBecomeClient }) => {
               </p>
               <div className='pt-3'>
                 <span href='#features' onClick={openBecomeClient} className='d-inline become-contact'>
-                  Become a client
+                  {t('BECOMECLIENT.becomeButton')}
                 </span>
               </div>
-              <p className='pt-4'>{t('CONTACT.description2')}.</p>
+              <p className='pt-4'>{t('CONTACT.description2')}</p>
               <a className='contact-email' href='mailto:lautaro.nievas@nevvedesign.com'>lautaro.nievas@nevvedesign.com</a>
             </div>
           </div>

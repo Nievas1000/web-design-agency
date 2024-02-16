@@ -8,9 +8,10 @@
         "item6": "ES"
     },
     "HEADER":{
-        "item1": "Diseño web para",
-        "item2": "Transforma tu oferta y crea un sitio web que atraiga más clientes, llenando tu agenda. Descubra cómo Nevve puede impulsar su presencia en línea y hacer despegar su negocio.",
-        "item3": "Ponte en contacto"
+        "item1": "Soluciones de Diseño de Sitios Web Para Mejorar Su ",
+        "item2": "Negocio Como",
+        "item3": "Transforma tu oferta y crea un sitio web que atraiga más clientes, llenando tu agenda. Descubra cómo Nevve puede impulsar su presencia en línea y hacer despegar su negocio.",
+        "item4": "Ponte en contacto"
     },
     "SERVICES":{
         "title": "Nuestros servicios",
@@ -29,6 +30,7 @@
             "subtitle4":"Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
             "description4":"Eleve su longevidad digital con nuestro servicio de mantenimiento de sitios web. Su viaje en línea no concluye con el lanzamiento de su sitio web. Nuestro equipo está dedicado a la colaboración continua, garantizando que su plataforma funcione sin problemas y de forma segura. Desde actualizaciones técnicas hasta monitoreo atento, asumimos la responsabilidad de mantener la salud óptima de su sitio. Esta opción brinda tranquilidad, permitiendo que su presencia digital evolucione de manera eficiente y consistente."
         },
+        "button":"Obten un presupuesto",
         "servicesCards":{
             "title1": "Adaptación móvil",
             "description1": "Optimizamos tu sitio web para dispositivos móviles, asegurando una experiencia impecable en pantallas pequeñas. Desde el diseño hasta la funcionalidad, su sitio se destaca en cualquier dispositivo.",

@@ -8,9 +8,10 @@
         "item6": "EN"
     },
     "HEADER":{
-        "item1": "Website Design for",
-        "item2": "Transform your offer and create a website that attracts more customers, filling your agenda. Discover how Nevve can boost your online presence and get your business off the ground.",
-        "item3": "Get in touch"
+        "item1": "Website Design Solutions to Elevate Your",
+        "item2": "Bussines",
+        "item3": "Transform your offer and create a website that attracts more customers, filling your agenda. Discover how Nevve can boost your online presence and get your business off the ground.",
+        "item4": "Get in touch"
     },
     "SERVICES":{
         "title": "Our Services",
@@ -29,6 +30,7 @@
             "subtitle4":"Uninterrupted Excellence: Website Maintenance for Seamless Operation",
             "description4":"Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
         },
+        "button":"Get a quote",
         "servicesCards":{
             "title1": "Mobile adaptation",
             "description1": "We optimize your website for mobile devices, ensuring an impeccable experience on small screens. From design to functionality, your site stands out on any device.",
@@ -38,7 +40,7 @@
             "description3": "Our adaptive design components are built using perfectly structured and readable code. We make sure that the development solutions are well-optimized and work flawlessly across devices and browsers."
         },
         "parallax1": "Making your business outstanding is a science.",
-        "parallax2": "Making your business outstanding is a science."
+        "parallax2": "We take it (a) seriously and (b) creatively."
     },
     "WHYUS":{
         "title": "Why choose us?",
