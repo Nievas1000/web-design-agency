@@ -33,10 +33,6 @@ import template4Image4 from '../assets/templates/template4/image4.png'
 import template4Image5 from '../assets/templates/template4/image5.png'
 import template4Image6 from '../assets/templates/template4/image6.png'
 
-import template5Home from '../assets/templates/template5/home.png'
-import template5Image1 from '../assets/templates/template5/image1.png'
-import template5Image2 from '../assets/templates/template5/image2.png'
-
 import template6Home from '../assets/templates/template6/home.png'
 import template6Image1 from '../assets/templates/template6/image1.png'
 import template6Image2 from '../assets/templates/template6/image2.png'
@@ -155,7 +151,7 @@ export const images = [
     ]
   },
   {
-    title: 'Bonsi - Business Consulting and Professional Services',
+    title: 'Bonsi - Business and Professional Services',
     main: template4Home,
     imagesData: [
       {
@@ -181,20 +177,6 @@ export const images = [
       {
         src: template4Image6,
         title: 'Contact'
-      }
-    ]
-  },
-  {
-    title: 'LifeCoach - Coach, Speaker & Mentor',
-    main: template5Home,
-    imagesData: [
-      {
-        src: template5Image1,
-        title: 'Landingpage'
-      },
-      {
-        src: template5Image2,
-        title: 'Landingpage'
       }
     ]
   },

@@ -47,7 +47,7 @@ export const Navbar = () => {
           <li className='nav-item'>
             <a className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>{t('NAVBAR.item4')}</a>
           </li>
-          <li className='nav-item d-none d-lg-block'>
+          <li className='nav-item'>
             <a className='nav-link page-scroll' onClick={() => scrollToSection('calendar')}>
               <span href='#features' className='button-more d-inline'>
                 {t('NAVBAR.item5')}

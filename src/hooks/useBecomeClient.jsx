@@ -7,6 +7,11 @@ const initialState = {
   message: ''
 }
 
+const validateEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  return emailRegex.test(email)
+}
+
 export const useBecomeClient = (setShow, show) => {
   const [formData, setFormData] = useState(initialState)
   const [selectedOptions, setSelectedOptions] = useState([])
@@ -33,7 +38,7 @@ export const useBecomeClient = (setShow, show) => {
     e.preventDefault()
     setIsSending(true)
     if (
-      formData.email !== '' && formData.name !== '' && selectedOptions.length > 0) {
+      validateEmail(formData.email) && formData.name !== '' && selectedOptions.length > 0) {
       const response = await fetch(
         'https://backend-agency.vercel.app/getQuote',
         {
@@ -58,16 +63,19 @@ export const useBecomeClient = (setShow, show) => {
         setNameError(true)
       } else {
         setNameError(false)
+        setIsSending(false)
       }
-      if (formData.email === '') {
+      if (!validateEmail(formData.email)) {
         setEmailError(true)
       } else {
         setEmailError(false)
+        setIsSending(false)
       }
       if (selectedOptions.length === 0) {
         setServiceError(true)
       } else {
         setServiceError(false)
+        setIsSending(false)
       }
     }
   }

@@ -57,7 +57,7 @@ export const BecomeClient = ({ setShow, show }) => {
               </div>
             </div>
           </div> // eslint-disable-line
-          : <ThanksText becomeData={becomeData} />}
+          : <ThanksText becomeData={becomeData} closeBecomeClient={closeBecomeClient} />}
       </div>
     </div>
   )
