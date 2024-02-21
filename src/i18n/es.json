@@ -194,7 +194,8 @@
         ]
     },
     "TEMPLATE":{
-        "title": "Plantillas"
+        "title": "Plantillas",
+        "example": "Portafolio"
     },
     "scheduleCall": "Agendemos una llamada!",
     "CONTACT":{

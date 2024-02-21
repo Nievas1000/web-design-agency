@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { useScrollEffect } from '../hooks/useScrollEfect'
+/* import imageWork from '../assets/work-example.png' */
 
 export const Templates = () => {
   const { selectedImageIndex, openGallery, images, closeGallery, showCarousel, settings, currentImages } = useTemplate()
@@ -46,6 +47,17 @@ export const Templates = () => {
           </div>
         </div>
       )}
+      {/*       <div className='pt-5 pb-5'>
+        <h2 className='d-flex justify-content-center pb-3'>{t('TEMPLATE.example')}</h2>
+        <div className='d-flex justify-content-center'>
+          <div className='template-container container-work'>
+            <img src={imageWork} className='img-fluid' />
+            <div className='overlay-template'>
+              <a href='https://james-clear.netlify.app/' target='_blank' className='view-more-btn' rel='noreferrer'><i className='fa-solid fa-globe' aria-hidden='true' /> Visit</a>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </div>
   )
 }

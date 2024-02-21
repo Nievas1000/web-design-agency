@@ -23,7 +23,7 @@ function App () {
   }
   return (
     <div>
-      <button id='floating-button' onClick={openBecomeClient}>+ {t('BECOMECLIENT.becomeButton')}</button>
+      <button id='floating-button' className='d-none d-md-block' onClick={openBecomeClient}>+ {t('BECOMECLIENT.becomeButton')}</button>
       {show && <BecomeClient setShow={setShow} show={show} />}
       <Navbar />
       <Header openBecomeClient={openBecomeClient} />

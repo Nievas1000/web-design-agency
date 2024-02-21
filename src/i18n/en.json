@@ -194,7 +194,8 @@
         ]
     },
     "TEMPLATE":{
-        "title": "Templates"
+        "title": "Templates",
+        "example": "Portfolio"
     },
     "scheduleCall": "Let's schedule a call!",
     "CONTACT":{

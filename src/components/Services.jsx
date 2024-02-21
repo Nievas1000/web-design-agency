@@ -19,7 +19,7 @@ export const Services = ({ openBecomeClient }) => {
           <p className='approach-description'>{t('SERVICES.description')}</p>
         </div>
 
-        <div className='position-absolute er'>
+        <div className='position-absolute d-none d-md-block er'>
           <Spline scene='https://prod.spline.design/NESURyfSGpm-aX7P/scene.splinecode' />
         </div>
         <div className='container position-relative pt-2 pb-5'>
