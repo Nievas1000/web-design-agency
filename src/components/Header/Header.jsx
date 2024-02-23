@@ -25,7 +25,7 @@ export const Header = ({ openBecomeClient }) => {
               <h4>{t('HEADER.item3')}</h4>
             </div>
             <div className='pt-3'>
-              <span href='#features' className='button-more' onClick={openBecomeClient}>
+              <span href='#features' className='button-more' onClick={() => openBecomeClient(false)}>
                 {t('HEADER.item4')}
               </span>
             </div>

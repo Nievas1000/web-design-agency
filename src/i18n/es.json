@@ -17,20 +17,20 @@
         "title": "Nuestros servicios",
         "description":"Descubra soluciones web personalizadas y de última generación. Desde sitios personalizados hasta mantenimiento experto, transformamos su visión en realidad digital.",
         "servicesList":{
-            "item1":"Diseño web personalizado",
-            "subtitle1":"Eleve su presencia con un diseño web personalizado único",
-            "description1":"Descubra el poder de una identidad online personalizada con nuestro servicio de Diseño Web Personalizado. No solo creamos sitios web; Co-creamos experiencias digitales que resuenan con su marca. Colaborando estrechamente con usted, profundizamos en sus objetivos y aspiraciones, asegurando que cada elemento refleje su identidad. Desde diseños distintivos hasta la integración de funcionalidades personalizadas, nuestro compromiso es ofrecer un sitio web visualmente impresionante y funcionalmente superior. Nuestro proceso iterativo con revisiones activas y estricto cumplimiento de los plazos garantiza que su visión digital no solo cobre vida sino que se destaque de manera efectiva en todos los dispositivos.",
-            "item2":"Plantillas de diseño web",
-            "subtitle2":"Elegancia sin esfuerzo: transfórmese con plantillas de diseño web",
-            "description2":"Libere el potencial de soluciones web rápidas pero elegantes con nuestro servicio de diseño web de plantillas. Elija entre una amplia gama de plantillas de diseño, cada una de las cuales constituye la base de su visión digital. Nuestro proceso eficiente le permite seleccionar rápidamente la plantilla que se adapta a sus objetivos. A partir de ahí, personalizamos meticulosamente cada detalle para alinearlo perfectamente con su marca y sus requisitos. Este enfoque optimizado garantiza la entrega de un sitio web atractivo y funcional, elevando su presencia digital de manera única y efectiva.",
-            "item3":"Ayuda de sitio web",
-            "subtitle3":"Orientación de expertos para un gran sitio web",
-            "description3":"Navegue por el panorama digital con confianza utilizando nuestro servicio de ayuda del sitio web. Ya sea que esté lidiando con desafíos técnicos, buscando actualizaciones o buscando mejoras de rendimiento, nuestro equipo de expertos está a su servicio. Simplificamos el proceso, permitiéndole concentrarse en su negocio mientras abordamos las complejidades técnicas. Nuestro objetivo es optimizar su sitio web, asegurándonos de que no solo cumpla sino que supere sus expectativas. Con nosotros, puede concentrarse en sus actividades principales mientras mejoramos su presencia digital sin problemas.",
+            "item1":"Embudos de venta",
+            "subtitle1":"Optimiza tus Ventas con Embudos de Ventas Personalizados",
+            "description1":"¡Potencia el crecimiento de tu negocio con nuestros Embudos de Ventas Personalizados! En Nevve, nos especializamos en crear embudos de ventas personalizados que se adaptan a las necesidades específicas de tu audiencia. Trabajando en estrecha colaboración contigo, diseñamos un proceso de ventas estratégico que guía a tus clientes potenciales a través de un viaje optimizado, desde la atracción inicial hasta la conversión final. Nuestro enfoque centrado en el cliente garantiza que cada paso del embudo esté alineado con tus objetivos comerciales, maximizando así las oportunidades de conversión y generando resultados tangibles. Descubre cómo nuestros Embudos de Ventas Personalizados pueden impulsar tus ventas y hacer crecer tu negocio.",
+            "item2":"Diseño web personalizado",
+            "subtitle2":"Eleve su presencia con un diseño web personalizado único",
+            "description2":"Descubra el poder de una identidad online personalizada con nuestro servicio de Diseño Web Personalizado. No solo creamos sitios web; Co-creamos experiencias digitales que resuenan con su marca. Colaborando estrechamente con usted, profundizamos en sus objetivos y aspiraciones, asegurando que cada elemento refleje su identidad. Desde diseños distintivos hasta la integración de funcionalidades personalizadas, nuestro compromiso es ofrecer un sitio web visualmente impresionante y funcionalmente superior. Nuestro proceso iterativo con revisiones activas y estricto cumplimiento de los plazos garantiza que su visión digital no solo cobre vida sino que se destaque de manera efectiva en todos los dispositivos.",
+            "item3":"Plantillas de diseño web",
+            "subtitle3":"Elegancia sin esfuerzo: transfórmese con plantillas de diseño web",
+            "description3":"Libere el potencial de soluciones web rápidas pero elegantes con nuestro servicio de diseño web de plantillas. Elija entre una amplia gama de plantillas de diseño, cada una de las cuales constituye la base de su visión digital. Nuestro proceso eficiente le permite seleccionar rápidamente la plantilla que se adapta a sus objetivos. A partir de ahí, personalizamos meticulosamente cada detalle para alinearlo perfectamente con su marca y sus requisitos. Este enfoque optimizado garantiza la entrega de un sitio web atractivo y funcional, elevando su presencia digital de manera única y efectiva.",
             "item4":"Mantenimiento de sitio web",
             "subtitle4":"Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
             "description4":"Eleve su longevidad digital con nuestro servicio de mantenimiento de sitios web. Su viaje en línea no concluye con el lanzamiento de su sitio web. Nuestro equipo está dedicado a la colaboración continua, garantizando que su plataforma funcione sin problemas y de forma segura. Desde actualizaciones técnicas hasta monitoreo atento, asumimos la responsabilidad de mantener la salud óptima de su sitio. Esta opción brinda tranquilidad, permitiendo que su presencia digital evolucione de manera eficiente y consistente."
         },
-        "button":"Obten un presupuesto",
+        "button":"Obten mas informacion",
         "servicesCards":{
             "title1": "Adaptación móvil",
             "description1": "Optimizamos tu sitio web para dispositivos móviles, asegurando una experiencia impecable en pantallas pequeñas. Desde el diseño hasta la funcionalidad, su sitio se destaca en cualquier dispositivo.",
@@ -73,6 +73,16 @@
         "card2": "Tecnologias web",
         "listAbout":[
             {
+                "title": "Embudo de Ventas",
+                "section": "funnels",
+                "items":[
+                    "Atracción de clientes potenciales",
+                    "Interacción y compromiso",
+                    "Conversión de ventas",
+                    "Retención y fidelización"
+                ]
+            },
+            {
                 "title": "Diseño web personalizado",
                 "section": "custom",
                 "items":[
@@ -92,8 +102,8 @@
                 ]
             },
             {
-                "title": "Ayuda y mantenimiento del sitio web",
-                "section": "help",
+                "title": "Mantenimiento del sitio web",
+                "section": "maintenance",
                 "items":[
                     "Asistencia Técnica Experta",
                     "Optimización del rendimiento",
@@ -161,9 +171,9 @@
             "title":"Elija el servicio de diseño de sitios web",
             "description": "Lo invitamos a explorar nuestra gama de servicios de diseño web para encontrar la solución perfecta que se adapte a sus necesidades digitales.",
             "list":[
+                "Embudos de Venta",
                 "Diseño web personalizado",
                 "Plantillas de diseño web",
-                "Ayuda del sitio web",
                 "Mantenimiento del sitio web"
             ],
             "footer1": "Vaya a la",
@@ -217,17 +227,18 @@
         "messagePleaceholder": "Algo genial sobre tu increíble idea.",
         "servicesLabel":"Estoy interesado en...",
         "services":[
+            "Embudos de venta",
             "Diseño web personalizado",
             "Plantillas de diseño web",
-            "Ayuda de sitio web",
             "Mantenimiento de sitio web"
         ],
+        "customMessage": "Quiero mas informacion sobre ",
         "requiredTextInput": "Campo requerido",
         "requiredTextServices": "Selecciona al menos uno",
         "submitButton":"Enviar solicitud",
         "footer1": "O si prefieres puedes",
         "footer2": "agendar una llamada",
         "footer3": "directamente.",
-        "thanksText": "¡Gracias por tu interes en nuestros servicios! Su solicitud de cotización ha sido recibida exitosamente. Nuestro equipo revisará la información proporcionada y se comunicará con usted pronto para discutir más detalles y brindarle una cotización personalizada. Mientras tanto, si tiene alguna pregunta adicional, no dude en contactarnos. ¡Esperamos trabajar con usted para hacer realidad su visión en línea!"
+        "thanksText": "¡Gracias por tu interes en nuestros servicios! Su solicitud ha sido recibida exitosamente. Nuestro equipo revisará la información proporcionada y se comunicará con usted pronto para discutir más detalles y brindarle una cotización personalizada. Mientras tanto, si tiene alguna pregunta adicional, no dude en contactarnos. ¡Esperamos trabajar con usted para hacer realidad su visión en línea!"
     }
 }

@@ -18,7 +18,7 @@ export const ParallaxImage = ({ openBecomeClient }) => {
               <p>{t('SERVICES.parallax1')}</p>
               <p>{t('SERVICES.parallax2')}</p>
               <div className='d-md-flex justify-content-center gap-2'>
-                <button className='button-parallax get-contact mt-1' onClick={openBecomeClient}>{t('BECOMECLIENT.becomeButton')}</button>
+                <button className='button-parallax get-contact mt-1' onClick={() => openBecomeClient(false)}>{t('BECOMECLIENT.becomeButton')}</button>
               </div>
             </div>
           </div>

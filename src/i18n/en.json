@@ -17,20 +17,20 @@
         "title": "Our Services",
         "description":"Discover personalized and cutting-edge web solutions. From custom sites to expert maintenance, we transform your vision into digital reality.",
         "servicesList":{
-            "item1":"Custom Web Design",
-            "subtitle1":"Elevate Your Presence with Unique Custom Web Design",
-            "description1":"Discover the power of a tailored online identity with our Custom Web Design service. We don't just build websites; we co-create digital experiences that resonate with your brand. Collaborating closely with you, we delve into your goals and aspirations, ensuring every element reflects your identity. From distinctive designs to the integration of personalized functionalities, our commitment is to deliver a visually stunning and functionally superior website. Our iterative process with active reviews and strict adherence to deadlines ensures that your digital vision not only comes to life but stands out effectively across all devices.",
-            "item2":"Template Web Design",
-            "subtitle2":"Effortless Elegance: Transform with Template Web Design",
-            "description2":"Unleash the potential of swift yet stylish web solutions with our Template Web Design service. Choose from a diverse range of design templates, each a foundation for your digital vision. Our efficient process allows you to quickly select the template that resonates with your goals. From there, we meticulously customize every detail to align perfectly with your brand and requirements. This streamlined approach ensures the delivery of an attractive and functional website, elevating your digital presence uniquely and effectively.",
-            "item3":"Website help",
-            "subtitle3":"Expert Guidance for a Laser-Focused Website",
-            "description3":"Navigate the digital landscape with confidence using our Website Help service. Whether you're grappling with technical challenges, seeking upgrades, or pursuing performance improvements, our expert team is at your service. We simplify the process, allowing you to concentrate on your business while we tackle the technical intricacies. Our goal is to optimize your website, ensuring it not only meets but exceeds your expectations. With us, you can stay focused on your core activities while we enhance your digital presence seamlessly.",
+            "item1":"Sales Funnels",
+            "subtitle1":"Optimize your Sales with Customized Sales Funnels",
+            "description1":"Boost the growth of your business with our Customized Sales Funnels! At Nevve, we specialize in creating custom sales funnels that fit the specific needs of your audience. Working closely with you, we design a strategic sales process that guides your prospects through an optimized journey, from initial attraction to final conversion. Our customer-centric approach ensures that every step of the funnel is aligned with your business objectives, maximizing conversion opportunities and generating tangible results. Discover how our Custom Sales Funnels can boost your sales and grow your business.",
+            "item2":"Custom Web Design",
+            "subtitle2":"Elevate Your Presence with Unique Custom Web Design",
+            "description2":"Discover the power of a tailored online identity with our Custom Web Design service. We don't just build websites; we co-create digital experiences that resonate with your brand. Collaborating closely with you, we delve into your goals and aspirations, ensuring every element reflects your identity. From distinctive designs to the integration of personalized functionalities, our commitment is to deliver a visually stunning and functionally superior website. Our iterative process with active reviews and strict adherence to deadlines ensures that your digital vision not only comes to life but stands out effectively across all devices.",
+            "item3":"Template Web Design",
+            "subtitle3":"Effortless Elegance: Transform with Template Web Design",
+            "description3":"Unleash the potential of swift yet stylish web solutions with our Template Web Design service. Choose from a diverse range of design templates, each a foundation for your digital vision. Our efficient process allows you to quickly select the template that resonates with your goals. From there, we meticulously customize every detail to align perfectly with your brand and requirements. This streamlined approach ensures the delivery of an attractive and functional website, elevating your digital presence uniquely and effectively.",
             "item4":"Website maintenance",
             "subtitle4":"Uninterrupted Excellence: Website Maintenance for Seamless Operation",
             "description4":"Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
         },
-        "button":"Get a quote",
+        "button":"Get more info",
         "servicesCards":{
             "title1": "Mobile adaptation",
             "description1": "We optimize your website for mobile devices, ensuring an impeccable experience on small screens. From design to functionality, your site stands out on any device.",
@@ -73,6 +73,16 @@
         "card2": "Web technologies",
         "listAbout":[
             {
+                "title": "Sales Funnels",
+                "section": "funnels",
+                "items":[
+                    "Attracting potential clients",
+                    "Interaction and engagement",
+                    "Sales conversion",
+                    "Retention and loyalty"
+                ]
+            },
+            {
                 "title": "Custom Web Design",
                 "section": "custom",
                 "items":[
@@ -92,8 +102,8 @@
                 ]
             },
             {
-                "title": "Website Help & Maintenance",
-                "section": "help",
+                "title": "Website Maintenance",
+                "section": "maintenance",
                 "items":[
                     "Expert Technical Assistance",
                     "Performance Optimization",
@@ -161,9 +171,9 @@
             "title":"Choose Website Design Service",
             "description": "We invite you to explore our range of web design services to find the perfect solution to fit your digital needs.",
             "list":[
+                "Sales Funnels",
                 "Custom Web Design",
                 "Template Web Design",
-                "Website Help",
                 "Website Maintenance"
             ],
             "footer1": "Go to",
@@ -217,17 +227,18 @@
         "messagePleaceholder": "Something great about your amazing idea",
         "servicesLabel":"I'm interested in...",
         "services":[
+            "Sales Funnels",
             "Custom Web Design",
             "Template Web Design",
-            "Website Help",
             "Website Maintenance"
         ],
+        "customMessage": "I want more information about ",
         "requiredTextInput": "Required fiel",
         "requiredTextServices": "Select at least one",
         "submitButton":"Sumbit the request",
         "footer1": "Or if you prefer you can",
         "footer2": "book a call",
         "footer3": "directly.",
-        "thanksText": "Thank you for your interest in our services! Your quote request has been successfully received. Our team will review the information provided and contact you soon to discuss further details and provide you with a personalized quote. In the meantime, if you have any additional questions, please feel free to contact us. We look forward to working with you to make your vision online a reality!"
+        "thanksText": "Thank you for your interest in our services! Your request has been successfully received. Our team will review the information provided and contact you soon to discuss further details and provide you with a personalized quote. In the meantime, if you have any additional questions, please feel free to contact us. We look forward to working with you to make your vision online a reality!"
     }
 }

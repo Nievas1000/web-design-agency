@@ -12,12 +12,13 @@ const validateEmail = (email) => {
   return emailRegex.test(email)
 }
 
-export const useBecomeClient = (setShow, show) => {
+export const useBecomeClient = (setShow, show, serviceInfo) => {
   const [formData, setFormData] = useState(initialState)
   const [selectedOptions, setSelectedOptions] = useState([])
   const [nameError, setNameError] = useState(false)
   const [emailError, setEmailError] = useState(false)
   const [serviceError, setServiceError] = useState(false)
+  const [serviceMessage, setServiceMessage] = useState()
   const [sent, setSent] = useState(false)
   const [isSending, setIsSending] = useState(false)
   const becomeContainerRef = useRef()
@@ -30,6 +31,8 @@ export const useBecomeClient = (setShow, show) => {
       setNameError(false)
     } else if (name === 'email') {
       setEmailError(false)
+    } else if (name === 'message' && serviceInfo) {
+      setServiceMessage(null)
     }
     setFormData((prevState) => ({ ...prevState, [name]: value }))
   }
@@ -46,7 +49,7 @@ export const useBecomeClient = (setShow, show) => {
           headers: {
             'Content-Type': 'application/json;charset=utf-8'
           },
-          body: JSON.stringify({ name: formData.name, email: formData.email, message: formData.message, services: selectedOptions })
+          body: JSON.stringify({ name: formData.name, email: formData.email, message: formData.message === '' && serviceMessage ? serviceMessage : '', services: selectedOptions })
         }
       )
       if (response.status === 200) {
@@ -81,6 +84,10 @@ export const useBecomeClient = (setShow, show) => {
   }
 
   useEffect(() => {
+    if (serviceInfo) {
+      setServiceMessage(serviceInfo.name)
+      setSelectedOptions([...selectedOptions, serviceInfo.name])
+    }
     const handleClickOutside = (event) => {
       if (becomeContainerRef.current && !becomeContainerRef.current.contains(event.target)) {
         setTimeout(() => {
@@ -116,5 +123,5 @@ export const useBecomeClient = (setShow, show) => {
     document.body.classList.remove('body-no-scroll')
   }
 
-  return { sent, handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError, isSending }
+  return { sent, handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError, isSending, serviceMessage }
 }

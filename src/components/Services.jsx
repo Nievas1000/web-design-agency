@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 import { useScrollEffect } from '../hooks/useScrollEfect'
 
 export const Services = ({ openBecomeClient }) => {
-  const [serviceSelected, setServiceSelected] = useState('custom')
+  const [serviceSelected, setServiceSelected] = useState('funnels')
   const [visible] = useScrollEffect('scrollEffectServices')
   const { t } = useTranslation()
 
@@ -27,13 +27,13 @@ export const Services = ({ openBecomeClient }) => {
             <div className='col-12 col-lg-4 p-5'>
               <div className='services-table'>
                 <ul>
-                  <li className={serviceSelected === 'custom' ? 'active-service' : ''} onClick={() => setServiceSelected('custom')}>
+                  <li className={serviceSelected === 'funnels' ? 'active-service' : ''} onClick={() => setServiceSelected('funnels')}>
                     {t('SERVICES.servicesList.item1')}
                   </li>
-                  <li className={serviceSelected === 'template' ? 'active-service' : ''} onClick={() => setServiceSelected('template')}>
+                  <li className={serviceSelected === 'custom' ? 'active-service' : ''} onClick={() => setServiceSelected('custom')}>
                     {t('SERVICES.servicesList.item2')}
                   </li>
-                  <li className={serviceSelected === 'help' ? 'active-service' : ''} onClick={() => setServiceSelected('help')}>
+                  <li className={serviceSelected === 'template' ? 'active-service' : ''} onClick={() => setServiceSelected('template')}>
                     {t('SERVICES.servicesList.item3')}
                   </li>
                   <li className={serviceSelected === 'maintenance' ? 'active-service' : ''} onClick={() => setServiceSelected('maintenance')}>
@@ -42,33 +42,33 @@ export const Services = ({ openBecomeClient }) => {
                 </ul>
               </div>
             </div>
-            {serviceSelected === 'custom' &&
+            {serviceSelected === 'funnels' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
                   <h2>{t('SERVICES.servicesList.subtitle1')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description1')}</p>
                   <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
+                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item1') })}>{t('SERVICES.button')}</button>
+                  </div>
+                </div>
+              </div>}
+            {serviceSelected === 'custom' &&
+              <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
+                <div>
+                  <h2>{t('SERVICES.servicesList.subtitle2')}</h2>
+                  <p className='pt-3'>{t('SERVICES.servicesList.description2')}</p>
+                  <div className='pt-3'>
+                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item2') })}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}
             {serviceSelected === 'template' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h2>{t('SERVICES.servicesList.subtitle2')}</h2>
-                  <p className='pt-3'>{t('SERVICES.servicesList.description2')}</p>
-                  <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
-                  </div>
-                </div>
-              </div>}
-            {serviceSelected === 'help' &&
-              <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
-                <div>
                   <h2>{t('SERVICES.servicesList.subtitle3')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description3')}</p>
                   <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
+                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item3') })}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}
@@ -78,7 +78,7 @@ export const Services = ({ openBecomeClient }) => {
                   <h2>{t('SERVICES.servicesList.subtitle4')}</h2>
                   <p className='pt-3'>{t('SERVICES.servicesList.description4')}</p>
                   <div className='pt-3'>
-                    <button className='service-button' onClick={openBecomeClient}>{t('SERVICES.button')}</button>
+                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item4') })}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}

@@ -20,7 +20,7 @@ export const Contact = ({ openBecomeClient }) => {
                 {t('CONTACT.description1')}
               </p>
               <div className='pt-3'>
-                <span href='#features' onClick={openBecomeClient} className='d-inline become-contact'>
+                <span href='#features' onClick={() => openBecomeClient(false)} className='d-inline become-contact'>
                   {t('BECOMECLIENT.becomeButton')}
                 </span>
               </div>

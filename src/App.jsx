@@ -15,16 +15,22 @@ import { useTranslation } from 'react-i18next'
 
 function App () {
   const [show, setShow] = useState(false)
+  const [serviceInfo, setServiceInfo] = useState()
   const { t } = useTranslation()
 
-  const openBecomeClient = () => {
+  const openBecomeClient = (service, data = null) => {
+    if (service) {
+      setServiceInfo(data)
+    } else {
+      setServiceInfo(null)
+    }
     setShow(true)
     document.body.classList.add('body-no-scroll')
   }
   return (
     <div>
-      <button id='floating-button' className='d-none d-md-block' onClick={openBecomeClient}>+ {t('BECOMECLIENT.becomeButton')}</button>
-      {show && <BecomeClient setShow={setShow} show={show} />}
+      <button id='floating-button' className='d-none d-md-block' onClick={() => openBecomeClient(false)}>+ {t('BECOMECLIENT.becomeButton')}</button>
+      {show && <BecomeClient setShow={setShow} show={show} serviceInfo={serviceInfo} />}
       <Navbar />
       <Header openBecomeClient={openBecomeClient} />
       <Services openBecomeClient={openBecomeClient} />

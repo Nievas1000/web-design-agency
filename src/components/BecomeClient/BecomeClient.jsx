@@ -4,10 +4,11 @@ import { FaLongArrowAltRight, FaSpinner } from 'react-icons/fa'
 import { ThanksText } from './ThanksText'
 import { useTranslation } from 'react-i18next'
 
-export const BecomeClient = ({ setShow, show }) => {
-  const { handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError, sent, isSending } = useBecomeClient(setShow, show)
+export const BecomeClient = ({ setShow, show, serviceInfo = null }) => {
+  const { handleChange, handleSubmit, handleOptionClick, closeBecomeClient, services, selectedOptions, becomeContainerRef, formData, nameError, emailError, serviceError, sent, isSending, serviceMessage } = useBecomeClient(setShow, show, serviceInfo)
   const { t } = useTranslation()
   const becomeData = t('BECOMECLIENT', { returnObjects: true })
+
   return (
     <div className='become-container'>
       <div className={`become-content ${show ? 'in' : 'out'}`} ref={becomeContainerRef}>
@@ -47,7 +48,7 @@ export const BecomeClient = ({ setShow, show }) => {
               </div>
               <h5 className='pt-4'>{becomeData.inputMessage}</h5>
               <div className='extra-become-client'>
-                <textarea name='message' value={formData.message} onChange={handleChange} placeholder={becomeData.messagePleaceholder} />
+                <textarea name='message' value={serviceInfo && serviceMessage ? becomeData.customMessage + serviceMessage : formData.message} onChange={handleChange} placeholder={becomeData.messagePleaceholder} />
               </div>
               <div className='d-flex justify-content-end pt-5'>
                 <span className='send-request-become' onClick={handleSubmit}>{becomeData.submitButton} {isSending ? <FaSpinner className='ms-3 spinner-become' /> : <FaLongArrowAltRight className='ms-3' />}</span>

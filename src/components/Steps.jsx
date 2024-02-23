@@ -27,7 +27,7 @@ export const Steps = ({ openBecomeClient }) => {
             </div>
             <div className='step-item'>
               <h3>2. {stepsData.item2.title}</h3>
-              <p>{stepsData.item2.description1} <a href='#calendar'>{stepsData.item2.description2}</a> {stepsData.item2.description3} <span onClick={openBecomeClient}>{stepsData.item2.description4}</span> {stepsData.item2.description5}</p>
+              <p>{stepsData.item2.description1} <a href='#calendar'>{stepsData.item2.description2}</a> {stepsData.item2.description3} <span onClick={() => openBecomeClient(false)}>{stepsData.item2.description4}</span> {stepsData.item2.description5}</p>
             </div>
           </div>
           <div>
