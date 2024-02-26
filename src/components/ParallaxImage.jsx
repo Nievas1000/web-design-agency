@@ -11,7 +11,7 @@ export const ParallaxImage = ({ openBecomeClient }) => {
       <Parallax bgImage={background} strength={500}>
         <div>
           <div className='d-flex justify-content-center cover-image'>
-            <img src={cover} alt='' height={500} />
+            <img src={cover} alt='Coaching website example' height={500} />
           </div>
           <div className='parallax-container'>
             <div className='position-absolute text-container'>

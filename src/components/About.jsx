@@ -21,23 +21,23 @@ export const About = () => {
         </div>
         <div className='col-12 col-lg-6'>
           <div className='pt-5'>
-            <h4>02 — {aboutData.title}</h4>
-            <p className='approach-description w-100'>{aboutData.description}</p>
+            <h2>02 — {aboutData.title}</h2>
+            <h3 className='approach-description w-100'>{aboutData.description}</h3>
           </div>
           <div className='row gap-1'>
             <div className='col-md-5 d-flex card-about'>
               <div className='card-about-info'>
-                <h2 className='text-black'>+3</h2>
+                <h4 className='text-black'>+3</h4>
                 <p className='text-white'>{aboutData.card1}</p>
               </div>
-              <img height={100} src={clock} alt='' />
+              <img height={100} src={clock} alt='Years of experience' />
             </div>
             <div className='col-md-5 d-flex card-about'>
               <div className='card-about-info'>
-                <h2 className='text-black'>+10</h2>
+                <h4 className='text-black'>+10</h4>
                 <p className='text-white'>{aboutData.card2}</p>
               </div>
-              <img height={100} src={web} alt='' />
+              <img height={100} src={web} alt='Web design knowledge' />
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ export const About = () => {
           <div className='d-block d-md-flex container-coding-list'>
             <div className='list-about-coding d-flex justify-content-center align-items-center p-5'>
               <div>
-                <h2 className='d-flex justify-content-center'>{aboutData.aboutVision.imageZone.title}</h2>
+                <h3 className='d-flex justify-content-center' style={{ fontSize: '35px' }}>{aboutData.aboutVision.imageZone.title}</h3>
                 <ul className='pt-3'>
                   {aboutData.aboutVision.imageZone.list.map((item, index) => {
                     return (
@@ -82,11 +82,11 @@ export const About = () => {
                     )
                   })}
                 </ul>
-                <h2 className='pt-5'>{aboutData.aboutVision.imageZone.footer}</h2>
+                <h4 className='pt-5'>{aboutData.aboutVision.imageZone.footer}</h4>
               </div>
             </div>
             <div className='img-about'>
-              <img src={dev} alt='dev' className='img-fluid' />
+              <img src={dev} alt='Designing coaching website' className='img-fluid' />
             </div>
           </div>
         </div>

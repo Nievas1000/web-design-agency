@@ -64,8 +64,8 @@ export const Navbar = () => {
               {t('NAVBAR.item6')}
             </a>
             <ul className={`dropdow-languaje ${openDrowdown ? 'show-languajes' : ''}`} aria-labelledby='navbarDropdown'>
-              <li><a className='dropdown-item' onClick={() => changeLanguage('en')}>EN <img src={usa} className='img-fluid ps-1' height={25} width={25} /></a></li>
-              <li><a className='dropdown-item' onClick={() => changeLanguage('es')}>ES <img src={spain} className='img-fluid ps-1' height={25} width={25} /></a></li>
+              <li><a className='dropdown-item' onClick={() => changeLanguage('en')}>EN <img src={usa} className='img-fluid ps-1' alt='English' height={25} width={25} /></a></li>
+              <li><a className='dropdown-item' onClick={() => changeLanguage('es')}>ES <img src={spain} className='img-fluid ps-1' alt='Spanish' height={25} width={25} /></a></li>
             </ul>
           </li>
         </ul>

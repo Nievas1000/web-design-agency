@@ -22,7 +22,7 @@ export const Templates = () => {
           <div key={index} className='col-12 col-sm-6 col-md-4 mb-4'>
             <h5 className='d-flex justify-content-center text-center pb-2'>{image.title}</h5>
             <div className='template-container'>
-              <img src={image.main} alt={`Template ${index + 1}`} className='img-fluid' />
+              <img src={image.main} alt='Coaching website template' className='img-fluid' />
               <div className='overlay-template'>
                 <button onClick={() => openGallery(index)} className='view-more-btn'>View More</button>
               </div>
@@ -39,7 +39,7 @@ export const Templates = () => {
                 <div key={index}>
                   <h5 className='d-flex justify-content-center text-white'>{image.title}</h5>
                   <Zoom>
-                    <img src={image.src} alt={`Template ${selectedImageIndex + 1}`} />
+                    <img src={image.src} alt={`Coaching template ${selectedImageIndex + 1}`} />
                   </Zoom>
                 </div>
               ))}

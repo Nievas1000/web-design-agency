@@ -1,5 +1,5 @@
-import img from '../../assets/header-image.jpg'
-import { useHeader } from '../../hooks/useHeader'
+import img from '../assets/header-image.jpg'
+import { useHeader } from '../hooks/useHeader'
 import { useTranslation } from 'react-i18next'
 
 export const Header = ({ openBecomeClient }) => {
@@ -18,9 +18,9 @@ export const Header = ({ openBecomeClient }) => {
             </div>
           </div>
           <div className='d-block'>
-            <h2 className='header-title'>
+            <h1 className='header-title'>
               {i18n.language === 'en' ? `${t('HEADER.item1')} ${words[wordIndex]} ${t('HEADER.item2')}` : `${t('HEADER.item1')} ${t('HEADER.item2')} ${words[wordIndex]}`}
-            </h2>
+            </h1>
             <div className='d-flex justify-content-center pt-3 subtitle-header'>
               <h4>{t('HEADER.item3')}</h4>
             </div>
@@ -33,7 +33,7 @@ export const Header = ({ openBecomeClient }) => {
         </div>
         <div className='d-none d-md-flex justify-content-center align-items-center w-50'>
           <div className='d-flex justify-content-center align-items-center img-header'>
-            <img src={img} className='img-fluid' alt='' />
+            <img src={img} className='img-fluid' alt='Web design agency main image' />
           </div>
         </div>
       </div>

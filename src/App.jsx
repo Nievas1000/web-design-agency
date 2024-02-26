@@ -1,4 +1,4 @@
-import { Header } from './components/Header/Header'
+import { Header } from './components/Header'
 import { Navbar } from './components/Navbar'
 import { Contact } from './components/Contact'
 import { ParallaxImage } from './components/ParallaxImage'

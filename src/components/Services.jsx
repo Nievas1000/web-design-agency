@@ -15,8 +15,8 @@ export const Services = ({ openBecomeClient }) => {
     <div id='services' className={`scrollEffectServices ${visible && 'visible'}`}>
       <>
         <div className='container pt-5'>
-          <h4>01 — {t('SERVICES.title')}</h4>
-          <p className='approach-description'>{t('SERVICES.description')}</p>
+          <h2>01 — {t('SERVICES.title')}</h2>
+          <h3 className='approach-description'>{t('SERVICES.description')}</h3>
         </div>
 
         <div className='position-absolute d-none d-md-block er'>
@@ -45,7 +45,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'funnels' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h2>{t('SERVICES.servicesList.subtitle1')}</h2>
+                  <h3>{t('SERVICES.servicesList.subtitle1')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description1')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item1') })}>{t('SERVICES.button')}</button>
@@ -55,7 +55,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'custom' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h2>{t('SERVICES.servicesList.subtitle2')}</h2>
+                  <h3>{t('SERVICES.servicesList.subtitle2')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description2')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item2') })}>{t('SERVICES.button')}</button>
@@ -65,7 +65,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'template' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h2>{t('SERVICES.servicesList.subtitle3')}</h2>
+                  <h3>{t('SERVICES.servicesList.subtitle3')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description3')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item3') })}>{t('SERVICES.button')}</button>
@@ -75,7 +75,7 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'maintenance' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h2>{t('SERVICES.servicesList.subtitle4')}</h2>
+                  <h3>{t('SERVICES.servicesList.subtitle4')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description4')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item4') })}>{t('SERVICES.button')}</button>
@@ -88,7 +88,7 @@ export const Services = ({ openBecomeClient }) => {
         <div className='container pb-5'>
           <div className='row justify-content-center pt-5 mb-5 h-100 g-0 approach-container'>
             <div className='col mb-4 approach flex-grow-1'>
-              <img src={image1} alt='image1' className='img-fluid' />
+              <img src={image1} alt='Responsive design' className='img-fluid' />
               <div className='overlay-apro pt-5'>
                 <h2>{t('SERVICES.servicesCards.title1')}</h2>
                 <div className='position-absolute bottom-0'>
@@ -105,7 +105,7 @@ export const Services = ({ openBecomeClient }) => {
             </div>
 
             <div className='col mb-4 approach flex-grow-1'>
-              <img src={image2} alt='image1' className='img-fluid' />
+              <img src={image2} alt='Solid solutions for your coaching website' className='img-fluid' />
               <div className='overlay-apro'>
                 <h2>{t('SERVICES.servicesCards.title2')}</h2>
                 <div className='position-absolute bottom-0'>
@@ -122,7 +122,7 @@ export const Services = ({ openBecomeClient }) => {
             </div>
 
             <div className='col mb-4 approach flex-grow-1'>
-              <img src={image3} alt='image1' className='img-fluid' />
+              <img src={image3} alt='Web development for your coaching website' className='img-fluid' />
               <div className='overlay-apro'>
                 <h2>{t('SERVICES.servicesCards.title3')}</h2>
                 <div className='position-absolute bottom-0'>
