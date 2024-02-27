@@ -26,9 +26,12 @@
             "item3":"Plantillas de diseño web",
             "subtitle3":"Elegancia sin esfuerzo: transfórmese con plantillas de diseño web",
             "description3":"Libere el potencial de soluciones web rápidas pero elegantes con nuestro servicio de diseño web de plantillas. Elija entre una amplia gama de plantillas de diseño, cada una de las cuales constituye la base de su visión digital. Nuestro proceso eficiente le permite seleccionar rápidamente la plantilla que se adapta a sus objetivos. A partir de ahí, personalizamos meticulosamente cada detalle para alinearlo perfectamente con su marca y sus requisitos. Este enfoque optimizado garantiza la entrega de un sitio web atractivo y funcional, elevando su presencia digital de manera única y efectiva.",
-            "item4":"Mantenimiento de sitio web",
-            "subtitle4":"Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
-            "description4":"Eleve su longevidad digital con nuestro servicio de mantenimiento de sitios web. Su viaje en línea no concluye con el lanzamiento de su sitio web. Nuestro equipo está dedicado a la colaboración continua, garantizando que su plataforma funcione sin problemas y de forma segura. Desde actualizaciones técnicas hasta monitoreo atento, asumimos la responsabilidad de mantener la salud óptima de su sitio. Esta opción brinda tranquilidad, permitiendo que su presencia digital evolucione de manera eficiente y consistente."
+            "item4":"SEO & Marketing",
+            "subtitle4":"Aumente su visibilidad en línea con SEO y marketing estratégicos",
+            "description4":"Libera el potencial de tu presencia online con nuestro servicio de SEO y Marketing. Vamos más allá del marketing tradicional implementando estrategias específicas en varias plataformas, incluidas Facebook, TikTok y Google Ads. Al analizar su público objetivo y su competencia, adaptamos nuestro enfoque para maximizar su visibilidad y participación. Desde optimizar su sitio web para los motores de búsqueda hasta crear campañas publicitarias atractivas, nuestro enfoque está en generar resultados que eleven su marca. Con nuestra información basada en datos y optimización continua, nos aseguramos de que sus esfuerzos de marketing generen un crecimiento y un retorno de la inversión tangibles.",
+            "item5":"Mantenimiento de sitio web",
+            "subtitle5":"Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
+            "description5":"Eleve su longevidad digital con nuestro servicio de mantenimiento de sitios web. Su viaje en línea no concluye con el lanzamiento de su sitio web. Nuestro equipo está dedicado a la colaboración continua, garantizando que su plataforma funcione sin problemas y de forma segura. Desde actualizaciones técnicas hasta monitoreo atento, asumimos la responsabilidad de mantener la salud óptima de su sitio. Esta opción brinda tranquilidad, permitiendo que su presencia digital evolucione de manera eficiente y consistente."
         },
         "button":"Obten mas informacion",
         "servicesCards":{
@@ -102,6 +105,15 @@
                 ]
             },
             {
+                "title": "SEO & Marketing",
+                "section": "seo",
+                "items":[
+                    "Análisis de la audiencia objetivo",
+                    "Estrategias específicas de plataforma (Facebook, TikTok, Google Ads)",
+                    "Optimización basada en datos"
+                ]
+            },
+            {
                 "title": "Mantenimiento del sitio web",
                 "section": "maintenance",
                 "items":[
@@ -161,7 +173,7 @@
             {
                 "icon": "fa-solid fa-microphone-lines",
                 "title": "Promoción rentable",
-                "description":"En comparación con las formas tradicionales de publicidad, como los medios impresos o los comerciales de televisión, mantener un sitio web es una forma rentable de promocionar su pequeña empresa. Las herramientas de marketing online, como las redes sociales y la optimización de motores de búsqueda (SEO), se pueden utilizar a un coste menor."
+                "description":"A diferencia de los métodos publicitarios convencionales, como los medios impresos o los anuncios de televisión, mantener un sitio web presenta una solución rentable para comercializar su pequeña empresa. Al incorporar herramientas de marketing online, como las redes sociales y la optimización de motores de búsqueda (SEO), puedes lograr una promoción eficaz a una fracción del coste."
             }
         ]
     },
@@ -174,6 +186,7 @@
                 "Embudos de Venta",
                 "Diseño web personalizado",
                 "Plantillas de diseño web",
+                "SEO & Marketing",
                 "Mantenimiento del sitio web"
             ],
             "footer1": "Vaya a la",
@@ -198,8 +211,8 @@
                 "description": "Esta es la etapa en la que usted puede relajarse y confiarnos el trabajo pesado. Su única tarea es proporcionarnos su logotipo, información pertinente y cualquier imagen que desee incluir en su sitio web. A partir de ahí, nos encargamos de todo el proceso, garantizándole una experiencia perfecta y sin complicaciones."
             },
             {
-                "title": "5. Mantenimiento del sitio web",
-                "description": "En nuestro último paso, ofrecemos una opción adicional para aquellos que desean un mantenimiento constante de su sitio web. Este servicio garantiza que su sitio permanezca actualizado, seguro y optimizado en todo momento. Nos encargamos de las actualizaciones técnicas, el seguimiento del rendimiento y cualquier ajuste necesario para mantener su presencia digital en la mejor forma."
+                "title": "5. Mantenimiento del sitio web e integración de marketing",
+                "description": "En nuestro paso final, ofrecemos una opción adicional para los clientes que desean un mantenimiento continuo de su sitio web. Este servicio garantiza que su sitio permanezca actualizado, seguro y optimizado en todo momento. Además, brindamos la opción de integrar estrategias de marketing, incluidas campañas publicitarias dirigidas a través de plataformas como Facebook, TikTok y Google Ads, así como optimización de motores de búsqueda (SEO), para mejorar aún más su presencia en línea."
             }
         ]
     },
@@ -230,6 +243,7 @@
             "Embudos de venta",
             "Diseño web personalizado",
             "Plantillas de diseño web",
+            "SEO & Marketing",
             "Mantenimiento de sitio web"
         ],
         "customMessage": "Quiero mas informacion sobre ",

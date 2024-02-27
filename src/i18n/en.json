@@ -26,9 +26,12 @@
             "item3":"Template Web Design",
             "subtitle3":"Effortless Elegance: Transform with Template Web Design",
             "description3":"Unleash the potential of swift yet stylish web solutions with our Template Web Design service. Choose from a diverse range of design templates, each a foundation for your digital vision. Our efficient process allows you to quickly select the template that resonates with your goals. From there, we meticulously customize every detail to align perfectly with your brand and requirements. This streamlined approach ensures the delivery of an attractive and functional website, elevating your digital presence uniquely and effectively.",
-            "item4":"Website maintenance",
-            "subtitle4":"Uninterrupted Excellence: Website Maintenance for Seamless Operation",
-            "description4":"Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
+            "item4":"SEO & Marketing",
+            "subtitle4":"Boost Your Online Visibility with Strategic SEO and Marketing",
+            "description4":"Unlock the potential of your online presence with our Strategic SEO and Marketing service. We go beyond traditional marketing by implementing targeted strategies across various platforms, including Facebook, TikTok, and Google Ads. By analyzing your target audience and competition, we tailor our approach to maximize your visibility and engagement. From optimizing your website for search engines to crafting compelling ad campaigns, our focus is on driving results that elevate your brand. With our data-driven insights and continuous optimization, we ensure that your marketing efforts generate tangible growth and ROI.",
+            "item5":"Website maintenance",
+            "subtitle5":"Uninterrupted Excellence: Website Maintenance for Seamless Operation",
+            "description5":"Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
         },
         "button":"Get more info",
         "servicesCards":{
@@ -102,6 +105,15 @@
                 ]
             },
             {
+                "title": "SEO & Marketing",
+                "section": "seo",
+                "items":[
+                    "Targeted Audience Analysis",
+                    "Platform-Specific Strategies (Facebook, TikTok, Google Ads)",
+                    "Data-Driven Optimization"
+                ]
+            },
+            {
                 "title": "Website Maintenance",
                 "section": "maintenance",
                 "items":[
@@ -161,7 +173,7 @@
             {
                 "icon": "fa-solid fa-microphone-lines",
                 "title": "Cost-Effective Promotion",
-                "description":"Compared to traditional forms of advertising, such as print media or TV commercials, maintaining a website is a cost-effective way to market your small business. Online marketing tools like social media and search engine optimization (SEO) can be utilized at a lower cost."
+                "description":"In contrast to conventional advertising methods like print media or TV commercials, maintaining a website presents a cost-effective solution for marketing your small business. By incorporating online marketing tools such as social media and search engine optimization (SEO), you can achieve effective promotion at a fraction of the cost."
             }
         ]
     },
@@ -174,6 +186,7 @@
                 "Sales Funnels",
                 "Custom Web Design",
                 "Template Web Design",
+                "SEO & Marketing",
                 "Website Maintenance"
             ],
             "footer1": "Go to",
@@ -198,8 +211,8 @@
                 "description": "This is the stage where you can relax and entrust us with the heavy lifting. Your only task is to provide us with your logo, pertinent information, and any images you'd like to feature on your website. From there, we take care of the entire process, ensuring a seamless and hassle-free experience for you."
             },
             {
-                "title": "5. Website maintenance",
-                "description": "In our last step, we offer an additional option for those who want constant maintenance of their website. This service ensures that your site remains up to date, secure and optimized at all times. We take care of technical updates, performance monitoring and any necessary adjustments to keep your digital presence in its best shape."
+                "title": "5. Website Maintenance and Marketing Integration",
+                "description": "In our final step, we offer an additional option for clients who desire continuous upkeep of their website. This service ensures that your site remains up to date, secure, and optimized at all times. Additionally, we provide the choice to integrate marketing strategies, including targeted advertising campaigns through platforms like Facebook, TikTok, and Google Ads, as well as Search Engine Optimization (SEO), to enhance your online presence further."
             }
         ]
     },
@@ -230,6 +243,7 @@
             "Sales Funnels",
             "Custom Web Design",
             "Template Web Design",
+            "SEO & Marketing",
             "Website Maintenance"
         ],
         "customMessage": "I want more information about ",
