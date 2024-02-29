@@ -10,21 +10,44 @@ import { useScrollEffect } from '../hooks/useScrollEfect'
 /* import imageWork from '../assets/work-example.png' */
 
 export const Templates = () => {
-  const { selectedImageIndex, openGallery, images, closeGallery, showCarousel, settings, currentImages } = useTemplate()
+  const {
+    selectedImageIndex,
+    openGallery,
+    images,
+    closeGallery,
+    showCarousel,
+    settings,
+    currentImages
+  } = useTemplate()
   const [visible] = useScrollEffect('scrollEffectTemplates')
   const { t } = useTranslation()
 
   return (
     <div id='templates' className='container pb-5'>
       <h2 className='text-center mt-4 mb-5'>{t('TEMPLATE.title')}</h2>
-      <div className={`row justify-content-center scrollEffectTemplates ${visible && 'visible'}`}>
+      <div
+        className={`row justify-content-center scrollEffectTemplates ${
+          visible && 'visible'
+        }`}
+      >
         {images.map((image, index) => (
           <div key={index} className='col-12 col-sm-6 col-md-4 mb-4'>
-            <h5 className='d-flex justify-content-center text-center pb-2'>{image.title}</h5>
+            <h5 className='d-flex justify-content-center text-center pb-2'>
+              {image.title}
+            </h5>
             <div className='template-container'>
-              <img src={image.main} alt='Coaching website template' className='img-fluid' />
+              <img
+                src={image.main}
+                alt='Coaching website template'
+                className='img-fluid'
+              />
               <div className='overlay-template'>
-                <button onClick={() => openGallery(index)} className='view-more-btn'>View More</button>
+                <button
+                  onClick={() => openGallery(index)}
+                  className='view-more-btn'
+                >
+                  View More
+                </button>
               </div>
             </div>
           </div>
@@ -32,14 +55,21 @@ export const Templates = () => {
       </div>
       {showCarousel && currentImages.length > 0 && (
         <div className='carousel-container'>
-          <button onClick={closeGallery} className='close-btn'><MdClose size={35} /></button>
+          <button onClick={closeGallery} className='close-btn'>
+            <MdClose size={35} />
+          </button>
           <div className='carousel'>
             <Slider {...settings} initialSlide={selectedImageIndex}>
               {currentImages.map((image, index) => (
                 <div key={index}>
-                  <h5 className='d-flex justify-content-center text-white'>{image.title}</h5>
+                  <h5 className='d-flex justify-content-center text-white'>
+                    {image.title}
+                  </h5>
                   <Zoom>
-                    <img src={image.src} alt={`Coaching template ${selectedImageIndex + 1}`} />
+                    <img
+                      src={image.src}
+                      alt={`Coaching template ${selectedImageIndex + 1}`}
+                    />
                   </Zoom>
                 </div>
               ))}

@@ -1,7 +1,7 @@
 import { IoClose } from 'react-icons/io5'
-import { useBecomeClient } from '../../hooks/useBecomeClient'
+import { useBecomeClient } from '../../hooks/useBecomeClient.jsx'
 import { FaLongArrowAltRight, FaSpinner } from 'react-icons/fa'
-import { ThanksText } from './ThanksText'
+import { ThanksText } from './ThanksText.jsx'
 import { useTranslation } from 'react-i18next'
 
 export const BecomeClient = ({ setShow, show, serviceInfo = null }) => {

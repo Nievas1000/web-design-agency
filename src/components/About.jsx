@@ -2,7 +2,6 @@ import { useState } from 'react'
 import clock from '../assets/clock.gif'
 import web from '../assets/web-about.gif'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
-import Spline from '@splinetool/react-spline'
 import dev from '../assets/about-dev.jpg'
 import { useTranslation } from 'react-i18next'
 import { useScrollEffect } from '../hooks/useScrollEfect'
@@ -16,9 +15,6 @@ export const About = () => {
   return (
     <div id='about' className={`pb-5 scrollEffectAbout ${visible && 'visible'}`}>
       <div className='container position-relative d-block d-lg-flex'>
-        <div className='position-absolute er'>
-          <Spline scene='https://prod.spline.design/azpqkgYmEcAWPtey/scene.splinecode' />
-        </div>
         <div className='col-12 col-lg-6'>
           <div className='pt-5'>
             <h2>02 — {aboutData.title}</h2>
@@ -27,17 +23,17 @@ export const About = () => {
           <div className='row gap-1'>
             <div className='col-md-5 d-flex card-about'>
               <div className='card-about-info'>
-                <h4 className='text-black'>+3</h4>
+                <p className='text-black number-card'>+3</p>
                 <p className='text-white'>{aboutData.card1}</p>
               </div>
-              <img height={100} src={clock} alt='Years of experience' />
+              <img src={clock} alt='Years of experience' />
             </div>
             <div className='col-md-5 d-flex card-about'>
               <div className='card-about-info'>
-                <h4 className='text-black'>+10</h4>
+                <p className='text-black number-card'>+10</p>
                 <p className='text-white'>{aboutData.card2}</p>
               </div>
-              <img height={100} src={web} alt='Web design knowledge' />
+              <img src={web} alt='Web design knowledge' />
             </div>
           </div>
         </div>

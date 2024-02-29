@@ -1,4 +1,3 @@
-import Spline from '@splinetool/react-spline'
 import { useTranslation } from 'react-i18next'
 
 export const Steps = ({ openBecomeClient }) => {
@@ -6,9 +5,6 @@ export const Steps = ({ openBecomeClient }) => {
   const stepsData = t('STEPS', { returnObjects: true })
   return (
     <div className='position-relative'>
-      <div className='position-absolute er'>
-        <Spline scene='https://prod.spline.design/HLRXR6e-J-lyAojT/scene.splinecode' />
-      </div>
       <div className='container pt-5 pb-5'>
         <h2 className='d-flex justify-content-center'>{stepsData.title}</h2>
         <div className='d-block d-md-flex pt-5'>

@@ -19,7 +19,7 @@ export const WhyUs = () => {
             return (
               <div key={index} className='col-md-6'>
                 <div>
-                  <h5 className='fw-bold'><i className='fa-solid fa-arrow-right' /> {item.title}</h5>
+                  <p className='fw-bold'><i className='fa-solid fa-arrow-right' /> {item.title}</p>
                   <p>{item.description}</p>
                 </div>
               </div>

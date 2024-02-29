@@ -27,45 +27,45 @@ export const Navbar = () => {
 
   return (
     <div className={`navbar navbar-expand-lg navbar-default navbar-fixed-top navigation w-100 ${scrolled ? 'scrolled' : ''}`}>
-      <a className='navbar-brand page-scroll logo p-4 order-lg-1' onClick={() => scrollToSection('header')}>
+      <span className='navbar-brand page-scroll logo p-4 order-lg-1' onClick={() => scrollToSection('header')}>
         <img src={logo} title='Nevve' />
-      </a>
-      <button className='navbar-toggler me-3' type='button' onClick={() => setShow(!show)}>
+      </span>
+      <span className='navbar-toggler me-3' type='button' onClick={() => setShow(!show)}>
         <span className='navbar-toggler-icon' />
-      </button>
+      </span>
       <div className={`collapse navbar-collapse justify-content-end pt-3 items-nav me-5 order-lg-2 ${show && 'show p-3'}`} id='navbarNav'>
         <ul className='navbar-nav ml-auto'>
           <li className='nav-item'>
-            <a className='nav-link page-scroll' onClick={() => scrollToSection('services')}>{t('NAVBAR.item1')}</a>
+            <span className='nav-link page-scroll' onClick={() => scrollToSection('services')}>{t('NAVBAR.item1')}</span>
           </li>
           <li className='nav-item'>
-            <a className='nav-link page-scroll' onClick={() => scrollToSection('about')}>{t('NAVBAR.item2')}</a>
+            <span className='nav-link page-scroll' onClick={() => scrollToSection('about')}>{t('NAVBAR.item2')}</span>
           </li>
           <li className='nav-item'>
-            <a className='nav-link page-scroll' onClick={() => scrollToSection('templates')}>{t('NAVBAR.item3')}</a>
+            <span className='nav-link page-scroll' onClick={() => scrollToSection('templates')}>{t('NAVBAR.item3')}</span>
           </li>
           <li className='nav-item'>
-            <a className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>{t('NAVBAR.item4')}</a>
+            <span className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>{t('NAVBAR.item4')}</span>
           </li>
           <li className='nav-item'>
-            <a className='nav-link page-scroll' onClick={() => scrollToSection('calendar')}>
-              <span href='#features' className='button-more d-inline'>
+            <span className='nav-link page-scroll' onClick={() => scrollToSection('calendar')}>
+              <span href='#features' className='button-more d-inline nav-schedule'>
                 {t('NAVBAR.item5')}
               </span>
-            </a>
+            </span>
           </li>
           <li className={`nav-item dropdown ${openDrowdown ? 'show' : ''}`}>
-            <a
+            <span
               className='nav-link dropdown-toggle'
               id='navbarDropdown'
               role='button'
               onClick={() => setOpenDropdown(!openDrowdown)}
             >
               {t('NAVBAR.item6')}
-            </a>
+            </span>
             <ul className={`dropdow-languaje ${openDrowdown ? 'show-languajes' : ''}`} aria-labelledby='navbarDropdown'>
-              <li><a className='dropdown-item' onClick={() => changeLanguage('en')}>EN <img src={usa} className='img-fluid ps-1' alt='English' height={25} width={25} /></a></li>
-              <li><a className='dropdown-item' onClick={() => changeLanguage('es')}>ES <img src={spain} className='img-fluid ps-1' alt='Spanish' height={25} width={25} /></a></li>
+              <li><span className='dropdown-item' onClick={() => changeLanguage('en')}>EN <img src={usa} className='img-fluid ps-1' alt='English' /></span></li>
+              <li><span className='dropdown-item' onClick={() => changeLanguage('es')}>ES <img src={spain} className='img-fluid ps-1' alt='Spanish' /></span></li>
             </ul>
           </li>
         </ul>

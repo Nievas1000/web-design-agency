@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Spline from '@splinetool/react-spline'
 import image1 from '../assets/service1.png'
 import image2 from '../assets/service2.png'
 import image3 from '../assets/service3.png'
@@ -10,6 +9,7 @@ export const Services = ({ openBecomeClient }) => {
   const [serviceSelected, setServiceSelected] = useState('funnels')
   const [visible] = useScrollEffect('scrollEffectServices')
   const { t } = useTranslation()
+  const servicesData = t('SERVICES', { returnObjects: true })
 
   return (
     <div id='services' className={`scrollEffectServices ${visible && 'visible'}`}>
@@ -17,10 +17,6 @@ export const Services = ({ openBecomeClient }) => {
         <div className='container pt-5'>
           <h2>01 — {t('SERVICES.title')}</h2>
           <h3 className='approach-description'>{t('SERVICES.description')}</h3>
-        </div>
-
-        <div className='position-absolute d-none d-md-block er'>
-          <Spline scene='https://prod.spline.design/NESURyfSGpm-aX7P/scene.splinecode' />
         </div>
         <div className='container position-relative pt-2 pb-5'>
           <div className='row'>
@@ -102,16 +98,16 @@ export const Services = ({ openBecomeClient }) => {
           <div className='row justify-content-center pt-5 mb-5 h-100 g-0 approach-container'>
             <div className='col mb-4 approach flex-grow-1'>
               <img src={image1} alt='Responsive design' className='img-fluid' />
-              <div className='overlay-apro pt-5'>
-                <h2>{t('SERVICES.servicesCards.title1')}</h2>
+              <div className='overlay-apro pt-4'>
+                <h4>{servicesData.servicesCards[0].title}</h4>
                 <div className='position-absolute bottom-0'>
                   <p>
-                    {t('SERVICES.servicesCards.description1')}
+                    {servicesData.servicesCards[0].description}
                   </p>
                   <ul className='tech-approach'>
-                    <li>React</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
+                    <li>{servicesData.servicesCards[0].items[0]}</li>
+                    <li>{servicesData.servicesCards[0].items[1]}</li>
+                    <li>{servicesData.servicesCards[0].items[2]}</li>
                   </ul>
                 </div>
               </div>
@@ -120,15 +116,15 @@ export const Services = ({ openBecomeClient }) => {
             <div className='col mb-4 approach flex-grow-1'>
               <img src={image2} alt='Solid solutions for your coaching website' className='img-fluid' />
               <div className='overlay-apro'>
-                <h2>{t('SERVICES.servicesCards.title2')}</h2>
+                <h4>{servicesData.servicesCards[1].title}</h4>
                 <div className='position-absolute bottom-0'>
                   <p>
-                    {t('SERVICES.servicesCards.description2')}
+                    {servicesData.servicesCards[1].description}
                   </p>
                   <ul className='tech-approach'>
-                    <li>React</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
+                    <li>{servicesData.servicesCards[1].items[0]}</li>
+                    <li>{servicesData.servicesCards[1].items[1]}</li>
+                    <li>{servicesData.servicesCards[1].items[2]}</li>
                   </ul>
                 </div>
               </div>
@@ -137,15 +133,15 @@ export const Services = ({ openBecomeClient }) => {
             <div className='col mb-4 approach flex-grow-1'>
               <img src={image3} alt='Web development for your coaching website' className='img-fluid' />
               <div className='overlay-apro'>
-                <h2>{t('SERVICES.servicesCards.title3')}</h2>
+                <h4>{servicesData.servicesCards[2].title}</h4>
                 <div className='position-absolute bottom-0'>
                   <p>
-                    {t('SERVICES.servicesCards.description3')}
+                    {servicesData.servicesCards[2].description}
                   </p>
                   <ul className='tech-approach'>
-                    <li>React</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
+                    <li>{servicesData.servicesCards[2].items[0]}</li>
+                    <li>{servicesData.servicesCards[2].items[1]}</li>
+                    <li>{servicesData.servicesCards[2].items[2]}</li>
                   </ul>
                 </div>
               </div>
