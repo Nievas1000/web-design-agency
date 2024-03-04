@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import image1 from '../assets/service1.png'
-import image2 from '../assets/service2.png'
-import image3 from '../assets/service3.png'
+import image1 from '../../assets/mobile-adaptation.webp'
+import image2 from '../../assets/web-solutions.webp'
+import image3 from '../../assets/web-development.webp'
 import { useTranslation } from 'react-i18next'
-import { useScrollEffect } from '../hooks/useScrollEfect'
+import { useScrollEffect } from '../../hooks/useScrollEfect'
 
 export const Services = ({ openBecomeClient }) => {
   const [serviceSelected, setServiceSelected] = useState('funnels')

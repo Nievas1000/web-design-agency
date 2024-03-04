@@ -1,1 +1,72 @@
-@font-face{font-family:Lato;src:url("./fonts/Lato-Regular.ttf") format("truetype");font-weight:400;font-style:normal}@font-face{font-family:Montserrat;src:url("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");font-weight:400;font-style:normal}@font-face{font-family:Merriweather;src:url("./fonts/Merriweather-Regular.ttf") format("truetype");font-weight:400;font-style:normal}@font-face{font-family:Roboto;src:url("./fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");font-weight:400;font-style:normal}body{background:linear-gradient(to bottom right,#dbf5fc,#eaf9fc,#f4fbfd);overflow-x:hidden}a{text-decoration:none!important;color:inherit!important}button,p,span{font-family:Merriweather,sans-serif!important}h1{font-family:Montserrat,sans-serif!important}h2,h3,h4,h5,h6{font-family:Lato,sans-serif!important}li{font-family:Roboto,sans-serif!important}#contact{background:linear-gradient(to right,#6372ff 0,#5ca9fb 100%)}.pointer{cursor:pointer}.visible{opacity:1!important;transform:translateY(0)!important}
+@font-face {
+    font-family: Lato;
+    src: url("./fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url("./fonts/Merriweather-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    background: linear-gradient(to bottom right, #dbf5fc, #eaf9fc, #f4fbfd);
+    overflow-x: hidden
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important
+}
+
+button,
+p,
+span {
+    font-family: Merriweather, sans-serif !important
+}
+
+h1 {
+    font-family: Montserrat, sans-serif !important
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Lato, sans-serif !important
+}
+
+li {
+    font-family: Roboto, sans-serif !important
+}
+
+#contact {
+    background: linear-gradient(to right, #6372ff 0, #5ca9fb 100%)
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important
+}

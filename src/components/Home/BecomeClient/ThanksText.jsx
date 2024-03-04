@@ -1,5 +1,5 @@
 import { IoClose } from 'react-icons/io5'
-import thanks from '../../assets/thanks.gif'
+import thanks from '../../../assets/thanks.webp'
 
 export const ThanksText = ({ becomeData, closeBecomeClient }) => {
   return (

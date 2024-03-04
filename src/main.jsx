@@ -15,6 +15,7 @@ import './styles/Header.css'
 import './styles/Navbar.css'
 import './styles/Reasons&Steps.css'
 import './styles/Templates.css'
+import './styles/Funnel.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter } from 'react-router-dom'
 

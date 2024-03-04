@@ -1,5 +1,5 @@
-import img from '../assets/header-image.jpg'
-import { useHeader } from '../hooks/useHeader'
+import img from '../../assets/header-image.webp'
+import { useHeader } from '../../hooks/useHeader'
 import { useTranslation } from 'react-i18next'
 
 export const Header = ({ openBecomeClient }) => {
@@ -17,12 +17,12 @@ export const Header = ({ openBecomeClient }) => {
               ))}
             </div>
           </div>
-          <div className='d-block'>
+          <div className='d-block text-center'>
             <h1 className='header-title'>
               {i18n.language === 'en' ? `${t('HEADER.item1')} ${words[wordIndex]} ${t('HEADER.item2')}` : `${t('HEADER.item1')} ${t('HEADER.item2')} ${words[wordIndex]}`}
             </h1>
             <div className='d-flex justify-content-center pt-3 subtitle-header'>
-              <h4>{t('HEADER.item3')}</h4>
+              <span>{t('HEADER.item3')}</span>
             </div>
             <div className='pt-3'>
               <span href='#features' className='button-more' onClick={() => openBecomeClient(false)}>

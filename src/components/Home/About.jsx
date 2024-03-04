@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import clock from '../assets/clock.gif'
-import web from '../assets/web-about.gif'
+import clock from '../../assets/clock.webp'
+import web from '../../assets/web-about.webp'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
-import dev from '../assets/about-dev.jpg'
+import dev from '../../assets/about-dev.webp'
 import { useTranslation } from 'react-i18next'
-import { useScrollEffect } from '../hooks/useScrollEfect'
+import { useScrollEffect } from '../../hooks/useScrollEfect'
 
 export const About = () => {
   const [section, setSection] = useState('')

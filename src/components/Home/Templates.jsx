@@ -2,11 +2,11 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import { MdClose } from 'react-icons/md'
-import { useTemplate } from '../hooks/useTemplate'
+import { useTemplate } from '../../hooks/useTemplate'
 import { useTranslation } from 'react-i18next'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
-import { useScrollEffect } from '../hooks/useScrollEfect'
+import { useScrollEffect } from '../../hooks/useScrollEfect'
 /* import imageWork from '../assets/work-example.png' */
 
 export const Templates = () => {
@@ -46,7 +46,7 @@ export const Templates = () => {
                   onClick={() => openGallery(index)}
                   className='view-more-btn'
                 >
-                  View More
+                  {t('TEMPLATE.button')}
                 </button>
               </div>
             </div>

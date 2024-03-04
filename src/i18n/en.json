@@ -1,1 +1,313 @@
-{ "NAVBAR": { "item1": "Services", "item2": "About", "item3": "Templates", "item4": "Contact", "item5": "Schedule a call", "item6": "EN" }, "HEADER":{ "item1": "Website Design Solutions to Elevate Your", "item2": "Business", "item3": "Transform your offer and create a website that attracts more customers, filling your agenda. Discover how Nevve can boost your online presence and get your business off the ground.", "item4": "Get in touch" }, "SERVICES":{ "title": "Our Services", "description":"Discover personalized and cutting-edge web solutions. From custom sites to expert maintenance, we transform your vision into digital reality.", "servicesList":{ "item1":"Sales Funnels", "subtitle1":"Optimize your Sales with Customized Sales Funnels", "description1":"Boost the growth of your business with our Customized Sales Funnels! At Nevve, we specialize in creating custom sales funnels that fit the specific needs of your audience. Working closely with you, we design a strategic sales process that guides your prospects through an optimized journey, from initial attraction to final conversion. Our customer-centric approach ensures that every step of the funnel is aligned with your business objectives, maximizing conversion opportunities and generating tangible results. Discover how our Custom Sales Funnels can boost your sales and grow your business.", "item2":"Custom Web Design", "subtitle2":"Elevate Your Presence with Unique Custom Web Design", "description2":"Discover the power of a tailored online identity with our Custom Web Design service. We don't just build websites; we co-create digital experiences that resonate with your brand. Collaborating closely with you, we delve into your goals and aspirations, ensuring every element reflects your identity. From distinctive designs to the integration of personalized functionalities, our commitment is to deliver a visually stunning and functionally superior website. Our iterative process with active reviews and strict adherence to deadlines ensures that your digital vision not only comes to life but stands out effectively across all devices.", "item3":"Template Web Design", "subtitle3":"Effortless Elegance: Transform with Template Web Design", "description3":"Unleash the potential of swift yet stylish web solutions with our Template Web Design service. Choose from a diverse range of design templates, each a foundation for your digital vision. Our efficient process allows you to quickly select the template that resonates with your goals. From there, we meticulously customize every detail to align perfectly with your brand and requirements. This streamlined approach ensures the delivery of an attractive and functional website, elevating your digital presence uniquely and effectively.", "item4":"SEO & Marketing", "subtitle4":"Boost Your Online Visibility with Strategic SEO and Marketing", "description4":"Unlock the potential of your online presence with our Strategic SEO and Marketing service. We go beyond traditional marketing by implementing targeted strategies across various platforms, including Facebook, TikTok, and Google Ads. By analyzing your target audience and competition, we tailor our approach to maximize your visibility and engagement. From optimizing your website for search engines to crafting compelling ad campaigns, our focus is on driving results that elevate your brand. With our data-driven insights and continuous optimization, we ensure that your marketing efforts generate tangible growth and ROI.", "item5":"Website maintenance", "subtitle5":"Uninterrupted Excellence: Website Maintenance for Seamless Operation", "description5":"Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently." }, "button":"Get more info", "servicesCards":[ { "title": "Mobile adaptation", "description": "We optimize your website for mobile devices, ensuring an impeccable experience on small screens. From design to functionality, your site stands out on any device.", "items":[ "Friendly Design", "Responsive Layout", "Touch-Friendly Interface" ] }, { "title": "Solid design solution", "description": "We offer solid and effective design solutions that boost your business's digital presence. From custom design to technical support, we provide comprehensive services to take your vision to new levels of online excellence.", "items":[ "User-Centric Design", "High-Quality UI", "Efficient Performance" ] }, { "title": "Web development", "description": "Our adaptive design components are built using perfectly structured and readable code. We make sure that the development solutions are well-optimized and work flawlessly across devices and browsers.", "items":[ "Custom Web Solutions", "Frontend Development", "Backend Integration" ] } ], "parallax1": "Making your business outstanding is a science.", "parallax2": "We take it (a) seriously and (b) creatively." }, "WHYUS":{ "title": "Why choose us?", "description1":"Stand out online with a custom website built from scratch.", "description2": "At Nevve, we create unique and powerful digital experiences through custom development with code. From complete customization to optimal performance, we offer you solutions that stand out. Discover how we can turn your vision into a digital reality that stands out from the crowd.", "description3":"Your online presence deserves something unique, and we're here to make it happen!", "items":[ { "title": "Personalized Design to Your Measurement", "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you." }, { "title": "Unlimited Flexibility", "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you." }, { "title": "Personalized Design to Your Measurement", "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you." }, { "title": "Personalized Design to Your Measurement", "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you." } ] }, "ABOUT":{ "title": "About us", "description":"Solid Strategy aligned with business needs and robust data analysis are fundamental ingredients to extract actionable insights.", "card1": "Years of experience", "card2": "Web technologies", "listAbout":[ { "title": "Sales Funnels", "section": "funnels", "items":[ "Attracting potential clients", "Interaction and engagement", "Sales conversion", "Retention and loyalty" ] }, { "title": "Custom Web Design", "section": "custom", "items":[ "Tailored Digital Experiences", "Functional Excellence", "Responsive Design Mastery", "Iterative Collaboration" ] }, { "title": "Template Web Design", "section": "template", "items":[ "Effortless Elegance", "Personalization Expertise", "Diverse Template Selection" ] }, { "title": "SEO & Marketing", "section": "seo", "items":[ "Targeted Audience Analysis", "Platform-Specific Strategies (Facebook, TikTok, Google Ads)", "Data-Driven Optimization" ] }, { "title": "Website Maintenance", "section": "maintenance", "items":[ "Expert Technical Assistance", "Performance Optimization", "Continuous Collaboration" ] } ], "aboutVision":{ "title": "Coding Excellence: Crafting Websites Beyond Boundaries", "description1": "If you’re like us, then your business has big plans.", "description2": "You’re pitching to larger and professional organizations, but you’re worried you’ll lose the deals when they visit your lackluster website and don’t think you’re credible or successful enough.", "description3": "You deserve to get more sales inquiry emails in your inbox each week from your web forms.", "imageZone":{ "title": "Call us your website partner.", "list":[ "Unlimited Customization", "Performance Optimization", "Reinforced Security", "Continuous Adaptability" ], "footer": "Are you ready?" } } }, "REASONS":{ "title": "Reasons Your Brand Needs a Website", "list1":[ { "icon": "fa-solid fa-globe", "title": "Global Reach", "description":"Having a website allows your small business to reach a global audience. Unlike a physical store, your website is accessible to anyone with an internet connection, expanding your potential customer base beyond local boundaries." }, { "icon": "fa-regular fa-clock", "title": "24/7 Availability", "description":"A website provides your business with a virtual storefront that is open 24/7. This means customers can access information about your products or services at any time, increasing the likelihood of conversions even when your physical location is closed." }, { "icon": "fa-regular fa-thumbs-up", "title": "Credibility and Professionalism", "description":"A well-designed website adds a level of professionalism and credibility to your small business. Consumers often search online for information before making a purchase decision, and a polished website can instill trust in potential customers." } ], "list2":[ { "icon": "fa-solid fa-chart-line", "title": "Adaptability and Growth", "description":"As your small business evolves, your website can evolve with it. Whether you want to introduce new products, update information, or expand your online presence, having a website provides the flexibility to adapt to changing business needs and fuel growth." }, { "icon": "fa-solid fa-users", "title": "Customer Convenience", "description":"A website makes it convenient for customers to learn about your business, browse your offerings, and make purchases without leaving their homes. This convenience can lead to increased customer satisfaction and loyalty." }, { "icon": "fa-solid fa-microphone-lines", "title": "Cost-Effective Promotion", "description":"In contrast to conventional advertising methods like print media or TV commercials, maintaining a website presents a cost-effective solution for marketing your small business. By incorporating online marketing tools such as social media and search engine optimization (SEO), you can achieve effective promotion at a fraction of the cost." } ] }, "STEPS":{ "title": "Website Design Process", "item1":{ "title":"Choose Website Design Service", "description": "We invite you to explore our range of web design services to find the perfect solution to fit your digital needs.", "list":[ "Sales Funnels", "Custom Web Design", "Template Web Design", "SEO & Marketing", "Website Maintenance" ], "footer1": "Go to", "footer2": "Service section", "footer3": "for more details" }, "item2":{ "title": "Let Us Know Your Idea", "description1": "Before we begin the website design process, we would be excited to delve deeper and get to know you better so we can offer you a personalized web design experience. We want to ensure that every detail is uniquely attended to and that your vision comes to life online.", "description2": " Schedule a call", "description3": "or", "description4": "complete the questionnaire", "description5": "to start." }, "list":[ { "title": "3. Sign The Service Agreement", "description": "The Service Agreement details all aspects of the web design process. Once you've signed, we'll be ready to move forward with creating your website. This document provides the solid foundation to ensure a clear understanding of the services, prices and specific details we have discussed." }, { "title": "4. Web Design and Web Development Begins", "description": "This is the stage where you can relax and entrust us with the heavy lifting. Your only task is to provide us with your logo, pertinent information, and any images you'd like to feature on your website. From there, we take care of the entire process, ensuring a seamless and hassle-free experience for you." }, { "title": "5. Website Maintenance and Marketing Integration", "description": "In our final step, we offer an additional option for clients who desire continuous upkeep of their website. This service ensures that your site remains up to date, secure, and optimized at all times. Additionally, we provide the choice to integrate marketing strategies, including targeted advertising campaigns through platforms like Facebook, TikTok, and Google Ads, as well as Search Engine Optimization (SEO), to enhance your online presence further." } ] }, "TEMPLATE":{ "title": "Templates", "example": "Portfolio" }, "scheduleCall": "Let's schedule a call!", "CONTACT":{ "title": "We would love to hear from you.", "description1": "Feel free to reach our if you want to collaborate with us, or simply have a chat", "description2": "Don’t like the forms? Drop us a line via email.", "contactInfo": { "title": "Contact Info", "address": "Address", "phone": "Phone" } }, "BECOMECLIENT":{ "becomeButton": "Become a client", "title": "Hey! Tell us what you need!", "inputName": "Name", "inputEmail": "Your email", "inputMessage": "Tell us more about your project!", "messagePleaceholder": "Something great about your amazing idea", "servicesLabel":"I'm interested in...", "services":[ "Sales Funnels", "Custom Web Design", "Template Web Design", "SEO & Marketing", "Website Maintenance" ], "customMessage": "I want more information about ", "requiredTextInput": "Required fiel", "requiredTextServices": "Select at least one", "submitButton":"Sumbit the request", "footer1": "Or if you prefer you can", "footer2": "book a call", "footer3": "directly.", "thanksText": "Thank you for your interest in our services! Your request has been successfully received. Our team will review the information provided and contact you soon to discuss further details and provide you with a personalized quote. In the meantime, if you have any additional questions, please feel free to contact us. We look forward to working with you to make your vision online a reality!" } }
+{
+    "NAVBAR": {
+        "item1": "Services",
+        "item2": "About",
+        "item3": "Templates",
+        "item4": "Contact",
+        "item5": "Schedule a call",
+        "item6": "EN"
+    },
+    "HEADER": {
+        "item1": "Website Design Solutions to Elevate Your",
+        "item2": "Business",
+        "item3": "Transform your offer and create a website that attracts more customers, filling your agenda. Discover how Nevve can boost your online presence and get your business off the ground.",
+        "item4": "Get in touch"
+    },
+    "SERVICES": {
+        "title": "Our Services",
+        "description": "Discover personalized and cutting-edge web solutions. From custom sites to expert maintenance, we transform your vision into digital reality.",
+        "servicesList": {
+            "item1": "Sales Funnels",
+            "subtitle1": "Optimize your Sales with Customized Sales Funnels",
+            "description1": "Boost the growth of your business with our Customized Sales Funnels! At Nevve, we specialize in creating custom sales funnels that fit the specific needs of your audience. Working closely with you, we design a strategic sales process that guides your prospects through an optimized journey, from initial attraction to final conversion. Our customer-centric approach ensures that every step of the funnel is aligned with your business objectives, maximizing conversion opportunities and generating tangible results. Discover how our Custom Sales Funnels can boost your sales and grow your business.",
+            "item2": "Custom Web Design",
+            "subtitle2": "Elevate Your Presence with Unique Custom Web Design",
+            "description2": "Discover the power of a tailored online identity with our Custom Web Design service. We don't just build websites; we co-create digital experiences that resonate with your brand. Collaborating closely with you, we delve into your goals and aspirations, ensuring every element reflects your identity. From distinctive designs to the integration of personalized functionalities, our commitment is to deliver a visually stunning and functionally superior website. Our iterative process with active reviews and strict adherence to deadlines ensures that your digital vision not only comes to life but stands out effectively across all devices.",
+            "item3": "Template Web Design",
+            "subtitle3": "Effortless Elegance: Transform with Template Web Design",
+            "description3": "Unleash the potential of swift yet stylish web solutions with our Template Web Design service. Choose from a diverse range of design templates, each a foundation for your digital vision. Our efficient process allows you to quickly select the template that resonates with your goals. From there, we meticulously customize every detail to align perfectly with your brand and requirements. This streamlined approach ensures the delivery of an attractive and functional website, elevating your digital presence uniquely and effectively.",
+            "item4": "SEO & Marketing",
+            "subtitle4": "Boost Your Online Visibility with Strategic SEO and Marketing",
+            "description4": "Unlock the potential of your online presence with our Strategic SEO and Marketing service. We go beyond traditional marketing by implementing targeted strategies across various platforms, including Facebook, TikTok, and Google Ads. By analyzing your target audience and competition, we tailor our approach to maximize your visibility and engagement. From optimizing your website for search engines to crafting compelling ad campaigns, our focus is on driving results that elevate your brand. With our data-driven insights and continuous optimization, we ensure that your marketing efforts generate tangible growth and ROI.",
+            "item5": "Website maintenance",
+            "subtitle5": "Uninterrupted Excellence: Website Maintenance for Seamless Operation",
+            "description5": "Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
+        },
+        "button": "Get more info",
+        "servicesCards": [
+            {
+                "title": "Mobile adaptation",
+                "description": "We optimize your website for mobile devices, ensuring an impeccable experience on small screens. From design to functionality, your site stands out on any device.",
+                "items": [
+                    "Friendly Design",
+                    "Responsive Layout",
+                    "Touch-Friendly Interface"
+                ]
+            },
+            {
+                "title": "Solid design solution",
+                "description": "We offer solid and effective design solutions that boost your business's digital presence. From custom design to technical support, we provide comprehensive services to take your vision to new levels of online excellence.",
+                "items": [
+                    "User-Centric Design",
+                    "High-Quality UI",
+                    "Efficient Performance"
+                ]
+            },
+            {
+                "title": "Web development",
+                "description": "Our adaptive design components are built using perfectly structured and readable code. We make sure that the development solutions are well-optimized and work flawlessly across devices and browsers.",
+                "items": [
+                    "Custom Web Solutions",
+                    "Frontend Development",
+                    "Backend Integration"
+                ]
+            }
+        ],
+        "parallax1": "Making your business outstanding is a science.",
+        "parallax2": "We take it (a) seriously and (b) creatively."
+    },
+    "WHYUS": {
+        "title": "Why choose us?",
+        "description1": "Stand out online with a custom website built from scratch.",
+        "description2": "At Nevve, we create unique and powerful digital experiences through custom development with code. From complete customization to optimal performance, we offer you solutions that stand out. Discover how we can turn your vision into a digital reality that stands out from the crowd.",
+        "description3": "Your online presence deserves something unique, and we're here to make it happen!",
+        "items": [
+            {
+                "title": "Personalized Design to Your Measurement",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            },
+            {
+                "title": "Unlimited Flexibility",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            },
+            {
+                "title": "Personalized Design to Your Measurement",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            },
+            {
+                "title": "Personalized Design to Your Measurement",
+                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+            }
+        ]
+    },
+    "ABOUT": {
+        "title": "About us",
+        "description": "Solid Strategy aligned with business needs and robust data analysis are fundamental ingredients to extract actionable insights.",
+        "card1": "Years of experience",
+        "card2": "Web technologies",
+        "listAbout": [
+            {
+                "title": "Sales Funnels",
+                "section": "funnels",
+                "items": [
+                    "Attracting potential clients",
+                    "Interaction and engagement",
+                    "Sales conversion",
+                    "Retention and loyalty"
+                ]
+            },
+            {
+                "title": "Custom Web Design",
+                "section": "custom",
+                "items": [
+                    "Tailored Digital Experiences",
+                    "Functional Excellence",
+                    "Responsive Design Mastery",
+                    "Iterative Collaboration"
+                ]
+            },
+            {
+                "title": "Template Web Design",
+                "section": "template",
+                "items": [
+                    "Effortless Elegance",
+                    "Personalization Expertise",
+                    "Diverse Template Selection"
+                ]
+            },
+            {
+                "title": "SEO & Marketing",
+                "section": "seo",
+                "items": [
+                    "Targeted Audience Analysis",
+                    "Platform-Specific Strategies (Facebook, TikTok, Google Ads)",
+                    "Data-Driven Optimization"
+                ]
+            },
+            {
+                "title": "Website Maintenance",
+                "section": "maintenance",
+                "items": [
+                    "Expert Technical Assistance",
+                    "Performance Optimization",
+                    "Continuous Collaboration"
+                ]
+            }
+        ],
+        "aboutVision": {
+            "title": "Coding Excellence: Crafting Websites Beyond Boundaries",
+            "description1": "If you’re like us, then your business has big plans.",
+            "description2": "You’re pitching to larger and professional organizations, but you’re worried you’ll lose the deals when they visit your lackluster website and don’t think you’re credible or successful enough.",
+            "description3": "You deserve to get more sales inquiry emails in your inbox each week from your web forms.",
+            "imageZone": {
+                "title": "Call us your website partner.",
+                "list": [
+                    "Unlimited Customization",
+                    "Performance Optimization",
+                    "Reinforced Security",
+                    "Continuous Adaptability"
+                ],
+                "footer": "Are you ready?"
+            }
+        }
+    },
+    "REASONS": {
+        "title": "Reasons Your Brand Needs a Website",
+        "list1": [
+            {
+                "icon": "fa-solid fa-globe",
+                "title": "Global Reach",
+                "description": "Having a website allows your small business to reach a global audience. Unlike a physical store, your website is accessible to anyone with an internet connection, expanding your potential customer base beyond local boundaries."
+            },
+            {
+                "icon": "fa-regular fa-clock",
+                "title": "24/7 Availability",
+                "description": "A website provides your business with a virtual storefront that is open 24/7. This means customers can access information about your products or services at any time, increasing the likelihood of conversions even when your physical location is closed."
+            },
+            {
+                "icon": "fa-regular fa-thumbs-up",
+                "title": "Credibility and Professionalism",
+                "description": "A well-designed website adds a level of professionalism and credibility to your small business. Consumers often search online for information before making a purchase decision, and a polished website can instill trust in potential customers."
+            }
+        ],
+        "list2": [
+            {
+                "icon": "fa-solid fa-chart-line",
+                "title": "Adaptability and Growth",
+                "description": "As your small business evolves, your website can evolve with it. Whether you want to introduce new products, update information, or expand your online presence, having a website provides the flexibility to adapt to changing business needs and fuel growth."
+            },
+            {
+                "icon": "fa-solid fa-users",
+                "title": "Customer Convenience",
+                "description": "A website makes it convenient for customers to learn about your business, browse your offerings, and make purchases without leaving their homes. This convenience can lead to increased customer satisfaction and loyalty."
+            },
+            {
+                "icon": "fa-solid fa-microphone-lines",
+                "title": "Cost-Effective Promotion",
+                "description": "In contrast to conventional advertising methods like print media or TV commercials, maintaining a website presents a cost-effective solution for marketing your small business. By incorporating online marketing tools such as social media and search engine optimization (SEO), you can achieve effective promotion at a fraction of the cost."
+            }
+        ]
+    },
+    "STEPS": {
+        "title": "Website Design Process",
+        "item1": {
+            "title": "Choose Website Design Service",
+            "description": "We invite you to explore our range of web design services to find the perfect solution to fit your digital needs.",
+            "list": [
+                "Sales Funnels",
+                "Custom Web Design",
+                "Template Web Design",
+                "SEO & Marketing",
+                "Website Maintenance"
+            ],
+            "footer1": "Go to",
+            "footer2": "Service section",
+            "footer3": "for more details"
+        },
+        "item2": {
+            "title": "Let Us Know Your Idea",
+            "description1": "Before we begin the website design process, we would be excited to delve deeper and get to know you better so we can offer you a personalized web design experience. We want to ensure that every detail is uniquely attended to and that your vision comes to life online.",
+            "description2": " Schedule a call",
+            "description3": "or",
+            "description4": "complete the questionnaire",
+            "description5": "to start."
+        },
+        "list": [
+            {
+                "title": "3. Sign The Service Agreement",
+                "description": "The Service Agreement details all aspects of the web design process. Once you've signed, we'll be ready to move forward with creating your website. This document provides the solid foundation to ensure a clear understanding of the services, prices and specific details we have discussed."
+            },
+            {
+                "title": "4. Web Design and Web Development Begins",
+                "description": "This is the stage where you can relax and entrust us with the heavy lifting. Your only task is to provide us with your logo, pertinent information, and any images you'd like to feature on your website. From there, we take care of the entire process, ensuring a seamless and hassle-free experience for you."
+            },
+            {
+                "title": "5. Website Maintenance and Marketing Integration",
+                "description": "In our final step, we offer an additional option for clients who desire continuous upkeep of their website. This service ensures that your site remains up to date, secure, and optimized at all times. Additionally, we provide the choice to integrate marketing strategies, including targeted advertising campaigns through platforms like Facebook, TikTok, and Google Ads, as well as Search Engine Optimization (SEO), to enhance your online presence further."
+            }
+        ]
+    },
+    "TEMPLATE": {
+        "title": "Templates",
+        "example": "Portfolio",
+        "button": "View more"
+    },
+    "scheduleCall": "Let's schedule a call!",
+    "CONTACT": {
+        "title": "We would love to hear from you.",
+        "description1": "Feel free to reach our if you want to collaborate with us, or simply have a chat",
+        "description2": "Don’t like the forms? Drop us a line via email.",
+        "contactInfo": {
+            "title": "Contact Info",
+            "address": "Address",
+            "phone": "Phone"
+        }
+    },
+    "BECOMECLIENT": {
+        "becomeButton": "Become a client",
+        "title": "Hey! Tell us what you need!",
+        "inputName": "Name",
+        "inputEmail": "Your email",
+        "inputMessage": "Tell us more about your project!",
+        "messagePleaceholder": "Something great about your amazing idea",
+        "servicesLabel": "I'm interested in...",
+        "services": [
+            "Sales Funnels",
+            "Custom Web Design",
+            "Template Web Design",
+            "SEO & Marketing",
+            "Website Maintenance"
+        ],
+        "customMessage": "I want more information about ",
+        "requiredTextInput": "Required fiel",
+        "requiredTextServices": "Select at least one",
+        "submitButton": "Sumbit the request",
+        "footer1": "Or if you prefer you can",
+        "footer2": "book a call",
+        "footer3": "directly.",
+        "thanksText": "Thank you for your interest in our services! Your request has been successfully received. Our team will review the information provided and contact you soon to discuss further details and provide you with a personalized quote. In the meantime, if you have any additional questions, please feel free to contact us. We look forward to working with you to make your vision online a reality!"
+    },
+    "GET-GUIDE":{
+        "preTitle": "What if I Could you how to...",
+        "mainTitle": [
+            "Learn Proven Strategies To Effectively",
+            "Attract And Retain Clients",
+            "In Just",
+            "4 Weeks",
+            "So You Can",
+            "Increase Your Success And Income",
+            "As A Coach."
+        ],
+        "description1": "Feeling frustrated with the struggle to attract the clients you truly deserve? You're not alone. It's time to break free from generic advice found in YouTube videos and authentically connect with your audience. Take the first step today by downloading our FREE guide and learn how to showcase your unique essence to deeply resonate with your potential customers.",
+        "description2": "Get your FREE copy now!",
+        "form": {
+            "title": "Download Your 100% Free Guide",
+            "description": "No tricks, gimmicks or anything of the sorts! Just good advaices wbout how you can get more clients.",
+            "errorName": "Please enter your name",
+            "emailName": "Please enter your email",
+            "button": "Show Me NOW",
+            "footer": "Your Data is Protected - We Respect your privacity And Will Never Spam You... "
+        }
+    },
+    "THANKS-GUIDE":{
+        "title1": "Congratulations!",
+        "title2": "Now you have the keys to close more clients!",
+        "description": "We've sent the guide to your email, so be sure to check your inbox (and also your spam, just in case!). You can download your guide right now and start applying the tips and strategies that will help you convert prospects into customers effectively.",
+        "step1Title": "Step #1",
+        "step1Description": "Enter your email to get the free guide",
+        "step2Title": "Step #2",
+        "step2Description": "Check your email and download the guide",
+        "step3Title": "Step #3",
+        "step3Description": "Book a call to know how to reach your full potential"
+    }
+}

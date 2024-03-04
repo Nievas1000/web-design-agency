@@ -7,7 +7,7 @@ const initialState = {
   message: ''
 }
 
-const validateEmail = (email) => {
+export const validateEmail = (email) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
   return emailRegex.test(email)
 }
@@ -62,6 +62,7 @@ export const useBecomeClient = (setShow, show, serviceInfo) => {
         setSent(true)
       }
     } else {
+      setIsSending(false)
       if (formData.name === '') {
         setNameError(true)
       } else {

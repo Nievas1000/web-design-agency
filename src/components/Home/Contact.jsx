@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { FaPhoneAlt, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdOutlineEmail } from 'react-icons/md'
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.webp'
 
 export const Contact = ({ openBecomeClient }) => {
   const { t } = useTranslation()

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { useScrollEffect } from '../hooks/useScrollEfect'
+import { useScrollEffect } from '../../hooks/useScrollEfect'
 
 export const WhyUs = () => {
   const [visible] = useScrollEffect('scrollEffectWhy')

@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { useScrolled } from '../hooks/useScrolled'
+import { useScrolled } from '../../hooks/useScrolled'
 import { useTranslation } from 'react-i18next'
-import spain from '../assets/spain.png'
-import usa from '../assets/united-states.png'
-import logo from '../assets/logo.png'
+import spain from '../../assets/spain.webp'
+import usa from '../../assets/united-states.webp'
+import logo from '../../assets/logo.webp'
 
 export const Navbar = () => {
   const { scrolled } = useScrolled()
@@ -64,8 +64,8 @@ export const Navbar = () => {
               {t('NAVBAR.item6')}
             </span>
             <ul className={`dropdow-languaje ${openDrowdown ? 'show-languajes' : ''}`} aria-labelledby='navbarDropdown'>
-              <li><span className='dropdown-item' onClick={() => changeLanguage('en')}>EN <img src={usa} className='img-fluid ps-1' alt='English' /></span></li>
-              <li><span className='dropdown-item' onClick={() => changeLanguage('es')}>ES <img src={spain} className='img-fluid ps-1' alt='Spanish' /></span></li>
+              <li><span className='dropdown-item' onClick={() => changeLanguage('en')}>EN <img src={usa} className='img-fluid ps-1' loading='lazy' alt='English' /></span></li>
+              <li><span className='dropdown-item' onClick={() => changeLanguage('es')}>ES <img src={spain} className='img-fluid ps-1' loading='lazy' alt='Spanish' /></span></li>
             </ul>
           </li>
         </ul>

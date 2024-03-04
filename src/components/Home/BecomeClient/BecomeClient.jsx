@@ -1,5 +1,5 @@
 import { IoClose } from 'react-icons/io5'
-import { useBecomeClient } from '../../hooks/useBecomeClient.jsx'
+import { useBecomeClient } from '../../../hooks/useBecomeClient.jsx'
 import { FaLongArrowAltRight, FaSpinner } from 'react-icons/fa'
 import { ThanksText } from './ThanksText.jsx'
 import { useTranslation } from 'react-i18next'
@@ -44,8 +44,8 @@ export const BecomeClient = ({ setShow, show, serviceInfo = null }) => {
                     {option}
                   </span>
                 ))}
-                {serviceError && <p className='text-danger ps-2 pt-1'>{becomeData.requiredTextServices}</p>}
               </div>
+              {serviceError && <p className='text-danger ps-2 pt-1'>{becomeData.requiredTextServices}</p>}
               <h5 className='pt-4'>{becomeData.inputMessage}</h5>
               <div className='extra-become-client'>
                 <textarea name='message' value={serviceInfo && serviceMessage ? becomeData.customMessage + serviceMessage : formData.message} onChange={handleChange} placeholder={becomeData.messagePleaceholder} />

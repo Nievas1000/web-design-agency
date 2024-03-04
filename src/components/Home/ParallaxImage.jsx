@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import background from '../assets/parallax-background.png'
-import cover from '../assets/parallax-cover.png'
+import background from '../../assets/parallax-background.webp'
+import cover from '../../assets/parallax-cover.webp'
 import { Parallax } from 'react-parallax'
 
 export const ParallaxImage = ({ openBecomeClient }) => {
