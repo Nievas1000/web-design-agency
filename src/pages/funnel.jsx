@@ -1,4 +1,5 @@
-import guideImage from '../assets/get-clients-guide.webp'
+import guideImageEs from '../assets/get-clients-guide-es.webp'
+import guideImageEn from '../assets/get-clients-guide-en.webp'
 import { FaLongArrowAltRight, FaSpinner } from 'react-icons/fa'
 import { useFunnel } from '../hooks/useFunnel'
 import { useTranslation } from 'react-i18next'
@@ -6,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 export const Funnel = () => {
   document.title = 'Free Guide To Attract and Retain Clients'
   const { formData, saveEmail, isSending, nameError, emailError, handleChange } = useFunnel()
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const guide = t('GET-GUIDE', { returnObjects: true })
 
   return (
@@ -33,9 +34,9 @@ export const Funnel = () => {
       </header>
       <div className='pt-5 container-guide'>
         <div className='d-block d-lg-flex justify-content-center container-download'>
-          <img className='d-none d-lg-block img-guide' src={guideImage} alt='Guide to get clients' />
+          <img className='d-none d-lg-block img-guide' src={i18n.language === 'en' ? guideImageEn : guideImageEs} alt='Guide to get clients' />
           <div className='d-flex justify-content-center align-items-center text-center d-lg-none'>
-            <img className='img-guide' src={guideImage} alt='' />
+            <img className='img-guide' src={i18n.language === 'en' ? guideImageEn : guideImageEs} alt='' />
           </div>
           <div className='d-flex align-items-center justify-content-center'>
             <div className='arrow-funnel-container'>

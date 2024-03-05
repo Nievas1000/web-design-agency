@@ -11,7 +11,6 @@ import { Calendar } from '../components/Home/Calendar.jsx'
 import { BecomeClient } from '../components/Home/BecomeClient/BecomeClient.jsx'
 import { Steps } from '../components/Home/Steps.jsx'
 import { WhyUs } from '../components/Home/WhyUs.jsx'
-import { Templates } from '../components/Home/Templates.jsx'
 
 export const Home = () => {
   const [show, setShow] = useState(false)
@@ -39,7 +38,6 @@ export const Home = () => {
       <About />
       <Reasons openBecomeClient={openBecomeClient} />
       <Steps openBecomeClient={openBecomeClient} />
-      <Templates />
       <Calendar />
       <Contact openBecomeClient={openBecomeClient} />
     </div>

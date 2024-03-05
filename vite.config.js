@@ -6,5 +6,9 @@ export default defineConfig({
   plugins: [react()],
   server: {
     https: process.env.NODE_ENV === 'production'
+  },
+  build:{
+    target: 'esnext',
+    polyfillDynamicImport: true,
   }
 })

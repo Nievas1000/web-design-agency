@@ -2,7 +2,7 @@
     "NAVBAR": {
         "item1": "Servicios",
         "item2": "Sobre nosotros",
-        "item3": "Plantillas",
+        "item3": "Proceso",
         "item4": "Contacto",
         "item5": "Agenda una llamada",
         "item6": "ES"
@@ -24,15 +24,12 @@
             "item2": "Diseño web personalizado",
             "subtitle2": "Eleve su presencia con un diseño web personalizado único",
             "description2": "Descubra el poder de una identidad online personalizada con nuestro servicio de Diseño Web Personalizado. No solo creamos sitios web; Co-creamos experiencias digitales que resuenan con su marca. Colaborando estrechamente con usted, profundizamos en sus objetivos y aspiraciones, asegurando que cada elemento refleje su identidad. Desde diseños distintivos hasta la integración de funcionalidades personalizadas, nuestro compromiso es ofrecer un sitio web visualmente impresionante y funcionalmente superior. Nuestro proceso iterativo con revisiones activas y estricto cumplimiento de los plazos garantiza que su visión digital no solo cobre vida sino que se destaque de manera efectiva en todos los dispositivos.",
-            "item3": "Plantillas de diseño web",
-            "subtitle3": "Elegancia sin esfuerzo: transfórmese con plantillas de diseño web",
-            "description3": "Libere el potencial de soluciones web rápidas pero elegantes con nuestro servicio de diseño web de plantillas. Elija entre una amplia gama de plantillas de diseño, cada una de las cuales constituye la base de su visión digital. Nuestro proceso eficiente le permite seleccionar rápidamente la plantilla que se adapta a sus objetivos. A partir de ahí, personalizamos meticulosamente cada detalle para alinearlo perfectamente con su marca y sus requisitos. Este enfoque optimizado garantiza la entrega de un sitio web atractivo y funcional, elevando su presencia digital de manera única y efectiva.",
-            "item4": "SEO & Marketing",
-            "subtitle4": "Aumente su visibilidad en línea con SEO y marketing estratégicos",
-            "description4": "Libera el potencial de tu presencia online con nuestro servicio de SEO y Marketing. Vamos más allá del marketing tradicional implementando estrategias específicas en varias plataformas, incluidas Facebook, TikTok y Google Ads. Al analizar su público objetivo y su competencia, adaptamos nuestro enfoque para maximizar su visibilidad y participación. Desde optimizar su sitio web para los motores de búsqueda hasta crear campañas publicitarias atractivas, nuestro enfoque está en generar resultados que eleven su marca. Con nuestra información basada en datos y optimización continua, nos aseguramos de que sus esfuerzos de marketing generen un crecimiento y un retorno de la inversión tangibles.",
-            "item5": "Mantenimiento de sitio web",
-            "subtitle5": "Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
-            "description5": "Eleve su longevidad digital con nuestro servicio de mantenimiento de sitios web. Su viaje en línea no concluye con el lanzamiento de su sitio web. Nuestro equipo está dedicado a la colaboración continua, garantizando que su plataforma funcione sin problemas y de forma segura. Desde actualizaciones técnicas hasta monitoreo atento, asumimos la responsabilidad de mantener la salud óptima de su sitio. Esta opción brinda tranquilidad, permitiendo que su presencia digital evolucione de manera eficiente y consistente."
+            "item3": "SEO & Marketing",
+            "subtitle3": "Aumente su visibilidad en línea con SEO y marketing estratégicos",
+            "description3": "Libera el potencial de tu presencia online con nuestro servicio de SEO y Marketing. Vamos más allá del marketing tradicional implementando estrategias específicas en varias plataformas, incluidas Facebook, TikTok y Google Ads. Al analizar su público objetivo y su competencia, adaptamos nuestro enfoque para maximizar su visibilidad y participación. Desde optimizar su sitio web para los motores de búsqueda hasta crear campañas publicitarias atractivas, nuestro enfoque está en generar resultados que eleven su marca. Con nuestra información basada en datos y optimización continua, nos aseguramos de que sus esfuerzos de marketing generen un crecimiento y un retorno de la inversión tangibles.",
+            "item4": "Mantenimiento de sitio web",
+            "subtitle4": "Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
+            "description4": "Eleve su longevidad digital con nuestro servicio de mantenimiento de sitios web. Su viaje en línea no concluye con el lanzamiento de su sitio web. Nuestro equipo está dedicado a la colaboración continua, garantizando que su plataforma funcione sin problemas y de forma segura. Desde actualizaciones técnicas hasta monitoreo atento, asumimos la responsabilidad de mantener la salud óptima de su sitio. Esta opción brinda tranquilidad, permitiendo que su presencia digital evolucione de manera eficiente y consistente."
         },
         "button": "Obten mas informacion",
         "servicesCards": [
@@ -79,7 +76,7 @@
             },
             {
                 "title": "Flexibilidad Sin Límites",
-                "description": "With development from the ground up, there are no limits to what we can achieve. We implement any feature or functionality you need, giving you a truly personalized and adaptable web solution."
+                "description": "Con el desarrollo desde cero, no hay límites a lo que podemos lograr. Implementamos cualquier característica o funcionalidad que necesites, brindándote una solución web verdaderamente personalizada y adaptable."
             },
             {
                 "title": "Rendimiento Optimizado en Cada Línea de Código",
@@ -115,15 +112,6 @@
                     "Excelencia funcional",
                     "Dominio del diseño responsivo",
                     "Colaboración iterativa"
-                ]
-            },
-            {
-                "title": "Plantillas de diseño web",
-                "section": "template",
-                "items": [
-                    "Elegancia sin esfuerzo",
-                    "Experiencia en personalización",
-                    "Selección diversa de plantillas"
                 ]
             },
             {
@@ -207,7 +195,6 @@
             "list": [
                 "Embudos de Venta",
                 "Diseño web personalizado",
-                "Plantillas de diseño web",
                 "SEO & Marketing",
                 "Mantenimiento del sitio web"
             ],
@@ -238,11 +225,6 @@
             }
         ]
     },
-    "TEMPLATE": {
-        "title": "Plantillas",
-        "example": "Portafolio",
-        "button": "Ver mas"
-    },
     "scheduleCall": "Agendemos una llamada!",
     "CONTACT": {
         "title": "Nos encantaría saber de usted.",
@@ -265,7 +247,6 @@
         "services": [
             "Embudos de venta",
             "Diseño web personalizado",
-            "Plantillas de diseño web",
             "SEO & Marketing",
             "Mantenimiento de sitio web"
         ],

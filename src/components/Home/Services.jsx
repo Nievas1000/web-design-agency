@@ -29,14 +29,11 @@ export const Services = ({ openBecomeClient }) => {
                   <li className={serviceSelected === 'custom' ? 'active-service' : ''} onClick={() => setServiceSelected('custom')}>
                     {t('SERVICES.servicesList.item2')}
                   </li>
-                  <li className={serviceSelected === 'template' ? 'active-service' : ''} onClick={() => setServiceSelected('template')}>
+                  <li className={serviceSelected === 'seo' ? 'active-service' : ''} onClick={() => setServiceSelected('seo')}>
                     {t('SERVICES.servicesList.item3')}
                   </li>
-                  <li className={serviceSelected === 'seo' ? 'active-service' : ''} onClick={() => setServiceSelected('seo')}>
-                    {t('SERVICES.servicesList.item4')}
-                  </li>
                   <li className={serviceSelected === 'maintenance' ? 'active-service' : ''} onClick={() => setServiceSelected('maintenance')}>
-                    {t('SERVICES.servicesList.item5')}
+                    {t('SERVICES.servicesList.item4')}
                   </li>
                 </ul>
               </div>
@@ -61,21 +58,11 @@ export const Services = ({ openBecomeClient }) => {
                   </div>
                 </div>
               </div>}
-            {serviceSelected === 'template' &&
+            {serviceSelected === 'seo' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
                   <h3>{t('SERVICES.servicesList.subtitle3')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description3')}</p>
-                  <div className='pt-3'>
-                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item3') })}>{t('SERVICES.button')}</button>
-                  </div>
-                </div>
-              </div>}
-            {serviceSelected === 'seo' &&
-              <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
-                <div>
-                  <h3>{t('SERVICES.servicesList.subtitle4')}</h3>
-                  <p className='pt-3'>{t('SERVICES.servicesList.description4')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item4') })}>{t('SERVICES.button')}</button>
                   </div>
@@ -84,8 +71,8 @@ export const Services = ({ openBecomeClient }) => {
             {serviceSelected === 'maintenance' &&
               <div className='col-12 col-lg-8 p-5 d-flex justify-content-center fade-in'>
                 <div>
-                  <h3>{t('SERVICES.servicesList.subtitle5')}</h3>
-                  <p className='pt-3'>{t('SERVICES.servicesList.description5')}</p>
+                  <h3>{t('SERVICES.servicesList.subtitle4')}</h3>
+                  <p className='pt-3'>{t('SERVICES.servicesList.description4')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item5') })}>{t('SERVICES.button')}</button>
                   </div>

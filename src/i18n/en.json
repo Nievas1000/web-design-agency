@@ -2,7 +2,7 @@
     "NAVBAR": {
         "item1": "Services",
         "item2": "About",
-        "item3": "Templates",
+        "item3": "Process",
         "item4": "Contact",
         "item5": "Schedule a call",
         "item6": "EN"
@@ -23,15 +23,12 @@
             "item2": "Custom Web Design",
             "subtitle2": "Elevate Your Presence with Unique Custom Web Design",
             "description2": "Discover the power of a tailored online identity with our Custom Web Design service. We don't just build websites; we co-create digital experiences that resonate with your brand. Collaborating closely with you, we delve into your goals and aspirations, ensuring every element reflects your identity. From distinctive designs to the integration of personalized functionalities, our commitment is to deliver a visually stunning and functionally superior website. Our iterative process with active reviews and strict adherence to deadlines ensures that your digital vision not only comes to life but stands out effectively across all devices.",
-            "item3": "Template Web Design",
-            "subtitle3": "Effortless Elegance: Transform with Template Web Design",
-            "description3": "Unleash the potential of swift yet stylish web solutions with our Template Web Design service. Choose from a diverse range of design templates, each a foundation for your digital vision. Our efficient process allows you to quickly select the template that resonates with your goals. From there, we meticulously customize every detail to align perfectly with your brand and requirements. This streamlined approach ensures the delivery of an attractive and functional website, elevating your digital presence uniquely and effectively.",
-            "item4": "SEO & Marketing",
-            "subtitle4": "Boost Your Online Visibility with Strategic SEO and Marketing",
-            "description4": "Unlock the potential of your online presence with our Strategic SEO and Marketing service. We go beyond traditional marketing by implementing targeted strategies across various platforms, including Facebook, TikTok, and Google Ads. By analyzing your target audience and competition, we tailor our approach to maximize your visibility and engagement. From optimizing your website for search engines to crafting compelling ad campaigns, our focus is on driving results that elevate your brand. With our data-driven insights and continuous optimization, we ensure that your marketing efforts generate tangible growth and ROI.",
-            "item5": "Website maintenance",
-            "subtitle5": "Uninterrupted Excellence: Website Maintenance for Seamless Operation",
-            "description5": "Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
+            "item3": "SEO & Marketing",
+            "subtitle3": "Boost Your Online Visibility with Strategic SEO and Marketing",
+            "description3": "Unlock the potential of your online presence with our Strategic SEO and Marketing service. We go beyond traditional marketing by implementing targeted strategies across various platforms, including Facebook, TikTok, and Google Ads. By analyzing your target audience and competition, we tailor our approach to maximize your visibility and engagement. From optimizing your website for search engines to crafting compelling ad campaigns, our focus is on driving results that elevate your brand. With our data-driven insights and continuous optimization, we ensure that your marketing efforts generate tangible growth and ROI.",
+            "item4": "Website maintenance",
+            "subtitle4": "Uninterrupted Excellence: Website Maintenance for Seamless Operation",
+            "description4": "Elevate your digital longevity with our Website Maintenance service. Your online journey doesn't conclude with the launch of your website. Our team is dedicated to continual collaboration, ensuring your platform operates smoothly and securely. From technical updates to vigilant monitoring, we take responsibility for maintaining the optimal health of your site. This option provides peace of mind, allowing your digital presence to evolve efficiently and consistently."
         },
         "button": "Get more info",
         "servicesCards": [
@@ -78,15 +75,15 @@
             },
             {
                 "title": "Unlimited Flexibility",
-                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+                "description": "With development from the ground up, there are no limits to what we can achieve. We implement any feature or functionality you need, giving you a truly personalized and adaptable web solution."
             },
             {
-                "title": "Personalized Design to Your Measurement",
-                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+                "title": "Optimized Performance on Every Line of Code",
+                "description": "Every line of code is an investment in the speed, performance, and optimization of your website. We are committed to delivering an exceptional user experience, with fast loading times, strong SEO, and seamless functionality across all devices."
             },
             {
-                "title": "Personalized Design to Your Measurement",
-                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+                "title": "Built for the Future",
+                "description": "Our websites are designed to grow with you. They are highly scalable and can easily adapt as your business evolves. Invest in a website that will accompany you throughout your entrepreneurial journey."
             }
         ]
     },
@@ -114,15 +111,6 @@
                     "Functional Excellence",
                     "Responsive Design Mastery",
                     "Iterative Collaboration"
-                ]
-            },
-            {
-                "title": "Template Web Design",
-                "section": "template",
-                "items": [
-                    "Effortless Elegance",
-                    "Personalization Expertise",
-                    "Diverse Template Selection"
                 ]
             },
             {
@@ -206,7 +194,6 @@
             "list": [
                 "Sales Funnels",
                 "Custom Web Design",
-                "Template Web Design",
                 "SEO & Marketing",
                 "Website Maintenance"
             ],
@@ -237,11 +224,6 @@
             }
         ]
     },
-    "TEMPLATE": {
-        "title": "Templates",
-        "example": "Portfolio",
-        "button": "View more"
-    },
     "scheduleCall": "Let's schedule a call!",
     "CONTACT": {
         "title": "We would love to hear from you.",
@@ -264,7 +246,6 @@
         "services": [
             "Sales Funnels",
             "Custom Web Design",
-            "Template Web Design",
             "SEO & Marketing",
             "Website Maintenance"
         ],

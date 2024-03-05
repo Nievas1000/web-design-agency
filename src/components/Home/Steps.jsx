@@ -4,7 +4,7 @@ export const Steps = ({ openBecomeClient }) => {
   const { t } = useTranslation()
   const stepsData = t('STEPS', { returnObjects: true })
   return (
-    <div className='position-relative'>
+    <div id='process' className='position-relative'>
       <div className='container pt-5 pb-5'>
         <h2 className='d-flex justify-content-center'>{stepsData.title}</h2>
         <div className='d-block d-md-flex pt-5'>
