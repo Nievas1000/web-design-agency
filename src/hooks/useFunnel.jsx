@@ -3,7 +3,7 @@ import { validateEmail } from './useBecomeClient'
 import { useNavigate } from 'react-router-dom'
 
 export const useFunnel = () => {
-  const [formData, setFormData] = useState({ name: '', email: '' })
+  const [formData, setFormData] = useState({ name: '', email: '', linkedin: '', aditional: '' })
   const [isSending, setIsSending] = useState(false)
   const [nameError, setNameError] = useState(false)
   const [emailError, setEmailError] = useState(false)
@@ -31,14 +31,14 @@ export const useFunnel = () => {
             headers: {
               'Content-Type': 'application/json;charset=utf-8'
             },
-            body: JSON.stringify({ name: formData.name, email: formData.email })
+            body: JSON.stringify({ name: formData.name, email: formData.email, linkedin: formData.linkedin, aditional: formData.aditional })
           }
         )
         if (response.status === 200) {
           setIsSending(false)
           setNameError(false)
           setEmailError(false)
-          navigate('thanks-guide')
+          navigate('thanks-website')
         }
       } catch (error) {
         console.log(error)

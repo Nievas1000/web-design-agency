@@ -7,9 +7,9 @@ function App () {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/get-clients-guide'>
+      <Route path='/get-free-website'>
         <Route path='' element={<Funnel />} />
-        <Route path='thanks-guide' element={<ThanksPage />} />
+        <Route path='thanks-website' element={<ThanksPage />} />
       </Route>
     </Routes>
   )

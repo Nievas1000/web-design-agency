@@ -1,1 +1,180 @@
-.form-funnel,footer{background-image:linear-gradient(to right,#5ca9fb 0,#6372ff 100%)}.container-titles-funnel h1{font-weight:700}.container-titles-funnel span{font-weight:700;background-image:linear-gradient(to right,#5ca9fb,#6372ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.img-guide{padding-bottom:10%;height:auto;max-width:100%}.arrow-funnel-container{display:flex;gap:15px;padding-bottom:10%}.arrow-funnel{width:20px;height:20px;border:solid #000;border-width:6px 0 0 6px;display:inline-block;transform:rotate(-135deg);margin-right:0;margin-bottom:10px}.arrow-blue{color:#5ca9fb!important;border-color:#5ca9fb!important}.form-funnel h2,footer{color:#ffff}.container-form-funnel{width:100%;padding-bottom:5%}.form-funnel{margin:0 auto;padding:20px;border-radius:5px;width:360px}.form-funnel p{color:#e2e2e2}.input-container{position:relative;margin-bottom:15px}.form-funnel input{width:100%;padding:10px;border:1px solid #ccc;border-radius:5px}.form-funnel i{position:absolute;top:50%;transform:translateY(-50%);right:10px}.form-funnel button{width:100%;padding:10px;background-color:#000;color:#fff;border:none;border-radius:5px;cursor:pointer;background-image:linear-gradient(to right,#5ca9fb 0,#6372ff 100%)!important}.form-footer{margin-top:20px;text-align:center;color:#ffff}footer{bottom:0;width:100%;height:115px}.img-check-guide{width:300px;height:500px}.container-step{padding-top:10%}.congrats-funnel{color:#2ecc71!important}@media (min-width:992px){.container-guide{width:100%;display:flex;justify-content:center}.container-titles-funnel{width:80%}.container-download{width:70%;gap:10%}.arrow-funnel-container{gap:10px}.img-guide{max-width:400px;height:600px;max-height:600px}.arrow-funnel{width:20px;height:20px;border:solid #000;border-width:0 6px 6px 0;display:inline-block;transform:rotate(-45deg)}.container-form-funnel{width:350px}.container-step{padding-top:0}}
+.form-funnel,
+footer {
+    background-image: linear-gradient(to right, #5ca9fb 0, #6372ff 100%)
+}
+
+.container-titles-funnel h1 {
+    font-weight: 700
+}
+
+.container-titles-funnel span {
+    font-weight: 700;
+    background-image: linear-gradient(to right, #5ca9fb, #6372ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.img-guide {
+    padding-bottom: 10%;
+    height: auto;
+    max-width: 100%
+}
+
+.arrow-funnel-container {
+    display: flex;
+    gap: 35px;
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+
+.arrow-funnel {
+    width: 20px;
+    height: 20px;
+    border: solid #000;
+    border-width: 6px 0 0 6px;
+    display: inline-block;
+    transform: rotate(-135deg);
+    margin-right: 0;
+    margin-bottom: 10px
+}
+
+.arrow-blue {
+    color: #5ca9fb !important;
+    border-color: #5ca9fb !important
+}
+
+.form-funnel h2,
+footer,
+span {
+    color: #ffff
+}
+
+.container-form-funnel {
+    width: 100%;
+    padding-bottom: 5%
+}
+
+.form-funnel {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-funnel p {
+    color: #e2e2e2
+}
+
+.required-label::after {
+    content: '*';
+    color: rgb(255, 117, 117);
+    margin-left: 2px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px
+}
+
+.form-funnel input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px
+}
+
+.linkedin-prefix {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border-start-start-radius: 5px;
+    border-end-start-radius: 5px;
+    color: #ffff;
+}
+
+.form-funnel i {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-75%);
+    right: 10px
+}
+
+.form-funnel button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #5ca9fb 0, #6372ff 100%) !important
+}
+
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffff
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 115px
+}
+
+.img-check-guide {
+    width: 300px;
+    height: 500px
+}
+
+.container-step {
+    padding-top: 10%
+}
+
+.congrats-funnel {
+    color: #2ecc71 !important
+}
+
+@media (min-width:992px) {
+    .container-guide {
+        width: 100%;
+        display: flex;
+        justify-content: center
+    }
+
+    .container-titles-funnel {
+        width: 80%
+    }
+
+    .container-download {
+        width: 70%;
+        gap: 5%;
+    }
+
+    .arrow-funnel-container {
+        gap: 15px
+    }
+
+    .arrow-funnel {
+        transform: rotate(135deg);
+    }
+
+    .img-guide {
+        max-width: 400px;
+        height: 400px;
+        max-height: 600px;
+        padding-bottom: 0;
+    }
+
+    .container-form-funnel {
+        width: 40%;
+        min-width: 380px;
+    }
+
+    .container-step {
+        padding-top: 0
+    }
+}
