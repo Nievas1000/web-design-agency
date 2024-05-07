@@ -4,7 +4,7 @@ import { useFunnel } from '../hooks/useFunnel'
 import { useTranslation } from 'react-i18next'
 
 export const Funnel = () => {
-  document.title = 'Free Guide To Attract and Retain Clients'
+  document.title = 'Free Website To Attract More Clients'
   const { formData, saveEmail, isSending, nameError, emailError, handleChange } = useFunnel()
   const { t } = useTranslation()
   const guide = t('GET-GUIDE', { returnObjects: true })

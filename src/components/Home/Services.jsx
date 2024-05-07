@@ -43,6 +43,7 @@ export const Services = ({ openBecomeClient }) => {
                 <div>
                   <h3>{t('SERVICES.servicesList.subtitle1')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description1')}</p>
+                  <p className='fw-bold price-service'>{t('SERVICES.servicesList.price1')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item1') })}>{t('SERVICES.button')}</button>
                   </div>
@@ -53,6 +54,7 @@ export const Services = ({ openBecomeClient }) => {
                 <div>
                   <h3>{t('SERVICES.servicesList.subtitle2')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description2')}</p>
+                  <p className='fw-bold price-service'>{t('SERVICES.servicesList.price2')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item2') })}>{t('SERVICES.button')}</button>
                   </div>
@@ -63,6 +65,7 @@ export const Services = ({ openBecomeClient }) => {
                 <div>
                   <h3>{t('SERVICES.servicesList.subtitle3')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description3')}</p>
+                  <p className='fw-bold price-service'>{t('SERVICES.servicesList.price3')}</p>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item4') })}>{t('SERVICES.button')}</button>
                   </div>
@@ -73,6 +76,7 @@ export const Services = ({ openBecomeClient }) => {
                 <div>
                   <h3>{t('SERVICES.servicesList.subtitle4')}</h3>
                   <p className='pt-3'>{t('SERVICES.servicesList.description4')}</p>
+                  <span className='fw-bold price-service'>{t('SERVICES.servicesList.price4')}</span>
                   <div className='pt-3'>
                     <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.item5') })}>{t('SERVICES.button')}</button>
                   </div>

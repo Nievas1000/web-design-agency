@@ -27,6 +27,12 @@
     cursor: pointer
 }
 
+.price-service {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
 .service-button {
     display: inline-block;
     padding: 10px 20px;

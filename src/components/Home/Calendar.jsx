@@ -6,7 +6,7 @@ export const Calendar = () => {
   return (
     <div id='calendar' className='calendar-container'>
       <h2 className='d-flex justify-content-center'>{t('scheduleCall')}</h2>
-      <InlineWidget styles={{ overflowY: 'hidden', height: '100%', display: 'flex', alignItems: 'center' }} url='https://calendly.com/nievas' />
+      <InlineWidget styles={{ overflowY: 'hidden', height: '100%', display: 'flex', alignItems: 'center' }} url='https://calendly.com/nievas/discovery-call' />
     </div>
   )
 }

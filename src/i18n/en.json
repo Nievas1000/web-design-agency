@@ -20,15 +20,19 @@
             "item1": "Sales Funnels",
             "subtitle1": "Optimize your Sales with Customized Sales Funnels",
             "description1": "Elevate your coaching business with our Customized Sales Funnels! At Nevve, we specialize in crafting bespoke sales funnels tailored to your audience's needs. Collaborating closely with you, we design strategic processes that guide prospects seamlessly from attraction to conversion. Our customer-centric approach ensures alignment with your objectives, maximizing conversion opportunities. Explore how our Custom Sales Funnels can enhance your sales and business growth",
+            "price1": "From $200",
             "item2": "Custom Web Design",
             "subtitle2": "Elevate Your Presence with Unique Custom Web Design",
             "description2": "Transform your coaching business with our Custom Web Design service tailored to your needs. We craft websites that embody your brand, from engaging designs to personalized functionalities. Collaborating closely, we ensure your goals are met and your identity shines through. Our iterative process guarantees a visually stunning and functionally superior website optimized for all devices. Elevate your coaching practice with our expertise in coaching website design, offering the best solutions for life coaches, executive coaches, and more.",
+            "price2": "From $600",
             "item3": "SEO & Marketing",
             "subtitle3": "Boost Your Online Visibility with Strategic SEO and Marketing",
             "description3": "Empower your coaching business with our Strategic SEO and Marketing services. We specialize in crafting tailored strategies across platforms like Facebook, TikTok, and Google Ads. From optimizing your coaching website for search engines to crafting compelling ad campaigns, we drive tangible growth and ROI. Our data-driven insights ensure maximum visibility and engagement for your brand. Discover the best website builder for coaching businesses today!",
+            "price3": "From $500",
             "item4": "Website maintenance",
             "subtitle4": "Uninterrupted Excellence: Website Maintenance for Seamless Operation",
-            "description4": "Elevate your digital presence with our Website Maintenance service for coaching websites. Beyond the launch, we ensure continual collaboration, providing smooth, secure operations. From technical updates to vigilant monitoring, we optimize your site's health. Trust us for peace of mind and efficient evolution of your coaching platform."
+            "description4": "Elevate your digital presence with our Website Maintenance service for coaching websites. Beyond the launch, we ensure continual collaboration, providing smooth, secure operations. From technical updates to vigilant monitoring, we optimize your site's health. Trust us for peace of mind and efficient evolution of your coaching platform.",  
+            "price4": "From $200"     
         },
         "button": "Get more info",
         "servicesCards": [
