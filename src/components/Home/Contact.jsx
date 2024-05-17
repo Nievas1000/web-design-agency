@@ -28,7 +28,7 @@ export const Contact = ({ openBecomeClient }) => {
               <a className='contact-email' href='mailto:lautaro.nievas@nevvedesign.com'>lautaro.nievas@nevvedesign.com</a>
             </div>
           </div>
-          <div className='container col-md-3 col-md-offset-1 contact-info pt-4'>
+          <div className='col-md-3 col-md-offset-1 contact-info pt-4'>
             <h3>{t('CONTACT.contactInfo.title')}</h3>
             <div className='contact-item pt-3'>
               <span>

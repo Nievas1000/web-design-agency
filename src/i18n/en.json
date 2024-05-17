@@ -8,8 +8,8 @@
         "item6": "EN"
     },
     "HEADER": {
-        "item1": "Website Design Solutions to Elevate Your",
-        "item2": "Business",
+        "item1": "We’ll Set Up Your",
+        "item2": "Business & Design Your Website!",
         "item3": "Create a compelling coaching website with Nevve to attract more clients and fill your agenda. Boost your online presence with the best website ideas for coaching businesses.",
         "item4": "Get in touch"
     },
@@ -17,22 +17,59 @@
         "title": "Our Services",
         "description": "Explore tailored and innovative coaching website solutions. From custom designs to expert maintenance, we turn your vision into digital reality.",
         "servicesList": {
-            "item1": "Sales Funnels",
-            "subtitle1": "Optimize your Sales with Customized Sales Funnels",
-            "description1": "Elevate your coaching business with our Customized Sales Funnels! At Nevve, we specialize in crafting bespoke sales funnels tailored to your audience's needs. Collaborating closely with you, we design strategic processes that guide prospects seamlessly from attraction to conversion. Our customer-centric approach ensures alignment with your objectives, maximizing conversion opportunities. Explore how our Custom Sales Funnels can enhance your sales and business growth",
-            "price1": "From $200",
-            "item2": "Custom Web Design",
-            "subtitle2": "Elevate Your Presence with Unique Custom Web Design",
-            "description2": "Transform your coaching business with our Custom Web Design service tailored to your needs. We craft websites that embody your brand, from engaging designs to personalized functionalities. Collaborating closely, we ensure your goals are met and your identity shines through. Our iterative process guarantees a visually stunning and functionally superior website optimized for all devices. Elevate your coaching practice with our expertise in coaching website design, offering the best solutions for life coaches, executive coaches, and more.",
-            "price2": "From $600",
-            "item3": "SEO & Marketing",
-            "subtitle3": "Boost Your Online Visibility with Strategic SEO and Marketing",
+            "title2": "Sales Funnels",
+            "subtitle2": "Increase your Sales From $200",
+            "description2": "Elevate your coaching business with our Customized Sales Funnels! At Nevve, we specialize in crafting bespoke sales funnels tailored to your audience's needs. Collaborating closely with you, we design strategic processes that guide prospects seamlessly from attraction to conversion. Our customer-centric approach ensures alignment with your objectives, maximizing conversion opportunities. Explore how our Custom Sales Funnels can enhance your sales and business growth",
+            "items1": [
+                {"name": "Lead Capture Page", "icon": "fa-solid fa-file-signature"},
+                {"name": "Sales Page", "icon": "fa-solid fa-dollar-sign"},
+                {"name": "Thank You Page", "icon": "fa-solid fa-thumbs-up"},
+                {"name": "Follow up Emails", "icon": "fa-solid fa-envelope-open"},
+                {"name": "Upsell and Downsell", "icon": "fa-solid fa-chart-line"},
+                {"name": "Automation and Tracking", "icon": "fa-solid fa-cogs"},
+                {"name": "Tool Integration", "icon": "fa-solid fa-toolbox"},
+                {"name": "Continuous Optimization", "icon": "fa-solid fa-tachometer-alt"}
+            ],
+            "title1": "Custom Web Design",
+            "subtitle1": "Elevate Your Online Presence From $600",
+            "description1": "Transform your coaching business with our Custom Web Design service tailored to your needs. We craft websites that embody your brand, from engaging designs to personalized functionalities. Collaborating closely, we ensure your goals are met and your identity shines through. Our iterative process guarantees a visually stunning and functionally superior website optimized for all devices. Elevate your coaching practice with our expertise in coaching website design, offering the best solutions for life coaches, executive coaches, and more.",
+            "items2": [
+                {"name": "Strategy Session", "icon": "fa-solid fa-phone"},
+                {"name": "Custom Design", "icon": "fa-solid fa-laptop"},
+                {"name": "Call to Action Buttons", "icon": "fa-solid fa-mouse-pointer"},
+                {"name": "Mobile Responsive", "icon": "fa-solid fa-mobile"},
+                {"name": "Links to Social Media", "icon": "fa-brands fa-instagram"},
+                {"name": "Contact Form", "icon": "fa-solid fa-envelope"},
+                {"name": "Schedule Calls", "icon": "fa-solid fa-calendar-alt"},
+                {"name": "Google Maps", "icon": "fa-solid fa-map-marker-alt"},
+                {"name": "Email Marketing", "icon": "fa-solid fa-envelope-open-text"},
+                {"name": "SEO Optimization", "icon": "fa-solid fa-search"},
+                {"name": "And More", "icon": "fa-solid fa-ellipsis-h"}
+              ],
+            "title3": "SEO & Marketing",
+            "subtitle3": "Boost Your Online Visibility From $500",
             "description3": "Empower your coaching business with our Strategic SEO and Marketing services. We specialize in crafting tailored strategies across platforms like Facebook, TikTok, and Google Ads. From optimizing your coaching website for search engines to crafting compelling ad campaigns, we drive tangible growth and ROI. Our data-driven insights ensure maximum visibility and engagement for your brand. Discover the best website builder for coaching businesses today!",
-            "price3": "From $500",
-            "item4": "Website maintenance",
-            "subtitle4": "Uninterrupted Excellence: Website Maintenance for Seamless Operation",
+            "items3": [
+                {"name": "Keyword Research", "icon": "fa-solid fa-search"},
+                {"name": "On-Page SEO", "icon": "fa-solid fa-file-code"},
+                {"name": "Off-Page SEO", "icon": "fa-solid fa-globe"},
+                {"name": "Content Marketing", "icon": "fa-solid fa-newspaper"},
+                {"name": "Social Media Ads", "icon": "fa-brands fa-facebook"},
+                {"name": "Google Ads", "icon": "fa-brands fa-google"},
+                {"name": "Analytics and Report", "icon": "fa-solid fa-chart-bar"},
+                {"name": "Lead Generation Strategy", "icon": "fa-solid fa-bullhorn"}
+            ],
+            "title4": "Website Maintenance",
+            "subtitle4": "Website Maintenance From $200",
             "description4": "Elevate your digital presence with our Website Maintenance service for coaching websites. Beyond the launch, we ensure continual collaboration, providing smooth, secure operations. From technical updates to vigilant monitoring, we optimize your site's health. Trust us for peace of mind and efficient evolution of your coaching platform.",  
-            "price4": "From $200"     
+            "items4": [
+                {"name": "Website Updates", "icon": "fa-solid fa-edit"},
+                {"name": "Performance Optimization", "icon": "fa-solid fa-rocket"},
+                {"name": "Content Management", "icon": "fa-solid fa-archive"},
+                {"name": "Content Update", "icon": "fa-solid fa-sync"},
+                {"name": "Bug Fixes", "icon": "fa-solid fa-bug"},
+                {"name": "Analytics Integration", "icon": "fa-solid fa-chart-line"}
+              ]    
         },
         "button": "Get more info",
         "servicesCards": [
@@ -68,26 +105,54 @@
         "parallax2": "We take it (a) seriously and (b) creatively."
     },
     "WHYUS": {
-        "title": "Why choose us?",
-        "description1": "Enhance your online presence with a custom coaching website designed from scratch.",
-        "description2": "En Nevve somos especialistas en crear experiencias digitales a medida para profesionales del coaching. Nuestras soluciones de desarrollo personalizadas garantizan que su sitio web de coaching destaque, ofreciendo un rendimiento óptimo y una imagen de marca única. Ya sea un coach de vida, de negocios o ejecutivo, nuestro equipo puede transformar su visión en una presencia online destacada. Explore nuestros servicios de diseño de sitios web de coaching hoy mismo.",
-        "description3": "Your online presence deserves something unique, and we're here to make it happen!",
+        "title1": "WORKING WITH US MEANS...",
+        "title2": "You get everything you need for a 6+ figure coaching business",
         "items": [
             {
-                "title": "Personalized Design to Your Measurement",
-                "description": "Our ground-up development approach allows us to create fully customized websites that reflect your brand's unique identity and goals. Forget pre-built templates – each site is a masterpiece designed just for you."
+                "section": "PAGES",
+                "title": "Every page is valuable",
+                "description1": "As your business grows, we can quickly create new pages. Have a new giveaway or webinar? All of this can be easily adjusted to suit the new offering.",
+                "description2": "All of this can be easily adjusted to suit the new offering.",
+                "description3": "Plus, since your business is unique, you choose what YOU need:",
+                "list":[
+                    "Landing/Freebie Opt-in Pages",
+                    "Thank You Pages",
+                    "Webinar/Training Opt-In Pages",
+                    "Webinar/Training Replay Page (with optional sales page combo)",
+                    "Media or Speaker Page",
+                    "Testimonials/Case Study Page",
+                    "Application Page",
+                    "And more!"
+                ]       
+                
             },
             {
-                "title": "Unlimited Flexibility",
-                "description": "With development from the ground up, there are no limits to what we can achieve. We implement any feature or functionality you need, giving you a truly personalized and adaptable web solution."
+                "section": "JOINING YOU",
+                "title": "Have a clear way to work with you",
+                "description": "As a coach, you have many options for clients to work with you in that first step. So you get your website aligned with your business preferences.",
+                "list":[
+                    {"name":"Consult/Discovery Call:", "text": "Clients schedule an appointment with you via your online scheduler to see if you are a good fit."},
+                    {"name":"Application Funnel:", "text": "Have a potential client apply to work with you via a discovery form (and we can automate what happens if they aren’t a good fit to save you time!)"},
+                    {"name":"Direct Checkout:", "text": "Clients purchase your offer via a checkout page and pay immediately."}
+                ]       
             },
             {
-                "title": "Optimized Performance on Every Line of Code",
-                "description": "Every line of code is an investment in the speed, performance, and optimization of your website. We are committed to delivering an exceptional user experience, with fast loading times, strong SEO, and seamless functionality across all devices."
+                "section": "ONBOARDING",
+                "title": "Impress your clients from the get-go",
+                "description": "Make the entry into your world exciting and seamless for your clients.",
+                "list":[
+                    "Discover whether to give electronic contracts or have clients accept a “terms & conditions” button.",
+                    "Find the optimal way to accept payments for your business…whether that’s invoicing or checkout pages.",
+                    "If you need subscription plans or multiple client payments, let’s go over your options.",
+                    "Ready for courses or membership sites? There are a lot of options, so let’s find out what’s the best for your situation and get that ball rolling!"
+                ]       
             },
             {
-                "title": "Built for the Future",
-                "description": "Our websites are designed to grow with you. They are highly scalable and can easily adapt as your business evolves. Invest in a website that will accompany you throughout your entrepreneurial journey."
+                "section": "SCHEDULING",
+                "title": "Find times that work for both of you",
+                "description1": "Having multiple coaching clients means you need a reliable scheduler to your calendar.",
+                "description2": "I help you get your scheudler of choice setup (ex. Calendly, Vagaro, etc.) so clients can book a time with you and have the appointment synced appointments synced to your calendar (Google Calendar, Outlook, iCloud Calendar)."      
+                
             }
         ]
     },

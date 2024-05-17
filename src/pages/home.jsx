@@ -36,8 +36,8 @@ export const Home = () => {
       <WhyUs />
       <ParallaxImage openBecomeClient={openBecomeClient} />
       <About />
-      <Reasons openBecomeClient={openBecomeClient} />
       <Steps openBecomeClient={openBecomeClient} />
+      <Reasons openBecomeClient={openBecomeClient} />
       <Calendar />
       <Contact openBecomeClient={openBecomeClient} />
     </div>

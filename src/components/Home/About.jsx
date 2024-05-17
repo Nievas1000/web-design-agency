@@ -4,16 +4,14 @@ import web from '../../assets/web-about.webp'
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io'
 import dev from '../../assets/about-dev.webp'
 import { useTranslation } from 'react-i18next'
-import { useScrollEffect } from '../../hooks/useScrollEfect'
 
 export const About = () => {
   const [section, setSection] = useState('')
-  const [visible] = useScrollEffect('scrollEffectAbout')
   const { t } = useTranslation()
   const aboutData = t('ABOUT', { returnObjects: true })
 
   return (
-    <div id='about' className={`pb-5 scrollEffectAbout ${visible && 'visible'}`}>
+    <div id='about' className='pb-5 pt-5'>
       <div className='container position-relative d-block d-lg-flex'>
         <div className='col-12 col-lg-6'>
           <div className='pt-5'>

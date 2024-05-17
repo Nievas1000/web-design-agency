@@ -10,21 +10,14 @@ export const Header = ({ openBecomeClient }) => {
     <header id='header'>
       <div className='container intro d-flex'>
         <div className='h-100 d-flex justify-content-center align-items-center text-header'>
-          <div className='rectangle-container position-absolute'>
-            <div className='rectangle-carousel'>
-              {[...Array(8)].map((_, index) => (
-                <div key={index} className='rectangle' />
-              ))}
-            </div>
-          </div>
-          <div className='d-block text-center'>
+          <div className='d-block text-left'>
             <h1 className='header-title'>
               {i18n.language === 'en' ? `${t('HEADER.item1')} ${words[wordIndex]} ${t('HEADER.item2')}` : `${t('HEADER.item1')} ${t('HEADER.item2')} ${words[wordIndex]}`}
             </h1>
             <div className='d-flex justify-content-center pt-3 subtitle-header'>
               <span>{t('HEADER.item3')}</span>
             </div>
-            <div className='pt-3'>
+            <div className='pt-4'>
               <span href='#features' className='button-more' onClick={() => openBecomeClient(false)}>
                 {t('HEADER.item4')}
               </span>

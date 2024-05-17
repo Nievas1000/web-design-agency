@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to bottom right, #dbf5fc, #eaf9fc, #f4fbfd);
+    /*background: linear-gradient(to bottom right, #dbf5fc, #eaf9fc, #f4fbfd);*/
+    background: #ddf2f7 !important;
     overflow-x: hidden
 }
 
@@ -10,16 +11,16 @@ a {
 
 button,
 p,
-span {
-    font-family: 'Georgia', serif;
-    font-weight: 400;
+span,
+li {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 400 !important;
     font-style: normal;
 
 }
 
 h1 {
-    font-family: 'Montserrat', Arial, sans-serif !important;
-    font-weight: 400;
+    font-family: "EB Garamond", serif;
     font-style: normal;
 }
 
@@ -28,16 +29,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Arial, sans-serif !important;
-    font-weight: 400;
+    font-family: "EB Garamond", serif;
     font-style: normal;
 }
 
-li {
-    font-family: 'Roboto', Arial, sans-serif !important;
-    font-weight: 400;
-    font-style: normal;
-}
 
 #contact {
     background: linear-gradient(to right, #6372ff 0, #5ca9fb 100%)
@@ -50,4 +45,21 @@ li {
 .visible {
     opacity: 1 !important;
     transform: translateY(0) !important
+}
+
+.calendly-inline-widget {
+    min-height: 1100px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width:768px) {
+    .calendly-inline-widget {
+        min-height: 1140px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .calendly-inline-widget {
+        min-height: 660px;
+    }
 }

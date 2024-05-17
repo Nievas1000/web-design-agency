@@ -1,8 +1,8 @@
-.scrollEffectReasons {
+/* .scrollEffectReasons {
     opacity: 0;
     transform: translateY(50%);
     transition: opacity 1s ease-out, transform 1s ease-out
-}
+} */
 
 .reason-list ul {
     padding-left: 0 !important
@@ -44,7 +44,7 @@
     padding: 20px
 }
 
-.step-item h3 {
+.step-item h4 {
     color: #007bff;
     font-size: 24px;
     margin-bottom: 10px
@@ -66,8 +66,4 @@
     font-weight: 700;
     cursor: pointer;
     text-decoration: none
-}
-
-.calendar-container {
-    height: 900px
 }

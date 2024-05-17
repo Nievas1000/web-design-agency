@@ -9,7 +9,7 @@
     },
     "HEADER": {
         "preTitle": "Soluciones de Diseño de Sitios Web Para Mejorar Su Negocio de Coaching",
-        "item1": "Soluciones de Diseño de Sitios Web Para Mejorar Su ",
+        "item1": "Diseñaremos Su Sitio Web y Estableceremos Su",
         "item2": "Negocio de",
         "item3": "Cree un sitio web de coaching atractivo con Nevve para atraer más clientes y completar su agenda. Aumente su presencia en línea con las mejores ideas de sitios web para empresas de coaching.",
         "item4": "Ponte en contacto"
@@ -18,22 +18,59 @@
         "title": "Nuestros servicios",
         "description": "Explore soluciones de sitios web de coaching innovadoras y personalizadas. Desde diseños personalizados hasta mantenimiento experto, convertimos su visión en realidad digital.",
         "servicesList": {
-            "item1": "Embudos de venta",
-            "subtitle1": "Optimiza tus Ventas con Embudos de Ventas Personalizados",
-            "description1": "¡Mejore su negocio de coaching con nuestros embudos de ventas personalizados! En Nevve, nos especializamos en crear embudos de ventas personalizados y adaptados a las necesidades de su audiencia. En estrecha colaboración con usted, diseñamos procesos estratégicos que guían a los prospectos sin problemas desde la atracción hasta la conversión. Nuestro enfoque centrado en el cliente garantiza la alineación con sus objetivos, maximizando las oportunidades de conversión. Explore cómo nuestros embudos de ventas personalizados pueden mejorar sus ventas y el crecimiento de su negocio.",
-            "price1": "Desde $200",
-            "item2": "Diseño web personalizado",
-            "subtitle2": "Eleve su presencia con un diseño web personalizado único",
-            "description2": "Transforme su negocio de coaching con nuestro servicio de diseño web personalizado adaptado a sus necesidades. Creamos sitios web que encarnan su marca, desde diseños atractivos hasta funcionalidades personalizadas. En estrecha colaboración, nos aseguramos de que sus objetivos se cumplan y su identidad brille con luz propia. Nuestro proceso iterativo garantiza un sitio web visualmente impresionante y funcionalmente superior, optimizado para todos los dispositivos. Eleve su práctica de coaching con nuestra experiencia en el diseño de sitios web de coaching, ofreciendo las mejores soluciones para coaches de vida, coaches ejecutivos y más.",
-            "price2": "Desde $600",
-            "item3": "SEO & Marketing",
-            "subtitle3": "Aumente su visibilidad en línea con SEO y marketing estratégicos",
+            "title2": "Embudos de venta",
+            "subtitle2": "Incrementa tus Ventas Desde $200",
+            "description2": "¡Mejore su negocio de coaching con nuestros embudos de ventas personalizados! En Nevve, nos especializamos en crear embudos de ventas personalizados y adaptados a las necesidades de su audiencia. En estrecha colaboración con usted, diseñamos procesos estratégicos que guían a los prospectos sin problemas desde la atracción hasta la conversión. Nuestro enfoque centrado en el cliente garantiza la alineación con sus objetivos, maximizando las oportunidades de conversión. Explore cómo nuestros embudos de ventas personalizados pueden mejorar sus ventas y el crecimiento de su negocio.",
+            "items1": [
+                {"name": "Página de Captura de Clientes Potenciales", "icon": "fa-solid fa-file-signature"},
+                {"name": "Página de Ventas", "icon": "fa-solid fa-dollar-sign"},
+                {"name": "Página de Agradecimiento", "icon": "fa-solid fa-thumbs-up"},
+                {"name": "Seguimiento por Correo Electrónico", "icon": "fa-solid fa-envelope-open"},
+                {"name": "Ventas Adicionales y Ventas Cruzadas", "icon": "fa-solid fa-chart-line"},
+                {"name": "Automatización y Seguimiento", "icon": "fa-solid fa-cogs"},
+                {"name": "Integración de Herramientas", "icon": "fa-solid fa-toolbox"},
+                {"name": "Optimización Continua", "icon": "fa-solid fa-tachometer-alt"}
+            ],
+            "title1": "Diseño web personalizado",
+            "subtitle1": "Eleve su Presencia en Linea Desde $600",
+            "description1": "Transforme su negocio de coaching con nuestro servicio de diseño web personalizado adaptado a sus necesidades. Creamos sitios web que encarnan su marca, desde diseños atractivos hasta funcionalidades personalizadas. En estrecha colaboración, nos aseguramos de que sus objetivos se cumplan y su identidad brille con luz propia. Nuestro proceso iterativo garantiza un sitio web visualmente impresionante y funcionalmente superior, optimizado para todos los dispositivos. Eleve su práctica de coaching con nuestra experiencia en el diseño de sitios web de coaching, ofreciendo las mejores soluciones para coaches de vida, coaches ejecutivos y más.",
+            "items2": [
+                {"name": "Sesión de Estrategia", "icon": "fa-solid fa-phone"},
+                {"name": "Diseño Personalizado", "icon": "fa-solid fa-laptop"},
+                {"name": "Botones de Llamada a la Acción", "icon": "fa-solid fa-mouse-pointer"},
+                {"name": "Adaptación para Dispositivos Móviles", "icon": "fa-solid fa-mobile"},
+                {"name": "Enlaces a Redes Sociales", "icon": "fa-brands fa-instagram"},
+                {"name": "Formulario de Contacto", "icon": "fa-solid fa-envelope"},
+                {"name": "Programación de Llamadas", "icon": "fa-solid fa-calendar-alt"},
+                {"name": "Mapas de Google", "icon": "fa-solid fa-map-marker-alt"},
+                {"name": "Marketing por Correo Electrónico", "icon": "fa-solid fa-envelope-open-text"},
+                {"name": "Optimización SEO", "icon": "fa-solid fa-search"},
+                {"name": "Y Más", "icon": "fa-solid fa-ellipsis-h"}
+            ],
+            "title3": "SEO & Marketing",
+            "subtitle3": "Aumente su Visibilidad en Línea Desde $500",
             "description3": "Potencie su negocio de coaching con nuestros servicios estratégicos de SEO y marketing. Nos especializamos en la elaboración de estrategias a medida a través de plataformas como Facebook, TikTok y Google Ads. Desde la optimización de su sitio web de coaching para los motores de búsqueda hasta la elaboración de campañas publicitarias atractivas, impulsamos el crecimiento tangible y el retorno de la inversión. Nuestros conocimientos basados en datos garantizan la máxima visibilidad y participación para su marca. Descubra hoy mismo el mejor creador de sitios web para empresas de coaching.",
-            "price3": "Desde $500",
-            "item4": "Mantenimiento de sitio web",
-            "subtitle4": "Excelencia ininterrumpida: mantenimiento del sitio web para un perfecto funcionamiento",
+            "items3": [
+                {"name": "Investigación de Palabras Clave", "icon": "fa-solid fa-search"},
+                {"name": "SEO en la Página", "icon": "fa-solid fa-file-code"},
+                {"name": "SEO Fuera de la Página", "icon": "fa-solid fa-globe"},
+                {"name": "Marketing de Contenidos", "icon": "fa-solid fa-newspaper"},
+                {"name": "Anuncios en Redes Sociales", "icon": "fa-brands fa-facebook"},
+                {"name": "Anuncios en Google", "icon": "fa-brands fa-google"},
+                {"name": "Análisis e Informes", "icon": "fa-solid fa-chart-bar"},
+                {"name": "Estrategia de Generación de Clientes Potenciales", "icon": "fa-solid fa-bullhorn"}
+            ],
+            "title4": "Mantenimiento de sitio web desde $200",
+            "subtitle4": "Mantenimiento de tu Sitio Web desde $200",
             "description4": "Mejore su presencia digital con nuestro servicio de mantenimiento de sitios web de coaching. Más allá del lanzamiento, garantizamos una colaboración continua, proporcionando un funcionamiento fluido y seguro. Optimizamos la salud de su sitio web, desde las actualizaciones técnicas hasta la supervisión vigilante. Confíe en nosotros para la tranquilidad y la evolución eficaz de su plataforma de coaching.",
-            "price4": "Desde $200"
+            "items4": [
+                {"name": "Actualizaciones del Sitio Web", "icon": "fa-solid fa-edit"},
+                {"name": "Optimización de Rendimiento", "icon": "fa-solid fa-rocket"},
+                {"name": "Gestión de Contenidos", "icon": "fa-solid fa-archive"},
+                {"name": "Actualización de Contenidos", "icon": "fa-solid fa-sync"},
+                {"name": "Corrección de Errores", "icon": "fa-solid fa-bug"},
+                {"name": "Integración de Analíticas", "icon": "fa-solid fa-chart-line"}
+            ]
         },
         "button": "Obten mas informacion",
         "servicesCards": [
@@ -69,29 +106,57 @@
         "parallax2": "Nos lo tomamos (a) en serio y (b) de forma creativa."
     },
     "WHYUS": {
-        "title": "¿Por que elegirnos a nosotros?",
-        "description1": "Mejore su presencia en línea con un sitio web de coaching personalizado diseñado desde cero",
-        "description2": "¿Se dirige a grandes organizaciones profesionales? No se arriesgue a perder contratos por culpa de un sitio web mediocre. Aumente su credibilidad con nuestros servicios expertos de diseño de sitios web de coaching.",
-        "description3": "Tu presencia en línea merece algo único, ¡y estamos aquí para hacerlo realidad!",
+        "title1": "TRABAJAR CON NOSOTROS SIGNIFICA...",
+        "title2": "Obtener todo lo que necesitas para un negocio de coaching de 6 cifras",
         "items": [
             {
-                "title": "Diseño personalizado a tu medida",
-                "description": "Nuestro enfoque de desarrollo desde cero nos permite crear sitios web totalmente personalizados que reflejen la identidad y los objetivos únicos de su marca. Olvídese de las plantillas prediseñadas: cada sitio es una obra maestra diseñada solo para usted."
+                "section": "PAGINAS",
+                "title": "Cada página es valiosa",
+                "description1": "A medida que tu negocio crece, podemos crear rápidamente nuevas páginas. ¿Tienes un nuevo regalo gratuito o un seminario web?",
+                "description2": "Todo esto se puede ajustar fácilmente para adaptarse a la nueva oferta.",
+                "description3": "Además, como tu negocio es único, tú eliges lo QUE necesitas:",
+                "list":[
+                    "Páginas de Aterrizaje/Regalo",
+                    "Páginas de Agradecimiento",
+                    "Páginas de Registro para Seminarios Web/Entrenamientos",
+                    "Página de Repetición de Seminario Web/Entrenamiento (con combo opcional de página de ventas)",
+                    "Página de Medios o de Conferenciantes",
+                    "Página de Testimonios/Estudios de Casos",
+                    "Página de Aplicación",
+                    "¡Y más!"
+                ]       
+                
             },
             {
-                "title": "Flexibilidad Sin Límites",
-                "description": "Con el desarrollo desde cero, no hay límites a lo que podemos lograr. Implementamos cualquier característica o funcionalidad que necesites, brindándote una solución web verdaderamente personalizada y adaptable."
+                "section": "UNIÉNDOTE A TI",
+                "title": "Tener una forma clara de trabajar contigo",
+                "description1": "Como coach, tienes muchas opciones para que los clientes trabajen contigo en ese primer paso. Así que obtienes tu sitio web alineado con tus preferencias comerciales.",
+                "list":[
+                    {"name":"Consulta/Llamada de Descubrimiento:", "text": "Los clientes programan una cita contigo a través de tu programador en línea para ver si son una buena opción."},
+                    {"name":"Embudo de Solicitud:", "text": "Haz que un cliente potencial solicite tus servicios a través de un formulario de descubrimiento (¡y podemos automatizar lo que sucede si no son una buena opción para ahorrarte tiempo!)"},
+                    {"name":"Compra Directa:", "text": "Los clientes compran tu servicio a través de una pasarela de pago y pagan de inmediato."}
+                ]       
             },
             {
-                "title": "Rendimiento Optimizado en Cada Línea de Código",
-                "description": "Cada línea de código es una inversión en la velocidad, el rendimiento y la optimización de tu sitio web. Nos comprometemos a ofrecer una experiencia de usuario excepcional, con tiempos de carga rápidos, un SEO sólido y una funcionalidad impecable en todos los dispositivos."
+                "section": "INTEGRACIÓN",
+                "title": "Impresiona a tus clientes desde el principio",
+                "description": "Haz que la entrada en tu mundo sea emocionante y sin problemas para tus clientes.",
+                "list":[
+                    "Descubre si debes dar contratos electrónicos o hacer que los clientes acepten un botón de 'términos y condiciones'.",
+                    "Encuentra la forma óptima de aceptar pagos para tu negocio... ya sea facturación o páginas de compra.",
+                    "Si necesitas planes de suscripción o pagos múltiples de clientes, revisemos tus opciones.",
+                    "¿Listo para cursos o sitios de membresía? Hay muchas opciones, ¡así que descubramos cuál es la mejor para tu situación y pongamos eso en marcha!"
+                ]       
             },
             {
-                "title": "Construido para el Futuro",
-                "description": "Nuestros sitios web están diseñados para crecer contigo. Son altamente escalables y pueden adaptarse fácilmente a medida que tu negocio evoluciona. Invierte en un sitio web que te acompañará a lo largo de tu viaje empresarial."
+                "section": "AGENDAMIENTOS",
+                "title": "Encuentra horarios que funcionen para ambos",
+                "description1": "Tener múltiples clientes de coaching significa que necesitas un programador confiable para tu calendario.",
+                "description2": "Te ayudo a configurar tu programador de elección (por ejemplo, Calendly, Vagaro, etc.) para que los clientes puedan reservar una cita contigo y sincronizar las citas con tu calendario (Google Calendar, Outlook, iCloud Calendar)."      
+                
             }
         ]
-    },
+    },    
     "ABOUT": {
         "title": "Sobre Nosotros",
         "description": "Una estrategia sólida alineada con las necesidades del negocio y un análisis de datos sólido son ingredientes fundamentales para extraer información útil.",
@@ -192,7 +257,7 @@
         ]
     },
     "STEPS": {
-        "title": "Proceso de diseño de sitios web",
+        "title": "Nuestro Proceso de Diseño Web",
         "item1": {
             "title": "Elija el servicio de diseño de sitios web",
             "description": "Lo invitamos a explorar nuestra gama de servicios de diseño web para encontrar la solución perfecta que se adapte a sus necesidades digitales.",

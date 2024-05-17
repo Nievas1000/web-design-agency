@@ -12,52 +12,15 @@
 }
 
 .text-header {
-    width: 60%
+    width: 50%
 }
 
 .subtitle-header span {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    line-height: 1.5
-}
-
-.rectangle-container {
-    width: 30%;
-    margin: 0 auto;
-    overflow: hidden;
-    z-index: -100
-}
-
-.rectangle-carousel {
-    display: flex;
-    overflow: hidden;
-    width: 100%
-}
-
-.rectangle {
-    flex: 0 0 auto;
-    width: 200px !important;
-    height: 300px;
-    border: 1px solid #b3b3b3 !important;
-    border-radius: 10px;
-    opacity: .8;
-    margin: 20px;
-    animation: 5s linear infinite moveRectangles
-}
-
-@keyframes moveRectangles {
-    0% {
-        transform: translateX(0)
-    }
-
-    100% {
-        transform: translateX(-100%)
-    }
+    line-height: 2;
+    font-size: 18px;
 }
 
 .header-title {
-    font-size: 35px;
-    font-weight: 700;
     line-height: 1.5;
     color: #303133
 }
@@ -95,17 +58,11 @@
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    width: 40%
+    width: 50%
 }
 
 .button-more:hover {
     opacity: .9
-}
-
-@media only screen and (max-width:1150px) {
-    .rectangle-container {
-        width: 100%
-    }
 }
 
 @media only screen and (max-width:768px) {
