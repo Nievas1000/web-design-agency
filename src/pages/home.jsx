@@ -4,13 +4,12 @@ import { Header } from '../components/Home/Header.jsx'
 import { Navbar } from '../components/Home/Navbar.jsx'
 import { Contact } from '../components/Home/Contact.jsx'
 import { ParallaxImage } from '../components/Home/ParallaxImage.jsx'
-import { About } from '../components/Home/About.jsx'
 import { Services } from '../components/Home/Services.jsx'
 import { Reasons } from '../components/Home/Reasons.jsx'
 import { Calendar } from '../components/Home/Calendar.jsx'
 import { BecomeClient } from '../components/Home/BecomeClient/BecomeClient.jsx'
-import { Steps } from '../components/Home/Steps.jsx'
 import { WhyUs } from '../components/Home/WhyUs.jsx'
+import { Process } from '../components/Home/Process.jsx'
 
 export const Home = () => {
   const [show, setShow] = useState(false)
@@ -34,9 +33,8 @@ export const Home = () => {
       <Header openBecomeClient={openBecomeClient} />
       <Services openBecomeClient={openBecomeClient} />
       <WhyUs />
+      <Process />
       <ParallaxImage openBecomeClient={openBecomeClient} />
-      <About />
-      <Steps openBecomeClient={openBecomeClient} />
       <Reasons openBecomeClient={openBecomeClient} />
       <Calendar />
       <Contact openBecomeClient={openBecomeClient} />

@@ -1,0 +1,98 @@
+/* .scrollEffectReasons {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 1s ease-out, transform 1s ease-out
+} */
+
+.reason-list ul {
+    padding-left: 0 !important
+}
+
+.reason-list ul li {
+    padding-top: 5%
+}
+
+.reason-item-icon {
+    animation: 1s cubic-bezier(.175, .885, .32, 1.275) avia_appear;
+    opacity: 1;
+    transform: scale(1);
+    background: linear-gradient(to right, #5ca9fb 0, #6372ff 100%);
+    height: 64px;
+    width: 64px;
+    line-height: 64px;
+    font-size: 30px;
+    border-radius: 100%;
+    margin-right: 30px;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.reason-item-description {
+    overflow: hidden;
+    min-height: 1.5em;
+    padding-bottom: 4px
+}
+
+.reason-item-description p {
+    width: 90%
+}
+
+
+.process-card {
+    width: 75%;
+    order: 1;
+}
+
+.process-description {
+    order: 0;
+}
+
+.process-description h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.process-description-highlighted {
+    color: #6372ff;
+    font-family: "EB Garamond", serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+}
+
+.process-description p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+@media only screen and (max-width:992px) {
+    .container-cards-process {
+        order: 1;
+    }
+
+    .process-card {
+        width: 100%;
+        order: 1;
+    }
+
+    .container-process-description {
+        order: 0;
+        padding-top: 20px;
+    }
+
+    .process-description {
+        width: 100%;
+    }
+
+    .process-description h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .process-description p {
+        font-size: 15px;
+    }
+
+}

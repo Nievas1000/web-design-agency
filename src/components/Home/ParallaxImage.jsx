@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next'
 import background from '../../assets/parallax-background.webp'
-import cover from '../../assets/parallax-cover.webp'
 import { Parallax } from 'react-parallax'
 
 export const ParallaxImage = ({ openBecomeClient }) => {
@@ -8,13 +7,10 @@ export const ParallaxImage = ({ openBecomeClient }) => {
 
   return (
     <div>
-      <Parallax bgImage={background} strength={500}>
-        <div>
-          <div className='d-flex justify-content-center cover-image'>
-            <img src={cover} alt='Coaching website example' />
-          </div>
-          <div className='parallax-container'>
-            <div className='position-absolute text-container'>
+      <Parallax bgImage={background} strength={500} style={{ opacity: 0.8 }}>
+        <div className='parallax-container'>
+          <div className='position-absolute text-container text-center'>
+            <div>
               <p>{t('SERVICES.parallax1')}</p>
               <p>{t('SERVICES.parallax2')}</p>
               <div className='d-md-flex justify-content-center gap-2'>

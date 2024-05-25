@@ -1,11 +1,16 @@
 import { useTranslation } from 'react-i18next'
-import { FaPhoneAlt, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaPhoneAlt, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdOutlineEmail } from 'react-icons/md'
 import logo from '../../assets/logo.webp'
 
 export const Contact = ({ openBecomeClient }) => {
   const { t } = useTranslation()
+  const whatsappNumber = '+542314517600'
+
+  const handleWhatsappClick = () => {
+    window.open(`https://wa.me/${whatsappNumber}`, '_blank')
+  }
   return (
     <div id='contact'>
       <div className='container pt-5 pb-5'>
@@ -61,19 +66,17 @@ export const Contact = ({ openBecomeClient }) => {
       </div>
       <div className='social'>
         <ul>
-          <li>
-            <a href='https://www.instagram.com/lautaronievas1/?hl=es'>
-              <FaInstagram size={25} />
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/Nievas1000'>
-              <FaGithub size={25} />
-            </a>
+          <li onClick={handleWhatsappClick}>
+            <FaWhatsapp size={25} />
           </li>
           <li>
             <a href='https://www.linkedin.com/in/lautaro-nievas/'>
               <FaLinkedin size={25} />
+            </a>
+          </li>
+          <li>
+            <a href='mailto:lautaro.nievas@nevvedesign.com'>
+              <MdOutlineEmail size={25} />
             </a>
           </li>
         </ul>

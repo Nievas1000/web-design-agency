@@ -68,7 +68,7 @@
 }
 
 .show-languajes {
-    display: block
+    display: block;
 }
 
 .dropdow-languaje span {
@@ -87,7 +87,14 @@
     }
 
     .dropdow-languaje {
-        position: static
+        position: static;
+        width: 100%;
+        border: none;
+    }
+
+    .show-languajes {
+        display: flex;
+        justify-content: center;
     }
 }
 

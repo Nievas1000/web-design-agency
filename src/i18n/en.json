@@ -15,25 +15,18 @@
     },
     "SERVICES": {
         "title": "Our Services",
-        "description": "Explore tailored and innovative coaching website solutions. From custom designs to expert maintenance, we turn your vision into digital reality.",
+        "forYou": "This service is for you if...",
         "servicesList": {
-            "title2": "Sales Funnels",
-            "subtitle2": "Increase your Sales From $200",
-            "description2": "Elevate your coaching business with our Customized Sales Funnels! At Nevve, we specialize in crafting bespoke sales funnels tailored to your audience's needs. Collaborating closely with you, we design strategic processes that guide prospects seamlessly from attraction to conversion. Our customer-centric approach ensures alignment with your objectives, maximizing conversion opportunities. Explore how our Custom Sales Funnels can enhance your sales and business growth",
-            "items1": [
-                {"name": "Lead Capture Page", "icon": "fa-solid fa-file-signature"},
-                {"name": "Sales Page", "icon": "fa-solid fa-dollar-sign"},
-                {"name": "Thank You Page", "icon": "fa-solid fa-thumbs-up"},
-                {"name": "Follow up Emails", "icon": "fa-solid fa-envelope-open"},
-                {"name": "Upsell and Downsell", "icon": "fa-solid fa-chart-line"},
-                {"name": "Automation and Tracking", "icon": "fa-solid fa-cogs"},
-                {"name": "Tool Integration", "icon": "fa-solid fa-toolbox"},
-                {"name": "Continuous Optimization", "icon": "fa-solid fa-tachometer-alt"}
-            ],
             "title1": "Custom Web Design",
             "subtitle1": "Elevate Your Online Presence From $600",
-            "description1": "Transform your coaching business with our Custom Web Design service tailored to your needs. We craft websites that embody your brand, from engaging designs to personalized functionalities. Collaborating closely, we ensure your goals are met and your identity shines through. Our iterative process guarantees a visually stunning and functionally superior website optimized for all devices. Elevate your coaching practice with our expertise in coaching website design, offering the best solutions for life coaches, executive coaches, and more.",
-            "items2": [
+            "description1": [
+                "You're a coach or consultant looking to enhance your online presence.",
+                "You want a web design that reflects your professional image.",
+                "You need a customized strategy for your online platform.",
+                "You seek unique design elements that set you apart.",
+                "You value key functionalities that support your business goals."
+              ],
+            "items1": [
                 {"name": "Strategy Session", "icon": "fa-solid fa-phone"},
                 {"name": "Custom Design", "icon": "fa-solid fa-laptop"},
                 {"name": "Call to Action Buttons", "icon": "fa-solid fa-mouse-pointer"},
@@ -46,9 +39,34 @@
                 {"name": "SEO Optimization", "icon": "fa-solid fa-search"},
                 {"name": "And More", "icon": "fa-solid fa-ellipsis-h"}
               ],
+            "title2": "Sales Funnels",
+            "subtitle2": "Increase your Sales From $200",
+            "description2": [
+                "You aim to improve lead-to-customer conversions.",
+                "You want to create and optimize effective sales funnels.",
+                "You need lead capture mechanisms that work seamlessly.",
+                "You seek automation and tracking solutions for efficiency.",
+                "You prioritize boosting your sales and revenue."
+            ],
+            "items2": [
+                {"name": "Lead Capture Page", "icon": "fa-solid fa-file-signature"},
+                {"name": "Sales Page", "icon": "fa-solid fa-dollar-sign"},
+                {"name": "Thank You Page", "icon": "fa-solid fa-thumbs-up"},
+                {"name": "Follow up Emails", "icon": "fa-solid fa-envelope-open"},
+                {"name": "Upsell and Downsell", "icon": "fa-solid fa-chart-line"},
+                {"name": "Automation and Tracking", "icon": "fa-solid fa-cogs"},
+                {"name": "Tool Integration", "icon": "fa-solid fa-toolbox"},
+                {"name": "Continuous Optimization", "icon": "fa-solid fa-tachometer-alt"}
+            ],
             "title3": "SEO & Marketing",
             "subtitle3": "Boost Your Online Visibility From $500",
-            "description3": "Empower your coaching business with our Strategic SEO and Marketing services. We specialize in crafting tailored strategies across platforms like Facebook, TikTok, and Google Ads. From optimizing your coaching website for search engines to crafting compelling ad campaigns, we drive tangible growth and ROI. Our data-driven insights ensure maximum visibility and engagement for your brand. Discover the best website builder for coaching businesses today!",
+            "description3": [
+                "You want to increase your visibility and reach more clients.",
+                "You need strategic keyword research for targeted marketing.",
+                "You seek lead generation strategies that deliver results.",
+                "You value comprehensive marketing approaches.",
+                "You aim to establish yourself as an industry leader."
+              ],
             "items3": [
                 {"name": "Keyword Research", "icon": "fa-solid fa-search"},
                 {"name": "On-Page SEO", "icon": "fa-solid fa-file-code"},
@@ -61,7 +79,13 @@
             ],
             "title4": "Website Maintenance",
             "subtitle4": "Website Maintenance From $200",
-            "description4": "Elevate your digital presence with our Website Maintenance service for coaching websites. Beyond the launch, we ensure continual collaboration, providing smooth, secure operations. From technical updates to vigilant monitoring, we optimize your site's health. Trust us for peace of mind and efficient evolution of your coaching platform.",  
+            "description4": [
+                "You prioritize keeping your online presence up-to-date.",
+                "You need regular updates and performance optimization.",
+                "You seek content management solutions for your website.",
+                "You want to ensure your website is always functional.",
+                "You value showcasing the best aspects of your business online."
+            ],  
             "items4": [
                 {"name": "Website Updates", "icon": "fa-solid fa-edit"},
                 {"name": "Performance Optimization", "icon": "fa-solid fa-rocket"},
@@ -256,40 +280,21 @@
         ]
     },
     "STEPS": {
-        "title": "Website Design Process",
-        "item1": {
-            "title": "Choose Website Design Service",
-            "description": "We invite you to explore our range of web design services to find the perfect solution to fit your digital needs.",
-            "list": [
-                "Sales Funnels",
-                "Custom Web Design",
-                "SEO & Marketing",
-                "Website Maintenance"
-            ],
-            "footer1": "Go to",
-            "footer2": "Service section",
-            "footer3": "for more details"
-        },
-        "item2": {
-            "title": "Let Us Know Your Idea",
-            "description1": "Before we begin the website design process, we would be excited to delve deeper and get to know you better so we can offer you a personalized web design experience. We want to ensure that every detail is uniquely attended to and that your vision comes to life online.",
-            "description2": " Schedule a call",
-            "description3": "or",
-            "description4": "complete the questionnaire",
-            "description5": "to start."
-        },
-        "list": [
+        "title": "Our Process",
+        "description1": ["The", "Integral", "Process"],
+        "description2": "From the initial contact to the final launch, our approach is designed for speed and results. Here's how we work with you every step of the way",
+        "cards": [
             {
-                "title": "3. Sign The Service Agreement",
-                "description": "The Service Agreement details all aspects of the web design process. Once you've signed, we'll be ready to move forward with creating your website. This document provides the solid foundation to ensure a clear understanding of the services, prices and specific details we have discussed."
+                "title": "Discovery Call",
+                "description": "Let's discuss your vision and tailor a winning strategy for your brand."
             },
             {
-                "title": "4. Web Design and Web Development Begins",
-                "description": "This is the stage where you can relax and entrust us with the heavy lifting. Your only task is to provide us with your logo, pertinent information, and any images you'd like to feature on your website. From there, we take care of the entire process, ensuring a seamless and hassle-free experience for you."
+                "title": "Onboarding",
+                "description": "Seamlessly integrate into our system as we set up everything for a smooth start."
             },
             {
-                "title": "5. Website Maintenance and Marketing Integration",
-                "description": "In our final step, we offer an additional option for clients who desire continuous upkeep of their website. This service ensures that your site remains up to date, secure, and optimized at all times. Additionally, we provide the choice to integrate marketing strategies, including targeted advertising campaigns through platforms like Facebook, TikTok, and Google Ads, as well as Search Engine Optimization (SEO), to enhance your online presence further."
+                "title": "Launch",
+                "description": "Finalize and approve your design to launch your website within 30 days."
             }
         ]
     },

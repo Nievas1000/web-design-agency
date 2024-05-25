@@ -40,9 +40,6 @@ export const Navbar = () => {
               <span className='nav-link page-scroll' onClick={() => scrollToSection('services')}>{t('NAVBAR.item1')}</span>
             </li>
             <li className='nav-item'>
-              <span className='nav-link page-scroll' onClick={() => scrollToSection('about')}>{t('NAVBAR.item2')}</span>
-            </li>
-            <li className='nav-item'>
               <span className='nav-link page-scroll' onClick={() => scrollToSection('process')}>{t('NAVBAR.item3')}</span>
             </li>
             <li className='nav-item'>

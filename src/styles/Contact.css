@@ -85,11 +85,11 @@
 
 .social li:hover {
     background-color: #fff;
-    cursor: pointer
+    cursor: pointer;
 }
 
-.social li svg:hover {
-    color: #5ca9fb !important
+.social li:hover svg {
+    fill: #5ca9fb;
 }
 
 .check-port {
@@ -108,18 +108,17 @@
 .parallax-container {
     display: flex;
     justify-content: center;
-    align-items: end;
-    height: 20%
+    min-height: 500px;
 }
 
 .parallax-container .text-container {
-    position: absolute;
-    transform: translate(0, -50%);
-    text-align: center
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .parallax-container p {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 25px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .9)

@@ -16,25 +16,18 @@
     },
     "SERVICES": {
         "title": "Nuestros servicios",
-        "description": "Explore soluciones de sitios web de coaching innovadoras y personalizadas. Desde diseños personalizados hasta mantenimiento experto, convertimos su visión en realidad digital.",
+        "forYou": "Este servicio es para ti si...",
         "servicesList": {
-            "title2": "Embudos de venta",
-            "subtitle2": "Incrementa tus Ventas Desde $200",
-            "description2": "¡Mejore su negocio de coaching con nuestros embudos de ventas personalizados! En Nevve, nos especializamos en crear embudos de ventas personalizados y adaptados a las necesidades de su audiencia. En estrecha colaboración con usted, diseñamos procesos estratégicos que guían a los prospectos sin problemas desde la atracción hasta la conversión. Nuestro enfoque centrado en el cliente garantiza la alineación con sus objetivos, maximizando las oportunidades de conversión. Explore cómo nuestros embudos de ventas personalizados pueden mejorar sus ventas y el crecimiento de su negocio.",
-            "items1": [
-                {"name": "Página de Captura de Clientes Potenciales", "icon": "fa-solid fa-file-signature"},
-                {"name": "Página de Ventas", "icon": "fa-solid fa-dollar-sign"},
-                {"name": "Página de Agradecimiento", "icon": "fa-solid fa-thumbs-up"},
-                {"name": "Seguimiento por Correo Electrónico", "icon": "fa-solid fa-envelope-open"},
-                {"name": "Ventas Adicionales y Ventas Cruzadas", "icon": "fa-solid fa-chart-line"},
-                {"name": "Automatización y Seguimiento", "icon": "fa-solid fa-cogs"},
-                {"name": "Integración de Herramientas", "icon": "fa-solid fa-toolbox"},
-                {"name": "Optimización Continua", "icon": "fa-solid fa-tachometer-alt"}
-            ],
             "title1": "Diseño web personalizado",
             "subtitle1": "Eleve su Presencia en Linea Desde $600",
-            "description1": "Transforme su negocio de coaching con nuestro servicio de diseño web personalizado adaptado a sus necesidades. Creamos sitios web que encarnan su marca, desde diseños atractivos hasta funcionalidades personalizadas. En estrecha colaboración, nos aseguramos de que sus objetivos se cumplan y su identidad brille con luz propia. Nuestro proceso iterativo garantiza un sitio web visualmente impresionante y funcionalmente superior, optimizado para todos los dispositivos. Eleve su práctica de coaching con nuestra experiencia en el diseño de sitios web de coaching, ofreciendo las mejores soluciones para coaches de vida, coaches ejecutivos y más.",
-            "items2": [
+            "description1": [
+                "Eres un coach o consultor que busca mejorar tu presencia en línea.",
+                "Quieres un diseño web que refleje tu imagen profesional.",
+                "Necesitas una estrategia personalizada para tu plataforma en línea.",
+                "Buscas elementos de diseño únicos que te diferencien.",
+                "Valoras funcionalidades clave que apoyen tus objetivos comerciales."
+            ],
+            "items1": [
                 {"name": "Sesión de Estrategia", "icon": "fa-solid fa-phone"},
                 {"name": "Diseño Personalizado", "icon": "fa-solid fa-laptop"},
                 {"name": "Botones de Llamada a la Acción", "icon": "fa-solid fa-mouse-pointer"},
@@ -47,9 +40,34 @@
                 {"name": "Optimización SEO", "icon": "fa-solid fa-search"},
                 {"name": "Y Más", "icon": "fa-solid fa-ellipsis-h"}
             ],
+            "title2": "Embudos de venta",
+            "subtitle2": "Incrementa tus Ventas Desde $200",
+            "description2": [
+                "Buscas mejorar las conversiones de cliente potencial a cliente.",
+                "Quieres crear y optimizar embudos de ventas efectivos.",
+                "Necesitas mecanismos de captura de leads que funcionen sin problemas.",
+                "Buscas soluciones de automatización y seguimiento para ser más eficiente.",
+                "Priorizas aumentar tus ventas y tu facturación."
+            ],
+            "items2": [
+                {"name": "Página de Captura de Clientes Potenciales", "icon": "fa-solid fa-file-signature"},
+                {"name": "Página de Ventas", "icon": "fa-solid fa-dollar-sign"},
+                {"name": "Página de Agradecimiento", "icon": "fa-solid fa-thumbs-up"},
+                {"name": "Seguimiento por Correo Electrónico", "icon": "fa-solid fa-envelope-open"},
+                {"name": "Ventas Adicionales y Ventas Cruzadas", "icon": "fa-solid fa-chart-line"},
+                {"name": "Automatización y Seguimiento", "icon": "fa-solid fa-cogs"},
+                {"name": "Integración de Herramientas", "icon": "fa-solid fa-toolbox"},
+                {"name": "Optimización Continua", "icon": "fa-solid fa-tachometer-alt"}
+            ],
             "title3": "SEO & Marketing",
             "subtitle3": "Aumente su Visibilidad en Línea Desde $500",
-            "description3": "Potencie su negocio de coaching con nuestros servicios estratégicos de SEO y marketing. Nos especializamos en la elaboración de estrategias a medida a través de plataformas como Facebook, TikTok y Google Ads. Desde la optimización de su sitio web de coaching para los motores de búsqueda hasta la elaboración de campañas publicitarias atractivas, impulsamos el crecimiento tangible y el retorno de la inversión. Nuestros conocimientos basados en datos garantizan la máxima visibilidad y participación para su marca. Descubra hoy mismo el mejor creador de sitios web para empresas de coaching.",
+            "description3": [
+                "Quieres aumentar tu visibilidad y llegar a más clientes.",
+                "Necesitas investigación de palabras clave estratégica para marketing dirigido.",
+                "Buscas estrategias de generación de leads que den resultados.",
+                "Valoras enfoques de marketing integrales.",
+                "Quieres establecerte como líder en tu industria."
+              ],
             "items3": [
                 {"name": "Investigación de Palabras Clave", "icon": "fa-solid fa-search"},
                 {"name": "SEO en la Página", "icon": "fa-solid fa-file-code"},
@@ -60,9 +78,15 @@
                 {"name": "Análisis e Informes", "icon": "fa-solid fa-chart-bar"},
                 {"name": "Estrategia de Generación de Clientes Potenciales", "icon": "fa-solid fa-bullhorn"}
             ],
-            "title4": "Mantenimiento de sitio web desde $200",
+            "title4": "Mantenimiento de sitio web",
             "subtitle4": "Mantenimiento de tu Sitio Web desde $200",
-            "description4": "Mejore su presencia digital con nuestro servicio de mantenimiento de sitios web de coaching. Más allá del lanzamiento, garantizamos una colaboración continua, proporcionando un funcionamiento fluido y seguro. Optimizamos la salud de su sitio web, desde las actualizaciones técnicas hasta la supervisión vigilante. Confíe en nosotros para la tranquilidad y la evolución eficaz de su plataforma de coaching.",
+            "description4": [
+                "Priorizas mantener actualizada tu presencia en línea.",
+                "Necesitas actualizaciones regulares y optimización de rendimiento.",
+                "Buscas soluciones de gestión de contenido para tu sitio web.",
+                "Quieres asegurarte de que tu sitio web siempre esté funcional.",
+                "Valoras mostrar los mejores aspectos de tu negocio en línea."
+              ],
             "items4": [
                 {"name": "Actualizaciones del Sitio Web", "icon": "fa-solid fa-edit"},
                 {"name": "Optimización de Rendimiento", "icon": "fa-solid fa-rocket"},
@@ -257,40 +281,21 @@
         ]
     },
     "STEPS": {
-        "title": "Nuestro Proceso de Diseño Web",
-        "item1": {
-            "title": "Elija el servicio de diseño de sitios web",
-            "description": "Lo invitamos a explorar nuestra gama de servicios de diseño web para encontrar la solución perfecta que se adapte a sus necesidades digitales.",
-            "list": [
-                "Embudos de Venta",
-                "Diseño web personalizado",
-                "SEO & Marketing",
-                "Mantenimiento del sitio web"
-            ],
-            "footer1": "Vaya a la",
-            "footer2": "sección de Servicios",
-            "footer3": "para más detalles."
-        },
-        "item2": {
-            "title": "Háganos saber su idea",
-            "description1": "Antes de comenzar el proceso de diseño del sitio web, nos encantaría profundizar más y conocerlo mejor para poder ofrecerle una experiencia de diseño web personalizada. Queremos asegurarnos de que cada detalle sea atendido de manera única y que su visión cobre vida en línea.",
-            "description2": "Agende una llamada",
-            "description3": "o",
-            "description4": "complete el questionario",
-            "description5": "para empezar."
-        },
-        "list": [
+        "title": "Nuestro Proceso",
+        "description1": ["Nuestro", "Eficaz", "Proceso"],
+        "description2": "Desde el contacto inicial hasta el lanzamiento final, nuestro enfoque está diseñado para la rapidez y los resultados. Así es como trabajamos contigo en cada paso del camino",
+        "cards": [
             {
-                "title": "3. Firme el acuerdo de servicio",
-                "description": "El Acuerdo de Servicio detalla todos los aspectos del proceso de diseño web. Una vez que haya firmado, estaremos listos para seguir adelante con la creación de su sitio web. Este documento proporciona una base sólida para garantizar una comprensión clara de los servicios, precios y detalles específicos que hemos discutido."
+                "title": "Llamada de Descubrimiento",
+                "description": "Hablemos de tu visión y adaptemos una estrategia ganadora para tu marca."
             },
             {
-                "title": "4. Comienza el diseño web y el desarrollo web",
-                "description": "Esta es la etapa en la que usted puede relajarse y confiarnos el trabajo pesado. Su única tarea es proporcionarnos su logotipo, información pertinente y cualquier imagen que desee incluir en su sitio web. A partir de ahí, nos encargamos de todo el proceso, garantizándole una experiencia perfecta y sin complicaciones."
+                "title": "Onboarding",
+                "description": "Integrarse sin problemas en nuestro sistema mientras preparamos todo para un inicio fluido."
             },
             {
-                "title": "5. Mantenimiento del sitio web e integración de marketing",
-                "description": "En nuestro paso final, ofrecemos una opción adicional para los clientes que desean un mantenimiento continuo de su sitio web. Este servicio garantiza que su sitio permanezca actualizado, seguro y optimizado en todo momento. Además, brindamos la opción de integrar estrategias de marketing, incluidas campañas publicitarias dirigidas a través de plataformas como Facebook, TikTok y Google Ads, así como optimización de motores de búsqueda (SEO), para mejorar aún más su presencia en línea."
+                "title": "Lanzamiento",
+                "description": "Finaliza y aprueba tu diseño para lanzar tu sitio web en un plazo de 30 días."
             }
         ]
     },
