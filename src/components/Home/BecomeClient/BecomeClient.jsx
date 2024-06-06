@@ -50,7 +50,7 @@ export const BecomeClient = ({ setShow, show, serviceInfo = null }) => {
               <div className='extra-become-client'>
                 <textarea name='message' value={serviceInfo && serviceMessage ? becomeData.customMessage + serviceMessage : formData.message} onChange={handleChange} placeholder={becomeData.messagePleaceholder} />
               </div>
-              <div className='d-flex justify-content-end pt-5'>
+              <div className='d-flex justify-content-end pt-3'>
                 <span className='send-request-become' onClick={handleSubmit}>{becomeData.submitButton} {isSending ? <FaSpinner className='ms-3 spinner-become' /> : <FaLongArrowAltRight className='ms-3' />}</span>
               </div>
               <div>

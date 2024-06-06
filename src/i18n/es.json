@@ -4,8 +4,9 @@
         "item2": "Sobre nosotros",
         "item3": "Proceso",
         "item4": "Contacto",
-        "item5": "Agenda una llamada",
-        "item6": "ES"
+        "item5": "Portafolio",
+        "item6": "Agenda una llamada",
+        "item7": "ES"
     },
     "HEADER": {
         "preTitle": "Soluciones de Diseño de Sitios Web Para Mejorar Su Negocio de Coaching",
@@ -279,6 +280,10 @@
                 "description": "A diferencia de los métodos publicitarios convencionales, como los medios impresos o los anuncios de televisión, mantener un sitio web presenta una solución rentable para comercializar su pequeña empresa. Al incorporar herramientas de marketing online, como las redes sociales y la optimización de motores de búsqueda (SEO), puedes lograr una promoción eficaz a una fracción del coste."
             }
         ]
+    },
+    "PORTFOLIO":{
+        "title": "Portafolio",
+        "button": "Visitar"
     },
     "STEPS": {
         "title": "Nuestro Proceso",

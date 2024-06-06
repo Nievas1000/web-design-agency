@@ -4,8 +4,9 @@
         "item2": "About",
         "item3": "Process",
         "item4": "Contact",
-        "item5": "Schedule a call",
-        "item6": "EN"
+        "item5": "Portfolio",
+        "item6": "Schedule a call",
+        "item7": "EN"
     },
     "HEADER": {
         "item1": "We’ll Set Up Your",
@@ -278,6 +279,10 @@
                 "description": "In contrast to conventional advertising methods like print media or TV commercials, maintaining a website presents a cost-effective solution for marketing your small business. By incorporating online marketing tools such as social media and search engine optimization (SEO), you can achieve effective promotion at a fraction of the cost."
             }
         ]
+    },
+    "PORTFOLIO":{
+        "title": "Portfolio",
+        "button": "Visit"
     },
     "STEPS": {
         "title": "Our Process",

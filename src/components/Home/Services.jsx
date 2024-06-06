@@ -90,7 +90,7 @@ export const Services = ({ openBecomeClient }) => {
                 <div className='w-100'>
                   <div className='benefit-services-items'>
                     <div className='d-flex justify-content-center'>
-                      <h3 className='text-center w-75'>{t('SERVICES.servicesList.subtitle2')}</h3>
+                      <h3 className='text-center w-75'>{t('SERVICES.servicesList.subtitle1')}</h3>
                     </div>
                     <ul>
                       {servicesData.servicesList.items1.map((item, index) => {
@@ -101,7 +101,7 @@ export const Services = ({ openBecomeClient }) => {
                     </ul>
                   </div>
                   <div className='pt-3 d-flex justify-content-center'>
-                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.title2') })}>{t('SERVICES.button')}</button>
+                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.title1') })}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}
@@ -110,7 +110,7 @@ export const Services = ({ openBecomeClient }) => {
                 <div className='w-100'>
                   <div className='benefit-services-items'>
                     <div className='d-flex justify-content-center'>
-                      <h3 className='text-center w-75'>{t('SERVICES.servicesList.subtitle1')}</h3>
+                      <h3 className='text-center w-75'>{t('SERVICES.servicesList.subtitle2')}</h3>
                     </div>
                     <ul>
                       {servicesData.servicesList.items2.map((item, index) => {
@@ -121,7 +121,7 @@ export const Services = ({ openBecomeClient }) => {
                     </ul>
                   </div>
                   <div className='pt-3 d-flex justify-content-center'>
-                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.title1') })}>{t('SERVICES.button')}</button>
+                    <button className='service-button' onClick={() => openBecomeClient(true, { name: t('SERVICES.servicesList.title2') })}>{t('SERVICES.button')}</button>
                   </div>
                 </div>
               </div>}

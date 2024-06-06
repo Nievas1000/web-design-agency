@@ -46,9 +46,12 @@ export const Navbar = () => {
               <span className='nav-link page-scroll' onClick={() => scrollToSection('contact')}>{t('NAVBAR.item4')}</span>
             </li>
             <li className='nav-item'>
+              <span className='nav-link page-scroll' onClick={() => scrollToSection('portfolio')}>{t('NAVBAR.item5')}</span>
+            </li>
+            <li className='nav-item'>
               <span className='nav-link page-scroll' onClick={() => scrollToSection('calendar')}>
                 <span href='#features' className='button-more d-inline nav-schedule'>
-                  {t('NAVBAR.item5')}
+                  {t('NAVBAR.item6')}
                 </span>
               </span>
             </li>
@@ -59,7 +62,7 @@ export const Navbar = () => {
                 role='button'
                 onClick={() => setOpenDropdown(!openDrowdown)}
               >
-                {t('NAVBAR.item6')}
+                {t('NAVBAR.item7')}
               </span>
               <ul className={`dropdow-languaje ${openDrowdown ? 'show-languajes' : ''}`} aria-labelledby='navbarDropdown'>
                 <li><span className='dropdown-item' onClick={() => changeLanguage('en')}>EN <img src={usa} className='img-fluid ps-1' loading='lazy' alt='English' /></span></li>

@@ -85,13 +85,13 @@ h6 {
 
 @media only screen and (min-width:768px) {
     .calendly-inline-widget {
-        min-height: 1140px;
+        min-height: 1161px;
     }
 }
 
 @media only screen and (min-width:1200px) {
     .calendly-inline-widget {
-        min-height: 660px;
+        min-height: 690px;
     }
 }
 
