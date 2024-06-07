@@ -1,5 +1,5 @@
-import image1 from '../../assets/zaida.png'
-import image2 from '../../assets/james-clear.png'
+import image1 from '../../assets/zaida.webp'
+import image2 from '../../assets/james.webp'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'James Project',
     imageUrl: image2,
-    link: 'https://james-clear.netlify.app/'
+    link: 'https://james-clear.netlify.app'
   }
 ]
 

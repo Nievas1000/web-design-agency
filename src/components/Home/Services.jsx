@@ -16,7 +16,7 @@ export const Services = ({ openBecomeClient }) => {
                 <h2>01 — {t('SERVICES.title')}</h2>
               </div>
               <div className='services-table pt-4'>
-                <ul className='service-table-list'>
+                <div className='service-table-list'>
                   <div
                     className={`card ${serviceSelected === 'custom' ? 'active active-service' : ''}`}
                     onClick={() => setServiceSelected('custom')}
@@ -41,7 +41,7 @@ export const Services = ({ openBecomeClient }) => {
                   >
                     <span>{t('SERVICES.servicesList.title4')}</span>
                   </div>
-                </ul>
+                </div>
                 <span className='service-for-title d-flex justify-content-center pt-3'>{t('SERVICES.forYou')}</span>
                 {serviceSelected === 'custom' &&
                   <div className='service-for fade-in'>

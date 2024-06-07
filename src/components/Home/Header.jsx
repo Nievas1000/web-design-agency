@@ -26,7 +26,7 @@ export const Header = ({ openBecomeClient }) => {
         </div>
         <div className='d-none d-md-flex justify-content-center align-items-center w-50'>
           <div className='d-flex justify-content-center align-items-center img-header'>
-            <img src={img} className='img-fluid' alt='Web design agency main image' />
+            <img src={img} loading='lazy' className='img-fluid' alt='Web design agency main image' />
           </div>
         </div>
       </div>

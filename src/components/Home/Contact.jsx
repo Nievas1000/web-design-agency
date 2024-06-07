@@ -70,12 +70,12 @@ export const Contact = ({ openBecomeClient }) => {
             <FaWhatsapp size={25} />
           </li>
           <li>
-            <a href='https://www.linkedin.com/in/lautaro-nievas/'>
+            <a aria-label='Visit mi Linkedlin profile' href='https://www.linkedin.com/in/lautaro-nievas/'>
               <FaLinkedin size={25} />
             </a>
           </li>
           <li>
-            <a href='mailto:lautaro.nievas@nevvedesign.com'>
+            <a aria-label='Send me an email' href='mailto:lautaro.nievas@nevvedesign.com'>
               <MdOutlineEmail size={25} />
             </a>
           </li>
